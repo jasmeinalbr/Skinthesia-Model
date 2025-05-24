@@ -57,7 +57,150 @@ SKIN_GOAL_KEYWORDS = [
     'menutrisi kulit', 'nourish skin'
 ]
 
-# (All synonym mappings remain the same as before)
+SKIN_TYPE_SYNONYMS = {
+    'kulit berminyak': 'oily',
+    'oily skin': 'oily',
+    'kulit kering': 'dry',
+    'dry skin': 'dry',
+    'kulit kombinasi': 'combination',
+    'combination skin': 'combination',
+    'kulit normal': 'normal',
+    'normal skin': 'normal',
+    'kulit sensitif': 'sensitive',
+    'sensitive skin': 'sensitive'
+}
+
+SKIN_CONCERN_SYNONYMS = {
+    'jerawat': 'acne',
+    'acne': 'acne',
+    'flek hitam': 'dark spots',
+    'dark spots': 'dark spots',
+    'hiperpigmentasi': 'hyperpigmentation',
+    'hyperpigmentation': 'hyperpigmentation',
+    'kerutan': 'wrinkles',
+    'wrinkles': 'wrinkles',
+    'kemerahan': 'redness',
+    'redness': 'redness',
+    'kulit berminyak': 'oiliness',
+    'oiliness': 'oiliness',
+    'kulit kering': 'dryness',
+    'dryness': 'dryness',
+    'pori-pori': 'pores',
+    'pores': 'pores',
+    'tekstur tidak merata': 'uneven texture',
+    'uneven texture': 'uneven texture',
+    'garis halus': 'fine lines',
+    'fine lines': 'fine lines'
+}
+
+INGREDIENT_SYNONYMS = {
+    'salicylic acid': 'salicylic acid',
+    'asam salisilat': 'salicylic acid',
+    'hyaluronic acid': 'hyaluronic acid',
+    'asam hialuronat': 'hyaluronic acid',
+    'azelaic acid': 'azelaic acid',
+    'asam azelaic': 'azelaic acid',
+    'green tea': 'green tea',
+    'teh hijau': 'green tea',
+    'peptides': 'peptides',
+    'peptida': 'peptides',
+    'glycerin': 'glycerin',
+    'gliserin': 'glycerin'
+}
+
+SKIN_GOAL_SYNONYMS = {
+    # brightening
+    'kulit cerah': 'brightening',
+    'mencerahkan': 'brightening',
+    'brighten': 'brightening',
+    'bright skin': 'brightening',
+
+    # glowing
+    'kulit glowing': 'glowing',
+    'bercahaya': 'glowing',
+    'glowing skin': 'glowing',
+    'radiant': 'glowing',
+
+    # plumping
+    'kulit kenyal': 'plumping',
+    'mengenyalkan kulit': 'plumping',
+    'plump skin': 'plumping',
+    'plumping': 'plumping',
+
+    # hydrating
+    'kulit lembab':'hydrating',
+    'kulit lembap':'hydrating',
+    'melembabkan':'hydrating',
+    'melembapkan': 'hydrating',
+    'menghidrasi': 'hydrating',
+    'moisturize': 'hydrating',
+    'hydrate': 'hydrating',
+
+    # firming
+    'mengencangkan kulit': 'firming',
+    'firming skin': 'firming',
+
+    # smoothing
+    'menghaluskan kulit': 'smoothing',
+    'kulit halus': 'smoothing',
+    'smooth skin': 'smoothing',
+
+    # tone-evening
+    'meratakan warna kulit': 'tone-evening',
+    'warna kulit merata': 'tone-evening',
+    'even skin tone': 'tone-evening',
+
+    # anti-aging
+    'anti-penuaan': 'anti-aging',
+    'mencegah penuaan': 'anti-aging',
+    'anti-aging': 'anti-aging',
+    'prevent aging': 'anti-aging',
+
+    # barrier-repair
+    'memperbaiki skin barrier': 'barrier-repair',
+    'memperkuat skin barrier': 'barrier-repair',
+    'repair skin barrier': 'barrier-repair',
+    'strengthen skin barrier': 'barrier-repair',
+
+    # oil-control
+    'mengontrol minyak': 'oil-control',
+    'mengkontrol minyak': 'oil-control',
+    'mengurangi minyak': 'oil-control',
+    'oil control': 'oil-control',
+    'reduce oil': 'oil-control',
+
+    # pore-minimizing
+    'mengecilkan pori': 'pore-minimizing',
+    'pori-pori tampak kecil': 'pore-minimizing',
+    'minimize pores': 'pore-minimizing',
+    'refined pores': 'pore-minimizing',
+
+    # scar-fading
+    'menyamarkan bekas jerawat': 'scar-fading',
+    'memudarkan bekas jerawat': 'scar-fading',
+    'fade acne scars': 'scar-fading',
+    'fade acne marks': 'scar-fading',
+
+    # refreshing
+    'kulit segar': 'refreshing',
+    'menyegarkan kulit': 'refreshing',
+    'fresh skin': 'refreshing',
+    'refreshing skin': 'refreshing',
+
+    # regenerating
+    'mempercepat regenerasi kulit': 'regenerating',
+    'skin regeneration': 'regenerating',
+    'membantu regenerasi':'regenerating',
+    'regenerasi kulit':'regenerating',
+
+    # healthy
+    'kulit sehat': 'healthy',
+    'healthy skin': 'healthy',
+
+    # nourishing
+    'menutrisi kulit': 'nourishing',
+    'nourish skin': 'nourishing'
+}
 
 def log_dataframe_stats(df: pd.DataFrame, name: str, logger: logging.Logger) -> None:
     """Log basic statistics about a DataFrame."""
