@@ -5,8 +5,8 @@ import os
 import pandas as pd
 from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
-from utils.ETL.extracts.category_scraper import get_categories
-from utils.ETL.extracts.product_scraper import get_products_from_category
+from ETL.extracts.category_scraper import get_categories
+from ETL.extracts.product_scraper import get_products_from_category
 
 def setup_logger():
     if not os.path.exists("logs"):
