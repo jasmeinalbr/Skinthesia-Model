@@ -5,11 +5,12 @@ from datetime import datetime
 from typing import Tuple, Dict, List, Optional
 
 # Configure logging
+import os
 logging.basicConfig(
     level=logging.INFO,
     format='%(asctime)s - %(levelname)s - %(message)s',
     handlers=[
-        logging.FileHandler('../logs/data_transformation.log'),
+        logging.FileHandler('../../logs/data_transformation.log'),
         logging.StreamHandler()
     ]
 )
@@ -260,8 +261,8 @@ if __name__ == "__main__":
         df_transformed = transform_data(df_combined, logger)
         
         # Save results
-        save_transformed_data(df_combined, '../data/products_used_features.csv', logger)
-        save_transformed_data(df_transformed, '../data/products_extracted_features.csv', logger)
+        save_transformed_data(df_combined, '../../data/products_used_features.csv', logger)
+        save_transformed_data(df_transformed, '../../data/products_extracted_features.csv', logger)
         
         total_time = (datetime.now() - start_time).total_seconds()
         

@@ -15,27 +15,27 @@ def merge_csv_batches(file_1, file_2, output_file):
 if __name__ == "__main__":
     # Gabungkan detail produk
     merge_csv_batches(
-        "data-final-0-599/products_detail_first.csv",
-        "data-final 600-100/products_detail.csv",
+        "data/data-final-0-599/products_detail_first.csv",
+        "data/data-final 600-100/products_detail.csv",
         "data/products_detail.csv"
     )
 
     # Gabungkan review
     merge_csv_batches(
-        "data-final-0-599/reviews_first.csv",
-        "data-final 600-100/reviews.csv",
+        "data/data-final-0-599/reviews_first.csv",
+        "data/data-final 600-100/reviews.csv",
         "data/reviews.csv"
     )
 
     merge_csv_batches(
-        "data-final-0-599/tmp_details_first.csv",
-        "data-final 600-100/tmp_details.csv",
+        "data/data-final-0-599/tmp_details_first.csv",
+        "data/data-final 600-100/tmp_details.csv",
         "data/tmp_details.csv"
     )
 
     merge_csv_batches(
-        "data-final-0-599/tmp_reviews_first.csv",
-        "data-final 600-100/tmp_reviews.csv",
+        "data/data-final-0-599/tmp_reviews_first.csv",
+        "data/data-final 600-100/tmp_reviews.csv",
         "data/tmp_reviews.csv"
     )
 
