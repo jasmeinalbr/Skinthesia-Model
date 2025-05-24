@@ -3,9 +3,9 @@
 import logging
 from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
-from utils.extracts.category_scraper import get_categories
-from utils.extracts.product_scraper import get_products_from_category
-from utils.extracts.detail_scraper import get_product_details
+from utils.ETL.extracts.category_scraper import get_categories
+from utils.ETL.extracts.product_scraper import get_products_from_category
+from utils.ETL.extracts.detail_scraper import get_product_details
 import pandas as pd
 import csv
 import os
