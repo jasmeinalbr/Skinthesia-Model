@@ -1,4 +1,5 @@
 import pandas as pd
+import numpy as np
 import re
 import logging
 from datetime import datetime
@@ -207,10 +208,39 @@ def log_dataframe_stats(df: pd.DataFrame, name: str, logger: logging.Logger) -> 
     logger.info(f"{name} DataFrame Stats:")
     logger.info(f"- Shape: {df.shape[0]} rows, {df.shape[1]} columns")
     logger.info(f"- Missing Values:")
-    for col, count in df.isnull().sum().items():
-        if count > 0:
-            logger.info(f"  - {col}: {count} ({count/df.shape[0]:.1%})")
-    logger.info(f"- Duplicates: {df.duplicated().sum()}")
+
+    for col in df.columns:
+        def is_missing(x):
+            try:
+                if x is None:
+                    return True
+                if isinstance(x, float) and pd.isna(x):
+                    return True
+                if isinstance(x, str) and x.strip() == "":
+                    return True
+                if isinstance(x, (list, np.ndarray)) and len(x) == 0:
+                    return True
+                return False
+            except Exception as e:
+                logger.warning(f"  - Skipping value in column '{col}' due to error: {e}")
+                return False
+
+        missing_count = df[col].apply(is_missing).sum()
+
+        if missing_count > 0:
+            missing_pct = missing_count / df.shape[0]
+            logger.info(f"  - {col}: {missing_count} ({missing_pct:.1%})")
+
+    # Safe duplicate check: convert unhashable types (list/array) to tuples
+    df_for_duplicates = df.copy()
+    for col in df_for_duplicates.columns:
+        if df_for_duplicates[col].apply(lambda x: isinstance(x, (list, np.ndarray))).any():
+            df_for_duplicates[col] = df_for_duplicates[col].apply(
+                lambda x: tuple(x) if isinstance(x, (list, np.ndarray)) else x
+            )
+
+    dup_count = df_for_duplicates.duplicated().sum()
+    logger.info(f"- Duplicates: {dup_count}")
 
 def merge_datasets(products_list: pd.DataFrame, 
                   products_details: pd.DataFrame, 
@@ -297,6 +327,101 @@ def standardize_keywords(found_text: Optional[str], synonym_map: Dict[str, str])
             standardized.add(kw)
     return ', '.join(sorted(standardized)) if standardized else None
 
+def merge_unique(series: pd.Series) -> List[str]:
+    """Merge unique items from a Series, handling strings and lists."""
+    combined = set()
+    for item in series.dropna():
+        if isinstance(item, str):
+            try:
+                parsed = eval(item) if item.startswith('[') else [item]
+            except:
+                parsed = [item]
+            combined.update(parsed)
+        elif isinstance(item, list):
+            combined.update(item)
+    return list(combined)
+
+def get_mode(series):
+    try:
+        return series.mode().iloc[0]
+    except:
+        return None
+
+def merge_rows(df: pd.DataFrame, logger: logging.Logger) -> pd.DataFrame:
+    """Merge rows with same url by combining values in the features column using aggregation."""
+    logger.info("Merging rows with same URL...")
+    agg_df = df.groupby('url').agg({
+    'product_name': 'first',
+    'brand': 'first',
+    'category': 'first',
+    'price': 'first',
+    'rating': 'first',
+    'skin_type': merge_unique,
+    'total_reviews': 'sum',
+    'std_skin_type': merge_unique,
+    'std_skin_concern': merge_unique,
+    'std_ingredients': merge_unique,
+    'std_skin_goal': merge_unique,
+    'age': get_mode,
+    'rating_star': 'mean'
+}).reset_index()
+    
+    return agg_df
+
+def to_list(value: Optional[str]) -> List[str]:
+    """Convert a value to a list, handling strings, NaNs, and lists."""
+    import ast
+    if isinstance(value, float) and pd.isna(value):
+        return []
+    if isinstance(value, list):
+        return value
+    if isinstance(value, str):
+        try:
+            parsed = ast.literal_eval(value)
+            if isinstance(parsed, list):
+                return parsed
+            else:
+                return [parsed]
+        except:
+            return [value]
+    return [value]
+
+def merge_skin_type_columns(df: pd.DataFrame, 
+                  logger: logging.Logger, 
+                  user_col='skin_type', 
+                  std_col='std_skin_type',
+                  output_col='combined_skin_type') -> pd.DataFrame:
+    """Combine two columns into one, merging unique values."""
+    logger.info(f"Merging columns {user_col} and {std_col} into {output_col}...")
+    df[output_col] = df.apply(
+        lambda row: list(set(to_list(row.get(user_col)) + to_list(row.get(std_col)))),
+        axis=1
+    )
+    df.drop(columns=[user_col,std_col],inplace=True)
+    return df
+
+def integrate_data(df: pd.DataFrame, logger: logging.Logger) -> pd.DataFrame:
+    """integrate rows and columns."""
+    logger.info("Starting data integration...")
+    integration_start = datetime.now()
+
+    df_integrated = merge_rows(df, logger)
+    df_integrated = merge_skin_type_columns(df_integrated, logger)
+    df_integrated = df_integrated.rename(columns={
+    'std_skin_concern':'skin_concern',
+    'std_skin_goal':'skin_goal',
+    'combined_skin_type':'skin_type',
+    'std_ingredients':'ingredients'
+    })
+
+    integration_time = (datetime.now() - integration_start).total_seconds()
+    logger.info(f"Feature integration completed in {integration_time:.2f}s")
+    
+    log_dataframe_stats(df_integrated, "Final Integrated Data", logger)
+    logger.info("Data Integration completed successfully")
+
+    return df_integrated
+
 def transform_data(df: pd.DataFrame, logger: logging.Logger) -> pd.DataFrame:
     """Transform the raw data by extracting and standardizing features."""
     logger.info("Starting data transformation...")
@@ -350,6 +475,8 @@ def transform_data(df: pd.DataFrame, logger: logging.Logger) -> pd.DataFrame:
         non_null = df[new_col].notnull().sum()
         logger.info(f"Standardized {new_col} - {non_null} values ({duration:.2f}s)")
     
+    df['rating_star'] = pd.to_numeric(df['rating_star'], errors='coerce')
+
     standardization_time = (datetime.now() - standardization_start).total_seconds()
     logger.info(f"Feature standardization completed in {standardization_time:.2f}s")
     
@@ -402,11 +529,13 @@ if __name__ == "__main__":
         
         df_combined = merge_datasets(products_list, products_details, reviews, logger)
         df_transformed = transform_data(df_combined, logger)
+        df_integrated = integrate_data(df_transformed, logger)
         
         # Save results
         save_transformed_data(df_combined, '../../data/products_used_features.csv', logger)
         save_transformed_data(df_transformed, '../../data/products_extracted_features.csv', logger)
-        
+        save_transformed_data(df_integrated, '../../data/products_integrated_features.csv', logger)
+
         total_time = (datetime.now() - start_time).total_seconds()
         
         # Final summary
@@ -414,13 +543,15 @@ if __name__ == "__main__":
         print("TRANSFORMATION SUMMARY".center(60))
         print("="*60)
         print(f"{'Total processing time:':<30} {total_time:.2f} seconds")
-        print(f"{'Final dataset size:':<30} {df_transformed.shape[0]} rows, {df_transformed.shape[1]} columns")
+        print(f"{'Final dataset size:':<30} {df_integrated.shape[0]} rows, {df_integrated.shape[1]} columns")
         print("\nExtracted Features Summary:")
         print("-"*60)
-        for col in ['std_skin_type', 'std_skin_concern', 'std_ingredients', 'std_skin_goal']:
-            non_null = df_transformed[col].notnull().sum()
-            print(f"{col+':':<20} {non_null:>6} values ({non_null/df_transformed.shape[0]:.1%})")
+        for col in ['skin_type', 'skin_concern', 'skin_goal', 'ingredients']:
+            non_null = df_integrated[col].notnull().sum()
+            print(f"{col+':':<20} {non_null:>6} values ({non_null/df_integrated.shape[0]:.1%})")
         print("="*60 + "\n")
+        print("Final DataFrame Info:")
+        print(f"\n{df_integrated.info()}")
         print("Data transformation completed successfully!\n")
         
     except Exception as e:
