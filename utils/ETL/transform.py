@@ -400,6 +400,96 @@ def merge_skin_type_columns(df: pd.DataFrame,
     df.drop(columns=[user_col,std_col],inplace=True)
     return df
 
+def flatten_list(nested_lst: List) -> List:
+    """Flatten a nested list into a single list."""
+    flat = []
+    for item in nested_lst:
+        if isinstance(item, list):
+            flat.extend(flatten_list(item))
+        else:
+            flat.append(item)
+    return flat
+
+def parse_and_clean(cell: Optional[str]) -> List[str]:
+    """Parse a cell value and return a cleaned list of unique items."""
+    # Kalau tipe string, coba literal_eval ke list Python
+    if isinstance(cell, str):
+        try:
+            lst = ast.literal_eval(cell)
+        except:
+            # Kalau gagal eval, anggap saja string biasa dan bungkus jadi list
+            lst = [cell]
+    else:
+        lst = cell
+
+    # Flatten nested list (misal list di dalam list)
+    flat_list = flatten_list(lst)
+
+    # Split elemen yang masih berupa gabungan string dengan koma
+    split_list = []
+    for item in flat_list:
+        if isinstance(item, str):
+            parts = [part.strip() for part in item.split(',')]
+            split_list.extend(parts)
+        else:
+            # Kalau bukan string, langsung masukkan
+            split_list.append(str(item).strip())
+
+    # Normalisasi dan hapus duplikat
+    seen = set()
+    result = []
+    for item in split_list:
+        item_norm = item.lower()
+        if item_norm and item_norm not in seen:
+            seen.add(item_norm)
+            result.append(item_norm)
+
+    return result
+
+def impute_ingredients_relaxed(row, df: pd.DataFrame, matches_treshold: int = 2) -> List[str]:
+    """Impute ingredients using a relaxed matching strategy."""
+    if len(row['ingredients']) > 0:
+        return row['ingredients']
+
+    def relaxed_match(r):
+        matches = 0
+        if set(r['skin_concern']) == set(row['skin_concern']):
+            matches += 1
+        if set(r['skin_goal']) == set(row['skin_goal']):
+            matches += 1
+        if set(r['skin_type']) == set(row['skin_type']):
+            matches += 1
+        return matches >= matches_treshold and len(r['ingredients']) > 0
+
+    candidates = df[df.apply(relaxed_match, axis=1)]
+
+    if not candidates.empty:
+        return candidates.iloc[0]['ingredients']
+    else:
+        return ["unknown"]
+
+def impute_skin_type_relaxed(row, df: pd.DataFrame, matches_treshold: int) -> List[str]:
+    """Impute skin type using a relaxed matching strategy."""
+    if len(row['skin_type']) > 0:
+        return row['skin_type']
+
+    def relaxed_match(r):
+        matches = 0
+        if set(r['skin_concern']) == set(row['skin_concern']):
+            matches += 1
+        if set(r['skin_goal']) == set(row['skin_goal']):
+            matches += 1
+        if set(r['ingredients']) == set(row['ingredients']):
+            matches += 1
+        return matches >= matches_treshold and len(r['skin_type']) > 0
+
+    candidates = df[df.apply(relaxed_match, axis=1)]
+
+    if not candidates.empty:
+        return candidates.iloc[0]['skin_type']
+    else:
+        return []
+
 def integrate_data(df: pd.DataFrame, logger: logging.Logger) -> pd.DataFrame:
     """integrate rows and columns."""
     logger.info("Starting data integration...")
@@ -414,6 +504,19 @@ def integrate_data(df: pd.DataFrame, logger: logging.Logger) -> pd.DataFrame:
     'std_ingredients':'ingredients'
     })
 
+    logger.info("Parsing and cleaning integrated columns...")
+    df_integrated = df_integrated.copy()
+    cols = ['skin_concern', 'skin_goal', 'skin_type', 'ingredients']
+    for col in cols:
+        df_integrated[col] = df_integrated[col].apply(parse_and_clean)
+
+    logger.info("Imputing missing ingredients using relaxed matching...")
+    df_integrated['ingredients'] = df_integrated.apply(lambda row: impute_ingredients_relaxed(row, df_integrated), axis=1)
+
+    logger.info("Imputing missing skin type using relaxed matching...")
+    df_integrated['skin_type'] = df_integrated.apply(lambda row: impute_skin_type_relaxed(row, df_integrated, matches_treshold=2), axis=1)
+    df_integrated['skin_type'] = df_integrated.apply(lambda row: impute_skin_type_relaxed(row, df_integrated, matches_treshold=1), axis=1)
+    
     integration_time = (datetime.now() - integration_start).total_seconds()
     logger.info(f"Feature integration completed in {integration_time:.2f}s")
     
