@@ -2,6 +2,7 @@ import pandas as pd
 import numpy as np
 import re
 import logging
+import ast
 from datetime import datetime
 from typing import Tuple, Dict, List, Optional
 
@@ -370,7 +371,6 @@ def merge_rows(df: pd.DataFrame, logger: logging.Logger) -> pd.DataFrame:
 
 def to_list(value: Optional[str]) -> List[str]:
     """Convert a value to a list, handling strings, NaNs, and lists."""
-    import ast
     if isinstance(value, float) and pd.isna(value):
         return []
     if isinstance(value, list):
@@ -516,7 +516,7 @@ def integrate_data(df: pd.DataFrame, logger: logging.Logger) -> pd.DataFrame:
     logger.info("Imputing missing skin type using relaxed matching...")
     df_integrated['skin_type'] = df_integrated.apply(lambda row: impute_skin_type_relaxed(row, df_integrated, matches_treshold=2), axis=1)
     df_integrated['skin_type'] = df_integrated.apply(lambda row: impute_skin_type_relaxed(row, df_integrated, matches_treshold=1), axis=1)
-    
+
     integration_time = (datetime.now() - integration_start).total_seconds()
     logger.info(f"Feature integration completed in {integration_time:.2f}s")
     
