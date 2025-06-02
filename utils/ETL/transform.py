@@ -5,6 +5,7 @@ import logging
 import ast
 from datetime import datetime
 from typing import Tuple, Dict, List, Optional
+from collections import Counter
 
 # Configure logging
 import os
@@ -32,14 +33,6 @@ SKIN_CONCERN_KEYWORDS = [
     'uneven texture', 'garis halus', 'fine lines'
 ]
 
-SKIN_TYPE_KEYWORDS = [
-    'kulit berminyak', 'oily skin',
-    'kulit kering', 'dry skin',
-    'kulit kombinasi', 'combination skin',
-    'kulit normal', 'normal skin',
-    'kulit sensitif', 'sensitive skin'
-]
-
 SKIN_GOAL_KEYWORDS = [
     'kulit cerah', 'mencerahkan', 'brighten', 'bright skin',
     'kulit glowing', 'bercahaya', 'glowing skin', 'radiant',
@@ -58,19 +51,6 @@ SKIN_GOAL_KEYWORDS = [
     'kulit sehat', 'healthy skin',
     'menutrisi kulit', 'nourish skin'
 ]
-
-SKIN_TYPE_SYNONYMS = {
-    'kulit berminyak': 'oily',
-    'oily skin': 'oily',
-    'kulit kering': 'dry',
-    'dry skin': 'dry',
-    'kulit kombinasi': 'combination',
-    'combination skin': 'combination',
-    'kulit normal': 'normal',
-    'normal skin': 'normal',
-    'kulit sensitif': 'sensitive',
-    'sensitive skin': 'sensitive'
-}
 
 SKIN_CONCERN_SYNONYMS = {
     'jerawat': 'acne',
@@ -297,7 +277,7 @@ def merge_datasets(products_list: pd.DataFrame,
     # Select needed columns
     df_combined_used = df_combined[[
         'url','product_name', 'brand', 'category', 'price', 'rating', 'total_reviews',
-        'description', 'review', 'skin_type', 'age', 'rating_star'
+        'description', 'review', 'skin_type', 'age', 'rating_star', 'recommended'
     ]]
     
     log_dataframe_stats(df_combined_used, "Final Combined Data", logger)
@@ -348,6 +328,20 @@ def get_mode(series):
     except:
         return None
 
+def get_top_2(series):
+    try:
+        # Gabungkan semua list dalam series jadi satu list datar
+        all_values = [item for sublist in series.dropna() for item in sublist]
+        counter = Counter(all_values)
+        
+        if not counter:
+            return []
+
+        top_values = counter.most_common(2)
+        return [item for item, _ in top_values]
+    except Exception:
+        return []
+
 def merge_rows(df: pd.DataFrame, logger: logging.Logger) -> pd.DataFrame:
     """Merge rows with same url by combining values in the features column using aggregation."""
     logger.info("Merging rows with same URL...")
@@ -357,9 +351,8 @@ def merge_rows(df: pd.DataFrame, logger: logging.Logger) -> pd.DataFrame:
     'category': 'first',
     'price': 'first',
     'rating': 'first',
-    'skin_type': merge_unique,
+    'skin_type': get_top_2,
     'total_reviews': 'sum',
-    'std_skin_type': merge_unique,
     'std_skin_concern': merge_unique,
     'std_ingredients': merge_unique,
     'std_skin_goal': merge_unique,
@@ -385,20 +378,6 @@ def to_list(value: Optional[str]) -> List[str]:
         except:
             return [value]
     return [value]
-
-def merge_skin_type_columns(df: pd.DataFrame, 
-                  logger: logging.Logger, 
-                  user_col='skin_type', 
-                  std_col='std_skin_type',
-                  output_col='combined_skin_type') -> pd.DataFrame:
-    """Combine two columns into one, merging unique values."""
-    logger.info(f"Merging columns {user_col} and {std_col} into {output_col}...")
-    df[output_col] = df.apply(
-        lambda row: list(set(to_list(row.get(user_col)) + to_list(row.get(std_col)))),
-        axis=1
-    )
-    df.drop(columns=[user_col,std_col],inplace=True)
-    return df
 
 def flatten_list(nested_lst: List) -> List:
     """Flatten a nested list into a single list."""
@@ -496,11 +475,9 @@ def integrate_data(df: pd.DataFrame, logger: logging.Logger) -> pd.DataFrame:
     integration_start = datetime.now()
 
     df_integrated = merge_rows(df, logger)
-    df_integrated = merge_skin_type_columns(df_integrated, logger)
     df_integrated = df_integrated.rename(columns={
     'std_skin_concern':'skin_concern',
     'std_skin_goal':'skin_goal',
-    'combined_skin_type':'skin_type',
     'std_ingredients':'ingredients'
     })
 
@@ -529,10 +506,19 @@ def transform_data(df: pd.DataFrame, logger: logging.Logger) -> pd.DataFrame:
     """Transform the raw data by extracting and standardizing features."""
     logger.info("Starting data transformation...")
     
+    # Filter only recommended products
+    logger.info("Filtering only recommended products (recommended == 'True')...")
+    df = df[df['recommended'] == 'True'].copy()
+    logger.info(f"{len(df)} entries remaining after filtering.")
+
     # Combine review and description text
     logger.info("Combining review and description text...")
     df['text_combined'] = (df['review'].fillna('') + ' ' + df['description'].fillna('')).str.lower()
     
+    # Clean and format 'skin_type' column
+    logger.info("Cleaning and formatting 'skin_type' column...")
+    df['skin_type'] = df['skin_type'].apply(lambda x: [x.lower()] if isinstance(x, str) else [])
+
     # Extract features with progress reporting
     logger.info("Extracting features from text...")
     extraction_start = datetime.now()
@@ -540,7 +526,6 @@ def transform_data(df: pd.DataFrame, logger: logging.Logger) -> pd.DataFrame:
     features = [
         ('found_ingredients', INGREDIENTS_KEYWORDS),
         ('found_skin_concern', SKIN_CONCERN_KEYWORDS),
-        ('found_skin_type', SKIN_TYPE_KEYWORDS),
         ('found_skin_goal', SKIN_GOAL_KEYWORDS)
     ]
     
@@ -562,7 +547,6 @@ def transform_data(df: pd.DataFrame, logger: logging.Logger) -> pd.DataFrame:
     standardization_start = datetime.now()
     
     standardizations = [
-        ('std_skin_type', 'found_skin_type', SKIN_TYPE_SYNONYMS),
         ('std_skin_concern', 'found_skin_concern', SKIN_CONCERN_SYNONYMS),
         ('std_ingredients', 'found_ingredients', INGREDIENT_SYNONYMS),
         ('std_skin_goal', 'found_skin_goal', SKIN_GOAL_SYNONYMS)
@@ -656,7 +640,9 @@ if __name__ == "__main__":
         print("Final DataFrame Info:")
         print(f"\n{df_integrated.info()}")
         print("Data transformation completed successfully!\n")
-        
+        logger.info(f"Total processing time: {total_time:.2f} seconds")
+        print("="*60 + "\n")
+
     except Exception as e:
         logger.error(f"Transformation failed: {str(e)}", exc_info=True)
         print(f"\nERROR: Transformation failed - {str(e)}\n")
