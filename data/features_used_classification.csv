@@ -1,0 +1,992 @@
+,skin_type,skin_concern,skin_goal,ingredients
+0,"['combination', 'dry', 'normal', 'oily']","['acne', 'dryness']","['brightening', 'nourishing', 'tone-evening', 'hydrating', 'smoothing', 'healthy']","['aha', 'hyaluronic acid', 'niacinamide']"
+1,"['combination', 'dry', 'normal', 'oily', 'sensitive']","['redness', 'acne', 'dryness']","['brightening', 'tone-evening', 'hydrating', 'smoothing']","['aha', 'glycerin']"
+2,"['dry', 'sensitive', 'combination', 'normal', 'oily']","['acne', 'dryness', 'pores', 'redness']","['hydrating', 'plumping', 'brightening', 'smoothing', 'glowing', 'regenerating']",['aha']
+3,"['combination', 'dry', 'normal', 'oily', 'sensitive']","['pores', 'acne', 'dryness', 'redness']","['smoothing', 'brightening', 'nourishing', 'hydrating']",['aha']
+4,"['combination', 'dry', 'normal', 'oily']","['pores', 'dryness']","['hydrating', 'brightening']",['aha']
+5,"['combination', 'dry', 'normal', 'oily']","['redness', 'dryness']","['smoothing', 'brightening', 'tone-evening', 'hydrating']","['allantoin', 'glycerin', 'aha']"
+6,"['combination', 'dry', 'normal', 'oily', 'sensitive']","['redness', 'dryness']","['hydrating', 'brightening', 'smoothing', 'glowing', 'healthy']",['ceramide']
+7,"['combination', 'dry', 'normal', 'oily', 'sensitive']","['acne', 'dryness']","['smoothing', 'hydrating', 'brightening']","['allantoin', 'glycerin', 'green tea']"
+8,"['combination', 'dry', 'normal', 'oily', 'sensitive']",['dryness'],"['smoothing', 'brightening', 'hydrating']","['allantoin', 'glycerin', 'green tea']"
+9,"['combination', 'dry', 'normal', 'oily', 'sensitive']","['acne', 'dryness']","['hydrating', 'smoothing', 'brightening', 'tone-evening']","['aha', 'glycerin']"
+10,"['combination', 'dry', 'normal', 'oily', 'sensitive']","['redness', 'acne', 'dryness']","['hydrating', 'brightening', 'refreshing', 'smoothing', 'tone-evening']",['green tea']
+11,"['combination', 'dry', 'normal', 'oily']","['fine lines', 'redness', 'dryness']","['hydrating', 'brightening', 'smoothing', 'glowing', 'tone-evening']",['green tea']
+12,"['combination', 'dry', 'normal', 'oily', 'sensitive']","['acne', 'dryness']","['hydrating', 'brightening', 'smoothing', 'tone-evening']","['aha', 'glycerin']"
+13,"['combination', 'oily', 'normal', 'dry']",['redness'],"['brightening', 'tone-evening', 'smoothing', 'hydrating']","['allantoin', 'glycerin', 'aha']"
+14,"['combination', 'dry', 'normal', 'oily', 'sensitive']","['redness', 'acne', 'dryness']","['brightening', 'hydrating', 'regenerating', 'tone-evening', 'glowing', 'nourishing']",['niacinamide']
+15,"['combination', 'dry', 'normal', 'oily']","['dark spots', 'acne', 'dryness']","['brightening', 'firming', 'smoothing', 'hydrating', 'tone-evening']",['niacinamide']
+16,['sensitive'],[],[],['glycerin']
+17,"['combination', 'dry', 'normal', 'oily', 'sensitive']","['redness', 'acne', 'dryness']","['hydrating', 'brightening', 'smoothing', 'plumping', 'healthy', 'tone-evening']","['glycerin', 'niacinamide', 'vitamin c']"
+18,"['combination', 'dry', 'normal', 'oily', 'sensitive']","['acne', 'dryness']","['smoothing', 'brightening']","['allantoin', 'glycerin', 'green tea']"
+19,"['oily', 'combination', 'dry', 'normal']","['oiliness', 'redness', 'dryness']","['smoothing', 'brightening', 'tone-evening', 'hydrating']","['allantoin', 'glycerin', 'aha']"
+20,"['combination', 'dry', 'normal', 'oily']",['dryness'],"['brightening', 'glowing', 'smoothing', 'hydrating']","['allantoin', 'glycerin']"
+21,"['combination', 'dry', 'normal', 'oily', 'sensitive']","['redness', 'dryness']","['hydrating', 'plumping', 'brightening', 'smoothing']",['vitamin c']
+22,"['combination', 'dry', 'normal', 'oily']","['pores', 'redness', 'dryness']","['hydrating', 'plumping', 'brightening', 'smoothing', 'glowing']",['glycerin']
+23,"['combination', 'dry', 'normal', 'oily', 'sensitive']","['redness', 'dryness']","['hydrating', 'brightening', 'smoothing', 'tone-evening']","['aha', 'glycerin']"
+24,"['combination', 'dry', 'normal', 'oily', 'sensitive']","['dark spots', 'redness', 'acne', 'dryness']","['hydrating', 'glowing', 'brightening', 'smoothing', 'tone-evening']","['allantoin', 'glycerin']"
+25,"['combination', 'dry', 'normal', 'oily']","['redness', 'dryness']","['brightening', 'tone-evening', 'glowing', 'smoothing', 'hydrating']","['allantoin', 'glycerin', 'green tea']"
+26,"['combination', 'dry', 'normal', 'oily', 'sensitive']","['redness', 'dryness']","['brightening', 'regenerating', 'hydrating', 'smoothing']","['allantoin', 'green tea']"
+27,"['combination', 'dry', 'normal', 'oily', 'sensitive']",['dryness'],"['brightening', 'glowing', 'hydrating', 'smoothing', 'tone-evening']","['allantoin', 'glycerin', 'vitamin c', 'squalane', 'green tea']"
+28,"['combination', 'dry', 'normal', 'oily']","['dark spots', 'hyperpigmentation', 'dryness']","['brightening', 'smoothing', 'hydrating']","['allantoin', 'glycerin']"
+29,"['combination', 'oily', 'dry']",[],"['brightening', 'hydrating']","['allantoin', 'glycerin', 'squalane']"
+30,"['combination', 'dry', 'normal', 'oily']","['acne', 'dryness']","['brightening', 'tone-evening', 'hydrating']","['allantoin', 'glycerin']"
+31,"['combination', 'dry', 'normal', 'oily']",['dryness'],"['brightening', 'hydrating', 'smoothing']","['allantoin', 'glycerin']"
+32,"['combination', 'dry', 'normal', 'oily', 'sensitive']",[],"['brightening', 'hydrating', 'smoothing']","['allantoin', 'glycerin', 'green tea']"
+33,"['combination', 'dry', 'normal', 'oily', 'sensitive']",[],"['brightening', 'smoothing']",['salicylic acid']
+34,"['combination', 'dry', 'normal', 'oily']","['dryness', 'oiliness']","['smoothing', 'brightening', 'hydrating']","['allantoin', 'glycerin']"
+35,"['combination', 'dry', 'normal', 'oily', 'sensitive']","['acne', 'dryness']","['brightening', 'tone-evening', 'hydrating', 'nourishing', 'smoothing', 'glowing']","['allantoin', 'glycerin', 'green tea']"
+36,"['combination', 'dry', 'normal', 'oily']",['dryness'],"['brightening', 'hydrating', 'smoothing']","['allantoin', 'glycerin']"
+37,"['combination', 'dry', 'normal', 'oily']",['dryness'],"['brightening', 'hydrating', 'tone-evening', 'smoothing']","['allantoin', 'glycerin', 'aha']"
+38,['dry'],['redness'],['glowing'],['green tea']
+39,"['combination', 'dry', 'normal', 'oily', 'sensitive']",['dryness'],"['smoothing', 'brightening', 'hydrating']","['allantoin', 'glycerin', 'green tea']"
+40,"['combination', 'dry', 'normal', 'oily', 'sensitive']","['redness', 'dryness']","['brightening', 'tone-evening', 'smoothing', 'hydrating']","['aha', 'glycerin']"
+41,"['combination', 'dry', 'normal', 'oily']","['redness', 'dryness']","['brightening', 'tone-evening', 'glowing', 'smoothing', 'hydrating', 'healthy']","['allantoin', 'glycerin', 'aha']"
+42,"['combination', 'dry', 'normal', 'oily', 'sensitive']","['redness', 'dryness']","['brightening', 'smoothing', 'hydrating']",['ceramide']
+43,"['combination', 'dry', 'normal', 'oily', 'sensitive']","['acne', 'dryness']","['brightening', 'smoothing', 'hydrating', 'glowing']","['allantoin', 'glycerin', 'green tea']"
+44,"['combination', 'dry', 'normal', 'oily', 'sensitive']","['dark spots', 'redness', 'dryness']","['brightening', 'tone-evening', 'glowing', 'smoothing', 'hydrating']","['allantoin', 'glycerin']"
+45,"['combination', 'dry', 'normal', 'oily', 'sensitive']",['dryness'],"['brightening', 'tone-evening', 'smoothing', 'glowing', 'hydrating']","['allantoin', 'glycerin']"
+46,"['combination', 'dry', 'normal', 'oily', 'sensitive']",[],['brightening'],['glycerin']
+47,"['combination', 'dry', 'normal', 'oily']","['dryness', 'redness']","['glowing', 'hydrating', 'smoothing', 'brightening', 'plumping']","['allantoin', 'glycerin', 'aha']"
+48,"['combination', 'dry', 'normal', 'oily', 'sensitive']",[],['healthy'],['glycerin']
+49,"['combination', 'dry', 'normal', 'oily', 'sensitive']","['acne', 'dryness']","['smoothing', 'hydrating', 'plumping', 'brightening']","['glycerin', 'salicylic acid']"
+50,"['dry', 'sensitive', 'combination', 'normal', 'oily']","['acne', 'dryness', 'pores']","['glowing', 'healthy', 'scar-fading', 'brightening', 'smoothing', 'hydrating']",['vitamin c']
+51,"['dry', 'sensitive', 'combination', 'normal', 'oily']","['acne', 'dryness', 'pores', 'redness']","['brightening', 'tone-evening', 'hydrating', 'smoothing']",['green tea']
+52,"['combination', 'dry', 'normal', 'oily']","['acne', 'dryness', 'redness']","['anti-aging', 'brightening', 'glowing', 'smoothing', 'hydrating']","['aha', 'retinol']"
+53,"['combination', 'dry', 'normal', 'oily', 'sensitive']",['dryness'],"['hydrating', 'brightening', 'smoothing']","['allantoin', 'glycerin', 'green tea']"
+54,"['oily', 'combination', 'dry', 'normal']","['acne', 'dryness']",[],"['aha', 'hyaluronic acid', 'niacinamide']"
+55,"['normal', 'oily', 'combination', 'dry']","['redness', 'acne', 'dryness']",['healthy'],"['aha', 'retinol']"
+56,"['combination', 'normal', 'sensitive', 'dry', 'oily']","['redness', 'acne']","['hydrating', 'anti-aging', 'healthy']","['hyaluronic acid', 'vitamin c', 'allantoin', 'squalane']"
+57,"['dry', 'sensitive', 'combination', 'normal', 'oily']",[],['hydrating'],['glycerin']
+58,"['dry', 'oily', 'combination', 'normal']","['acne', 'pores', 'dryness']",[],"['glycerin', 'niacinamide', 'aha']"
+59,"['combination', 'dry', 'normal', 'oily']",['dryness'],"['smoothing', 'hydrating', 'brightening', 'plumping']","['allantoin', 'glycerin']"
+60,"['combination', 'dry', 'normal', 'oily', 'sensitive']","['acne', 'dryness']","['hydrating', 'brightening', 'glowing', 'smoothing']","['hyaluronic acid', 'green tea']"
+61,"['combination', 'dry', 'normal', 'oily', 'sensitive']",['dryness'],['hydrating'],"['allantoin', 'glycerin', 'vitamin c', 'squalane', 'green tea']"
+62,"['combination', 'dry', 'normal', 'oily', 'sensitive']","['acne', 'dryness']","['hydrating', 'brightening', 'smoothing', 'glowing']",['vitamin c']
+63,"['combination', 'dry', 'normal', 'oily']","['acne', 'dryness']","['hydrating', 'plumping', 'brightening', 'smoothing']","['niacinamide', 'hyaluronic acid']"
+64,"['combination', 'dry', 'normal', 'oily', 'sensitive']","['redness', 'acne', 'dryness']","['hydrating', 'brightening', 'glowing', 'smoothing', 'healthy']","['niacinamide', 'hyaluronic acid']"
+65,"['combination', 'dry', 'normal', 'oily']","['acne', 'dryness']","['smoothing', 'hydrating', 'brightening', 'refreshing']","['aha', 'hyaluronic acid', 'niacinamide']"
+66,"['combination', 'dry', 'normal', 'oily']","['acne', 'dryness']","['hydrating', 'brightening']","['aha', 'hyaluronic acid', 'niacinamide']"
+67,"['combination', 'dry', 'normal', 'oily', 'sensitive']","['acne', 'dryness']",['hydrating'],"['allantoin', 'glycerin', 'green tea']"
+68,"['combination', 'dry', 'normal', 'oily', 'sensitive']","['acne', 'dryness']","['brightening', 'glowing', 'hydrating', 'refreshing', 'smoothing', 'tone-evening', 'healthy', 'plumping']","['hyaluronic acid', 'niacinamide']"
+69,"['combination', 'dry', 'normal', 'oily']","['acne', 'dryness']","['hydrating', 'brightening', 'healthy', 'smoothing']","['aha', 'hyaluronic acid', 'niacinamide']"
+70,"['dry', 'sensitive', 'combination', 'normal', 'oily']","['acne', 'dryness', 'redness']",['hydrating'],"['aha', 'glycerin']"
+71,"['combination', 'dry', 'normal', 'oily']","['acne', 'dryness', 'redness']",['hydrating'],"['aha', 'retinol']"
+72,"['combination', 'dry', 'normal', 'oily', 'sensitive']","['acne', 'dryness']","['anti-aging', 'glowing', 'brightening', 'plumping', 'hydrating']","['aha', 'panthenol', 'vitamin c']"
+73,"['dry', 'sensitive', 'combination', 'normal', 'oily']","['acne', 'dryness']","['hydrating', 'nourishing', 'brightening', 'smoothing']","['glycerin', 'zinc']"
+74,"['combination', 'dry', 'normal', 'oily']","['acne', 'dryness']","['hydrating', 'plumping', 'refreshing', 'brightening', 'nourishing', 'smoothing']",['green tea']
+75,"['dry', 'sensitive', 'combination', 'normal', 'oily']","['acne', 'dryness']","['hydrating', 'plumping', 'brightening', 'regenerating', 'nourishing', 'smoothing']",['green tea']
+76,"['combination', 'dry', 'normal', 'oily']","['acne', 'dryness']",['hydrating'],"['aha', 'hyaluronic acid', 'niacinamide']"
+77,"['dry', 'sensitive', 'combination', 'normal', 'oily']","['acne', 'dryness', 'redness']","['hydrating', 'brightening', 'nourishing', 'smoothing']","['aha', 'glycerin']"
+78,"['combination', 'dry', 'normal', 'oily', 'sensitive']","['acne', 'hyperpigmentation', 'pores', 'dryness']","['brightening', 'hydrating', 'pore-minimizing', 'smoothing', 'plumping']","['niacinamide', 'aha']"
+79,"['combination', 'dry', 'normal', 'oily', 'sensitive']","['acne', 'dryness', 'pores', 'redness', 'hyperpigmentation']","['plumping', 'smoothing', 'glowing', 'brightening', 'scar-fading', 'hydrating']","['aha', 'bha', 'salicylic acid']"
+80,"['dry', 'sensitive', 'combination', 'normal', 'oily']","['acne', 'dryness']","['brightening', 'regenerating', 'hydrating', 'glowing']",['vitamin c']
+81,"['combination', 'dry', 'oily', 'sensitive']",[],[],['vitamin c']
+82,"['combination', 'dry', 'normal', 'oily', 'sensitive']","['pores', 'redness', 'dryness']","['hydrating', 'glowing', 'healthy', 'brightening', 'smoothing']",['vitamin c']
+83,"['dry', 'sensitive', 'combination', 'normal', 'oily']","['acne', 'dryness']","['brightening', 'glowing', 'hydrating', 'smoothing']","['allantoin', 'glycerin', 'green tea']"
+84,"['combination', 'dry', 'normal', 'oily']","['acne', 'dryness', 'pores', 'redness']","['hydrating', 'brightening']",['aha']
+85,"['combination', 'dry', 'normal', 'oily', 'sensitive']","['pores', 'acne', 'dryness']","['hydrating', 'brightening']","['glycerin', 'niacinamide', 'aha', 'bha']"
+86,"['combination', 'dry', 'normal', 'oily', 'sensitive']","['redness', 'acne', 'dryness']","['smoothing', 'hydrating']","['aha', 'glycerin']"
+87,"['dry', 'sensitive', 'combination', 'normal', 'oily']","['acne', 'dryness']","['smoothing', 'hydrating']","['allantoin', 'glycerin', 'green tea']"
+88,"['combination', 'dry', 'normal', 'oily', 'sensitive']","['acne', 'dryness']","['brightening', 'glowing', 'healthy', 'hydrating', 'nourishing']",['glycerin']
+89,"['dry', 'sensitive', 'combination', 'normal', 'oily']","['acne', 'dryness', 'redness']",['hydrating'],['glycerin']
+90,"['combination', 'dry', 'normal', 'oily', 'sensitive']","['dryness', 'acne', 'redness']",['hydrating'],"['aha', 'glycerin']"
+91,"['combination', 'dry', 'normal', 'oily']","['acne', 'dryness']","['hydrating', 'smoothing']",['glycerin']
+92,"['combination', 'oily', 'normal', 'dry']",[],['hydrating'],"['glycerin', 'vitamin c']"
+93,"['combination', 'dry', 'normal', 'oily', 'sensitive']","['acne', 'dryness']","['smoothing', 'hydrating', 'brightening']",['vitamin c']
+94,"['combination', 'dry', 'normal', 'oily', 'sensitive']","['dryness', 'redness', 'acne']","['smoothing', 'hydrating']","['aha', 'glycerin']"
+95,"['combination', 'dry', 'normal', 'oily']","['acne', 'dryness']",['hydrating'],['glycerin']
+96,"['combination', 'dry', 'normal', 'oily']","['acne', 'dryness']","['smoothing', 'hydrating']",['green tea']
+97,"['combination', 'dry', 'normal', 'oily']","['acne', 'dryness']","['smoothing', 'hydrating', 'brightening']","['aha', 'hyaluronic acid', 'niacinamide']"
+98,"['light', 'combination', 'dry', 'normal', 'oily', 'sensitive']","['acne', 'dryness']","['hydrating', 'brightening']",['panthenol']
+99,"['light', 'combination', 'dry', 'normal', 'oily']","['acne', 'dryness']","['hydrating', 'smoothing', 'brightening', 'nourishing']","['glycerin', 'zinc']"
+100,"['combination', 'dry', 'normal', 'oily', 'sensitive']","['acne', 'dryness']","['healthy', 'hydrating']","['allantoin', 'glycerin', 'green tea']"
+101,"['combination', 'dry', 'normal', 'oily']","['pores', 'redness', 'acne', 'dryness']","['smoothing', 'brightening', 'hydrating']","['allantoin', 'glycerin']"
+102,"['dry', 'sensitive', 'combination', 'normal', 'oily']","['acne', 'dryness']","['brightening', 'smoothing', 'hydrating']","['allantoin', 'glycerin', 'green tea']"
+103,"['dry', 'sensitive', 'combination', 'normal', 'oily']","['dryness', 'redness', 'pores', 'acne']",['hydrating'],"['aha', 'glycerin']"
+104,"['combination', 'normal', 'dry', 'sensitive', 'oily']","['acne', 'oiliness', 'pores', 'dryness', 'redness']","['oil-control', 'smoothing', 'brightening', 'hydrating']","['glycerin', 'green tea']"
+105,"['dry', 'sensitive', 'combination', 'normal', 'oily']","['acne', 'dryness']","['smoothing', 'hydrating', 'brightening']",['glycerin']
+106,"['combination', 'dry', 'normal', 'oily']","['acne', 'dryness']","['hydrating', 'brightening', 'nourishing', 'smoothing']","['aha', 'hyaluronic acid', 'niacinamide']"
+107,"['combination', 'dry', 'normal', 'oily', 'sensitive']","['fine lines', 'acne', 'dryness']","['smoothing', 'hydrating', 'plumping']",['glycerin']
+108,"['combination', 'dry', 'normal', 'oily', 'sensitive']","['redness', 'acne', 'dryness']","['smoothing', 'hydrating', 'brightening']",['glycerin']
+109,"['combination', 'dry', 'normal', 'oily', 'sensitive']","['wrinkles', 'redness', 'dryness', 'acne']","['anti-aging', 'smoothing', 'brightening', 'hydrating']",['glycerin']
+110,"['normal', 'oily', 'dry', 'combination', 'sensitive']","['dryness', 'oiliness', 'pores', 'acne', 'redness', 'hyperpigmentation']","['brightening', 'nourishing', 'hydrating']","['hyaluronic acid', 'niacinamide', 'vitamin c', 'green tea']"
+111,"['oily', 'dry', 'combination', 'sensitive', 'medium', 'normal']","['dryness', 'oiliness', 'redness', 'acne', 'pores']","['hydrating', 'pore-minimizing', 'refreshing', 'scar-fading', 'brightening', 'smoothing']",['green tea']
+112,"['combination', 'oily', 'normal', 'dry', 'sensitive']","['acne', 'oiliness', 'pores', 'redness', 'dryness']","['hydrating', 'oil-control', 'glowing', 'brightening']",['green tea']
+113,"['oily', 'combination', 'dry', 'normal']","['acne', 'pores', 'dryness', 'oiliness', 'redness']","['oil-control', 'smoothing', 'brightening', 'hydrating']",['green tea']
+114,"['dry', 'normal', 'oily', 'combination', 'sensitive']","['pores', 'redness', 'acne', 'dryness']","['anti-aging', 'nourishing', 'brightening', 'hydrating', 'refreshing']",['green tea']
+115,"['normal', 'oily', 'combination', 'sensitive', 'medium', 'dry']","['dryness', 'oiliness', 'pores', 'redness', 'acne']","['hydrating', 'brightening']",['green tea']
+116,"['oily', 'dry', 'combination', 'sensitive', 'normal']","['acne', 'dryness', 'oiliness', 'pores']","['oil-control', 'hydrating', 'brightening']","['aha', 'bha']"
+117,"['oily', 'dry', 'sensitive', 'combination', 'normal']","['acne', 'dryness', 'pores', 'redness', 'oiliness']","['hydrating', 'plumping', 'brightening', 'nourishing', 'oil-control']","['niacinamide', 'salicylic acid']"
+118,"['combination', 'dry', 'oily', 'sensitive']","['acne', 'dryness', 'pores', 'redness']",[],['vitamin c']
+119,"['oily', 'combination', 'dry', 'normal', 'sensitive']","['acne', 'dark spots', 'pores', 'oiliness', 'dryness']","['brightening', 'pore-minimizing', 'smoothing', 'oil-control', 'hydrating', 'scar-fading']","['green tea', 'vitamin c']"
+120,"['combination', 'dry', 'normal', 'oily', 'sensitive']","['acne', 'dryness', 'pores']",[],['vitamin c']
+121,"['oily', 'combination', 'dry', 'normal', 'sensitive']","['acne', 'dark spots', 'dryness', 'pores', 'oiliness']",['hydrating'],['glycerin']
+122,"['dry', 'oily', 'sensitive', 'combination', 'normal']","['dryness', 'oiliness', 'acne']","['brightening', 'hydrating', 'oil-control', 'barrier-repair']","['glycerin', 'niacinamide', 'hyaluronic acid']"
+123,"['oily', 'combination', 'dry', 'normal', 'sensitive']","['acne', 'dryness', 'pores', 'oiliness', 'redness']","['brightening', 'pore-minimizing', 'scar-fading', 'hydrating', 'oil-control', 'healthy']","['allantoin', 'bha', 'glycerin', 'salicylic acid', 'vitamin c']"
+124,"['combination', 'sensitive', 'oily', 'dry', 'normal']","['acne', 'dryness', 'pores', 'redness', 'oiliness']","['oil-control', 'hydrating', 'brightening', 'scar-fading']","['glycerin', 'hyaluronic acid', 'zinc']"
+125,"['oily', 'dry', 'sensitive', 'combination', 'normal']","['pores', 'redness', 'dryness', 'acne']","['hydrating', 'oil-control', 'barrier-repair', 'brightening']","['allantoin', 'glycerin', 'panthenol']"
+126,"['dry', 'oily', 'sensitive', 'combination', 'normal']","['dryness', 'oiliness', 'acne', 'pores', 'redness']","['hydrating', 'healthy', 'barrier-repair', 'brightening']","['glycerin', 'niacinamide', 'panthenol', 'hyaluronic acid', 'vitamin c']"
+127,"['dry', 'oily', 'sensitive', 'combination', 'normal']","['acne', 'oiliness', 'pores', 'redness', 'dryness']","['scar-fading', 'oil-control', 'hydrating']","['glycerin', 'green tea']"
+128,"['oily', 'normal', 'combination', 'dry', 'sensitive']","['acne', 'oiliness', 'redness', 'pores', 'dryness']","['oil-control', 'hydrating', 'brightening']","['glycerin', 'salicylic acid']"
+129,"['oily', 'dry', 'combination', 'normal']","['dryness', 'oiliness', 'redness', 'acne']","['hydrating', 'oil-control', 'brightening', 'smoothing']",['glycerin']
+130,"['oily', 'normal', 'combination', 'dry', 'sensitive']","['pores', 'redness', 'dryness', 'acne', 'oiliness']","['oil-control', 'pore-minimizing', 'hydrating', 'brightening']",['salicylic acid']
+131,['normal'],['acne'],[],['glycerin']
+132,"['dry', 'oily', 'sensitive', 'combination', 'normal']","['acne', 'oiliness', 'dryness', 'pores', 'redness']","['smoothing', 'oil-control', 'brightening', 'hydrating']","['glycerin', 'salicylic acid', 'aha', 'bha', 'retinol']"
+133,"['combination', 'sensitive', 'dry', 'normal', 'oily']","['acne', 'dryness', 'redness']","['hydrating', 'oil-control', 'pore-minimizing', 'brightening', 'smoothing']","['aha', 'allantoin', 'bha']"
+134,"['oily', 'dry', 'sensitive', 'combination', 'normal']","['dryness', 'redness', 'oiliness', 'acne']","['hydrating', 'healthy', 'plumping', 'barrier-repair', 'brightening']","['ceramide', 'hyaluronic acid', 'allantoin', 'glycerin']"
+135,"['oily', 'combination', 'dry', 'normal', 'sensitive']","['acne', 'pores', 'dryness', 'oiliness', 'redness']","['hydrating', 'brightening', 'regenerating']","['allantoin', 'glycerin', 'niacinamide', 'panthenol']"
+136,"['oily', 'normal', 'combination', 'dry', 'sensitive']","['oiliness', 'acne', 'dryness']","['brightening', 'hydrating']","['glycerin', 'niacinamide']"
+137,"['oily', 'combination', 'sensitive', 'dry', 'normal']","['acne', 'dryness', 'redness', 'oiliness']","['oil-control', 'hydrating', 'brightening']","['zinc', 'bha', 'salicylic acid', 'allantoin']"
+138,"['dry', 'normal', 'oily', 'combination', 'sensitive']","['pores', 'acne', 'dryness']","['brightening', 'hydrating', 'oil-control', 'smoothing', 'healthy', 'scar-fading']",['niacinamide']
+139,"['oily', 'dry', 'sensitive', 'combination', 'normal']","['acne', 'pores', 'dryness', 'oiliness', 'redness']","['oil-control', 'hydrating']","['zinc', 'salicylic acid']"
+140,"['oily', 'dry', 'combination', 'sensitive', 'normal']","['dryness', 'oiliness', 'pores', 'acne', 'redness']","['hydrating', 'oil-control', 'scar-fading', 'brightening']","['green tea', 'vitamin c', 'salicylic acid']"
+141,"['dry', 'oily', 'sensitive', 'normal', 'combination']","['dryness', 'oiliness', 'pores', 'acne', 'redness']","['brightening', 'tone-evening', 'glowing', 'oil-control', 'hydrating', 'scar-fading']","['vitamin c', 'aha', 'bha', 'retinol']"
+142,"['oily', 'combination', 'dry', 'normal', 'sensitive']","['acne', 'pores', 'dryness', 'redness', 'oiliness']","['brightening', 'glowing', 'oil-control', 'scar-fading']","['zinc', 'salicylic acid', 'aha', 'bha']"
+143,"['dry', 'oily', 'sensitive', 'combination', 'normal']","['dryness', 'oiliness', 'acne']","['oil-control', 'scar-fading', 'hydrating', 'brightening']","['bha', 'green tea', 'salicylic acid']"
+144,['sensitive'],[],[],['hyaluronic acid']
+145,"['oily', 'dry', 'combination', 'normal']","['dryness', 'oiliness', 'acne']","['oil-control', 'brightening', 'hydrating']","['glycerin', 'niacinamide', 'vitamin c']"
+146,"['oily', 'dry', 'sensitive', 'combination', 'normal']","['pores', 'redness', 'dryness', 'oiliness', 'acne', 'fine lines']","['smoothing', 'hydrating', 'glowing']",['hyaluronic acid']
+147,"['normal', 'oily', 'combination', 'sensitive', 'dry']","['acne', 'hyperpigmentation', 'dryness', 'pores', 'redness']","['brightening', 'glowing', 'tone-evening', 'hydrating']","['ceramide', 'hyaluronic acid', 'aha', 'bha', 'vitamin c']"
+148,"['dry', 'oily', 'sensitive', 'combination', 'normal']","['acne', 'oiliness', 'pores', 'dryness', 'dark spots']",['hydrating'],"['salicylic acid', 'aha', 'bha', 'hyaluronic acid']"
+149,"['oily', 'dry', 'combination', 'normal', 'sensitive']","['dryness', 'oiliness', 'acne', 'pores', 'redness']","['oil-control', 'brightening', 'hydrating']","['glycerin', 'green tea']"
+150,"['dry', 'oily', 'sensitive', 'normal', 'combination']","['acne', 'dryness', 'pores', 'oiliness', 'redness']","['brightening', 'hydrating', 'oil-control', 'smoothing']",['glycerin']
+151,"['dry', 'oily', 'sensitive', 'combination', 'normal']","['dryness', 'oiliness', 'acne', 'redness', 'pores']","['oil-control', 'brightening', 'hydrating']","['glycerin', 'salicylic acid', 'green tea', 'bha']"
+152,"['oily', 'dry', 'combination', 'normal', 'sensitive']","['pores', 'redness', 'acne', 'oiliness', 'dryness']","['smoothing', 'oil-control', 'brightening', 'hydrating']",['green tea']
+153,['normal'],['acne'],[],['glycerin']
+154,"['dry', 'oily', 'combination', 'normal']","['acne', 'dryness', 'oiliness', 'pores', 'redness']","['oil-control', 'hydrating']",['salicylic acid']
+155,['sensitive'],[],[],['glycerin']
+156,"['dry', 'sensitive', 'combination', 'normal', 'oily']","['acne', 'dryness', 'redness']","['brightening', 'hydrating', 'barrier-repair', 'oil-control']","['allantoin', 'glycerin', 'vitamin c']"
+157,"['combination', 'dry', 'normal', 'oily']","['acne', 'dryness', 'redness']","['brightening', 'glowing', 'healthy', 'hydrating', 'smoothing']","['aha', 'retinol']"
+158,"['dry', 'sensitive', 'combination', 'oily', 'normal']","['dryness', 'oiliness', 'acne', 'redness']","['barrier-repair', 'hydrating', 'regenerating', 'healthy']","['allantoin', 'glycerin']"
+159,"['dry', 'oily', 'combination', 'normal']","['acne', 'dryness', 'redness']","['hydrating', 'brightening', 'smoothing', 'glowing', 'oil-control']",['glycerin']
+160,"['dry', 'sensitive', 'combination', 'normal', 'oily']","['redness', 'dryness', 'acne']","['brightening', 'hydrating', 'oil-control']","['glycerin', 'niacinamide']"
+161,"['oily', 'dry', 'combination', 'normal', 'sensitive']","['dryness', 'oiliness', 'pores', 'acne', 'redness']","['hydrating', 'brightening', 'glowing', 'plumping']","['niacinamide', 'glycerin', 'panthenol']"
+162,"['oily', 'combination', 'dry', 'normal', 'sensitive']","['dark spots', 'dryness', 'pores', 'oiliness', 'acne', 'redness']","['brightening', 'smoothing', 'hydrating', 'glowing', 'scar-fading']","['glycerin', 'panthenol', 'vitamin c']"
+163,"['oily', 'combination', 'dry', 'normal', 'sensitive']","['acne', 'pores', 'dryness', 'oiliness', 'redness']","['hydrating', 'pore-minimizing', 'smoothing', 'plumping', 'brightening', 'oil-control']","['niacinamide', 'green tea', 'salicylic acid', 'allantoin']"
+164,"['dry', 'sensitive', 'combination', 'normal', 'oily']","['dryness', 'fine lines', 'redness', 'pores', 'acne', 'wrinkles']","['hydrating', 'anti-aging', 'brightening', 'nourishing']","['allantoin', 'glycerin', 'niacinamide', 'panthenol', 'peptides']"
+165,"['dry', 'oily', 'sensitive', 'combination', 'normal']","['dryness', 'oiliness', 'acne', 'pores', 'redness']","['hydrating', 'plumping', 'smoothing']","['allantoin', 'ceramide', 'glycerin', 'niacinamide', 'retinol']"
+166,"['oily', 'dry', 'combination', 'normal', 'sensitive']","['oiliness', 'acne', 'dryness']","['hydrating', 'oil-control', 'brightening', 'smoothing']","['glycerin', 'green tea']"
+167,"['oily', 'dry', 'sensitive', 'combination', 'normal']","['acne', 'pores', 'redness', 'dryness']","['brightening', 'hydrating', 'plumping', 'oil-control']","['aha', 'bha']"
+168,"['combination', 'dry', 'normal', 'oily', 'sensitive']","['acne', 'pores', 'dryness', 'redness']","['oil-control', 'brightening', 'hydrating']",['aha']
+169,"['oily', 'combination', 'dry', 'normal']","['wrinkles', 'dryness', 'pores', 'oiliness', 'acne', 'redness']","['oil-control', 'glowing', 'brightening', 'hydrating']","['allantoin', 'glycerin', 'niacinamide']"
+170,"['oily', 'combination', 'normal', 'sensitive', 'dry']","['acne', 'dryness', 'redness', 'oiliness', 'pores']","['brightening', 'smoothing', 'oil-control']","['bha', 'niacinamide']"
+171,"['oily', 'dry', 'combination', 'normal', 'sensitive']","['acne', 'dark spots', 'pores', 'dryness', 'oiliness', 'redness']","['brightening', 'tone-evening', 'nourishing', 'glowing', 'hydrating', 'refreshing', 'oil-control', 'scar-fading']","['niacinamide', 'vitamin c']"
+172,"['oily', 'dry', 'normal', 'combination']","['acne', 'oiliness', 'pores', 'hyperpigmentation', 'dryness']","['brightening', 'hydrating', 'oil-control', 'nourishing']","['niacinamide', 'green tea']"
+173,"['oily', 'combination', 'dry', 'normal', 'sensitive']","['acne', 'pores', 'dryness']","['oil-control', 'hydrating', 'brightening']","['glycerin', 'niacinamide']"
+174,"['oily', 'dry', 'sensitive', 'combination', 'normal']","['dryness', 'pores', 'oiliness', 'acne', 'redness']","['hydrating', 'glowing', 'refreshing', 'brightening']","['glycerin', 'niacinamide']"
+175,"['oily', 'combination', 'normal', 'sensitive', 'dry']","['acne', 'dark spots', 'pores', 'dryness', 'oiliness', 'wrinkles']","['hydrating', 'brightening', 'glowing', 'nourishing', 'oil-control']",['niacinamide']
+176,"['combination', 'dry', 'normal', 'oily']","['acne', 'dryness']",['hydrating'],"['aha', 'hyaluronic acid', 'niacinamide']"
+177,"['oily', 'combination', 'dry', 'sensitive', 'normal']","['pores', 'redness', 'dryness', 'acne', 'fine lines', 'oiliness']","['hydrating', 'brightening', 'scar-fading']",['hyaluronic acid']
+178,"['dry', 'oily', 'sensitive', 'normal', 'combination']","['acne', 'dryness', 'oiliness', 'redness', 'pores']",['oil-control'],"['aha', 'bha', 'salicylic acid']"
+179,"['combination', 'dry', 'normal', 'oily', 'sensitive']","['acne', 'redness', 'dryness']","['hydrating', 'glowing', 'scar-fading', 'brightening', 'oil-control']",['salicylic acid']
+180,"['combination', 'oily', 'dry', 'normal', 'sensitive']","['dryness', 'oiliness', 'acne']","['brightening', 'hydrating', 'oil-control']",['aha']
+181,"['oily', 'combination', 'dry', 'normal', 'sensitive']","['acne', 'dark spots', 'dryness', 'pores', 'oiliness']","['hydrating', 'refreshing', 'healthy', 'oil-control', 'brightening', 'smoothing']","['green tea', 'vitamin c']"
+182,"['combination', 'sensitive', 'oily', 'dry', 'normal']","['acne', 'pores', 'dryness', 'oiliness', 'redness']","['brightening', 'regenerating', 'hydrating']",['panthenol']
+183,"['oily', 'dry', 'sensitive', 'combination', 'normal']","['dryness', 'pores', 'oiliness', 'redness', 'acne']","['hydrating', 'brightening', 'glowing', 'firming']","['hyaluronic acid', 'niacinamide', 'vitamin c']"
+184,"['oily', 'dry', 'combination', 'normal', 'sensitive']","['oiliness', 'acne', 'dryness']","['brightening', 'hydrating', 'nourishing', 'healthy', 'oil-control']","['glycerin', 'hyaluronic acid']"
+185,"['combination', 'dry', 'normal', 'oily']","['acne', 'dryness']","['barrier-repair', 'brightening', 'hydrating', 'nourishing']","['glycerin', 'hyaluronic acid']"
+186,"['oily', 'normal', 'combination', 'sensitive', 'dry']","['oiliness', 'acne', 'dryness']","['hydrating', 'oil-control', 'brightening', 'smoothing']",['green tea']
+187,"['oily', 'combination', 'dry', 'normal', 'sensitive']","['acne', 'oiliness', 'pores', 'redness', 'dryness']","['oil-control', 'hydrating']","['bha', 'glycerin', 'hyaluronic acid', 'salicylic acid']"
+188,"['combination', 'oily', 'dry', 'sensitive', 'normal']","['dryness', 'oiliness', 'acne', 'pores', 'redness']","['hydrating', 'oil-control', 'refreshing', 'brightening', 'smoothing']","['glycerin', 'green tea', 'hyaluronic acid']"
+189,"['dry', 'oily', 'combination', 'normal']","['acne', 'redness', 'oiliness', 'dryness']","['anti-aging', 'firming', 'hydrating', 'glowing', 'brightening', 'plumping']",['glycerin']
+190,"['dry', 'oily', 'combination', 'normal']","['dryness', 'pores', 'oiliness', 'acne', 'redness']","['brightening', 'hydrating', 'healthy', 'oil-control']","['glycerin', 'hyaluronic acid']"
+191,"['oily', 'dry', 'combination', 'sensitive', 'normal']","['acne', 'oiliness', 'redness', 'dryness']","['brightening', 'hydrating']","['bha', 'glycerin', 'green tea']"
+192,"['combination', 'sensitive', 'dry', 'normal', 'oily']","['acne', 'dryness', 'redness']","['hydrating', 'oil-control', 'plumping', 'barrier-repair', 'brightening', 'smoothing']","['glycerin', 'green tea', 'squalane']"
+193,"['combination', 'sensitive', 'dry', 'normal', 'oily']","['dryness', 'acne', 'redness']","['nourishing', 'oil-control', 'brightening', 'hydrating', 'barrier-repair']",['panthenol']
+194,"['combination', 'normal', 'sensitive', 'dry', 'oily']","['acne', 'dryness', 'pores', 'redness']","['hydrating', 'refreshing', 'brightening', 'healthy', 'oil-control', 'anti-aging']",['aha']
+195,"['dry', 'oily', 'sensitive', 'combination', 'normal']","['acne', 'pores', 'dryness', 'redness', 'oiliness']","['anti-aging', 'barrier-repair', 'hydrating', 'oil-control']","['bha', 'niacinamide', 'salicylic acid', 'green tea', 'glycerin']"
+196,"['combination', 'dry', 'sensitive', 'normal', 'oily']","['acne', 'dryness', 'pores']","['oil-control', 'hydrating']",['glycerin']
+197,"['combination', 'oily', 'dry', 'sensitive', 'normal']","['dryness', 'oiliness', 'redness', 'acne']","['glowing', 'hydrating', 'oil-control']","['ceramide', 'hyaluronic acid', 'allantoin', 'glycerin']"
+198,"['combination', 'sensitive', 'oily', 'dry', 'normal']","['acne', 'pores', 'dryness', 'oiliness', 'redness']","['oil-control', 'glowing', 'brightening']","['salicylic acid', 'bha']"
+199,"['dry', 'sensitive', 'combination', 'normal', 'oily']","['acne', 'dryness', 'redness']","['hydrating', 'refreshing', 'brightening']","['aha', 'glycerin']"
+200,"['oily', 'dry', 'sensitive', 'combination', 'normal']","['dryness', 'acne', 'redness', 'oiliness']",['hydrating'],"['allantoin', 'bha', 'glycerin', 'green tea', 'panthenol', 'salicylic acid']"
+201,"['oily', 'combination', 'dry', 'normal', 'sensitive']","['acne', 'pores', 'dryness', 'oiliness', 'redness']","['brightening', 'scar-fading', 'hydrating', 'oil-control']","['bha', 'salicylic acid']"
+202,"['dry', 'oily', 'sensitive', 'combination', 'normal']","['dryness', 'oiliness', 'redness', 'acne', 'pores']","['hydrating', 'brightening']","['aha', 'allantoin', 'bha', 'glycerin', 'panthenol']"
+203,"['dry', 'sensitive', 'combination', 'normal', 'oily']","['redness', 'dryness', 'acne']",['hydrating'],"['allantoin', 'glycerin', 'panthenol', 'vitamin c']"
+204,"['oily', 'combination', 'dry', 'normal', 'sensitive']","['oiliness', 'acne', 'dryness']","['brightening', 'glowing', 'hydrating']","['glycerin', 'niacinamide']"
+205,"['combination', 'sensitive', 'dry', 'oily', 'normal']","['dryness', 'acne', 'redness']","['brightening', 'glowing', 'hydrating', 'barrier-repair', 'healthy']","['glycerin', 'panthenol', 'vitamin c']"
+206,"['oily', 'combination', 'dry', 'normal', 'sensitive']","['dryness', 'oiliness', 'acne', 'fine lines', 'redness']","['brightening', 'oil-control']","['panthenol', 'vitamin c']"
+207,"['oily', 'dry', 'combination', 'normal', 'sensitive']","['dryness', 'oiliness', 'dark spots', 'wrinkles', 'redness', 'acne']","['hydrating', 'brightening', 'smoothing', 'plumping']",['glycerin']
+208,"['normal', 'oily', 'dry', 'combination']","['acne', 'dryness', 'pores', 'redness', 'oiliness']","['brightening', 'glowing', 'hydrating', 'oil-control']","['allantoin', 'glycerin', 'niacinamide']"
+209,"['oily', 'combination', 'dry', 'normal']","['acne', 'pores', 'dryness', 'oiliness', 'redness']","['brightening', 'hydrating', 'oil-control']",['green tea']
+210,"['dry', 'normal', 'oily', 'combination', 'sensitive']","['dryness', 'oiliness', 'acne', 'pores']","['firming', 'scar-fading', 'refreshing', 'brightening', 'hydrating', 'tone-evening', 'oil-control']",['retinol']
+211,"['oily', 'combination', 'dry', 'normal', 'sensitive']","['dryness', 'oiliness', 'acne', 'redness']","['oil-control', 'brightening', 'hydrating']","['aha', 'bha', 'retinol']"
+212,"['oily', 'dry', 'sensitive', 'combination', 'normal']","['dryness', 'oiliness', 'redness', 'acne']","['hydrating', 'brightening']","['aha', 'salicylic acid', 'bha', 'glycerin']"
+213,"['dry', 'oily', 'sensitive', 'combination', 'normal']","['acne', 'oiliness', 'dryness', 'redness', 'pores']","['brightening', 'hydrating', 'plumping', 'oil-control', 'scar-fading']","['bha', 'niacinamide']"
+214,"['oily', 'combination', 'dry', 'normal', 'sensitive']","['dryness', 'pores', 'oiliness', 'acne', 'redness']","['brightening', 'hydrating', 'plumping']","['glycerin', 'niacinamide']"
+215,"['oily', 'dry', 'combination', 'normal', 'sensitive']","['dryness', 'oiliness', 'dark spots', 'pores', 'acne', 'redness']","['brightening', 'hydrating', 'oil-control', 'tone-evening']",['niacinamide']
+216,"['combination', 'dry', 'normal', 'oily', 'sensitive']","['acne', 'pores', 'redness', 'dryness']","['brightening', 'smoothing', 'hydrating', 'glowing']","['niacinamide', 'aha', 'bha']"
+217,"['combination', 'dry', 'normal', 'oily']","['acne', 'dryness', 'redness']",['brightening'],"['aha', 'bha']"
+218,"['combination', 'dry', 'normal', 'oily', 'sensitive']","['acne', 'dryness', 'redness']","['smoothing', 'brightening', 'hydrating', 'refreshing', 'healthy']",['glycerin']
+219,"['dry', 'oily', 'combination', 'normal']","['pores', 'redness', 'acne', 'dryness', 'dark spots']","['brightening', 'tone-evening', 'hydrating', 'regenerating', 'smoothing']","['aha', 'niacinamide', 'panthenol', 'bha', 'retinol', 'ceramide', 'hyaluronic acid']"
+220,"['oily', 'combination', 'dry', 'normal', 'sensitive']","['acne', 'dryness', 'pores', 'oiliness', 'redness', 'dark spots']","['hydrating', 'pore-minimizing', 'scar-fading', 'oil-control', 'brightening', 'smoothing']","['aha', 'bha', 'niacinamide', 'panthenol', 'vitamin c', 'retinol', 'salicylic acid']"
+221,"['oily', 'combination', 'dry', 'normal', 'sensitive']","['acne', 'pores', 'redness', 'dryness']","['hydrating', 'oil-control']","['allantoin', 'bha', 'glycerin', 'panthenol', 'salicylic acid', 'aha', 'vitamin c', 'retinol']"
+222,['sensitive'],[],[],['glycerin']
+223,"['combination', 'dry', 'normal', 'oily', 'sensitive']","['acne', 'pores', 'dryness', 'redness']","['smoothing', 'brightening', 'hydrating']",['aha']
+224,"['oily', 'combination', 'dry', 'normal', 'sensitive']","['pores', 'redness', 'acne', 'oiliness', 'dryness', 'dark spots']","['brightening', 'glowing', 'smoothing', 'oil-control', 'hydrating', 'plumping']","['aha', 'bha']"
+225,"['combination', 'dry', 'normal', 'oily', 'sensitive']","['pores', 'acne', 'dryness', 'redness']",['hydrating'],['aha']
+226,"['oily', 'combination', 'dry', 'sensitive', 'normal']","['acne', 'hyperpigmentation', 'oiliness', 'dryness', 'redness', 'pores']","['smoothing', 'oil-control']","['bha', 'ceramide', 'salicylic acid']"
+227,"['oily', 'dry', 'combination', 'normal', 'sensitive']","['dryness', 'oiliness', 'acne', 'pores', 'redness']","['oil-control', 'brightening']","['salicylic acid', 'green tea', 'bha']"
+228,"['oily', 'combination', 'dry', 'normal', 'sensitive']","['acne', 'pores', 'oiliness', 'redness']","['oil-control', 'glowing', 'brightening', 'hydrating']",['green tea']
+229,"['combination', 'dry', 'normal', 'oily', 'sensitive']","['pores', 'acne', 'dryness']","['brightening', 'glowing', 'hydrating', 'smoothing', 'refreshing']",['vitamin c']
+230,['sensitive'],[],[],['glycerin']
+231,"['combination', 'dry', 'normal', 'oily', 'sensitive']","['acne', 'dryness']","['brightening', 'hydrating']",['panthenol']
+232,"['combination', 'dry', 'normal', 'oily']","['acne', 'dark spots', 'pores', 'dryness']","['brightening', 'firming', 'glowing', 'pore-minimizing']",['salicylic acid']
+233,['sensitive'],[],[],['glycerin']
+234,"['oily', 'combination', 'sensitive', 'dry', 'normal']","['acne', 'oiliness', 'redness', 'pores']",['oil-control'],"['aha', 'bha', 'salicylic acid']"
+235,"['combination', 'dry', 'normal', 'oily']","['wrinkles', 'dryness']","['hydrating', 'brightening']",['squalane']
+236,"['combination', 'dry', 'normal', 'oily', 'sensitive']","['wrinkles', 'acne', 'fine lines', 'redness', 'pores', 'dryness']","['hydrating', 'oil-control', 'anti-aging', 'brightening', 'smoothing']","['glycerin', 'green tea', 'aha', 'bha']"
+237,"['dry', 'sensitive', 'combination', 'oily', 'normal']","['dryness', 'pores', 'acne', 'redness']","['hydrating', 'scar-fading', 'pore-minimizing', 'anti-aging', 'brightening', 'smoothing']","['glycerin', 'green tea', 'vitamin c', 'aha', 'bha']"
+238,"['combination', 'dry', 'normal', 'oily', 'sensitive']","['acne', 'pores', 'hyperpigmentation']","['hydrating', 'scar-fading', 'brightening', 'smoothing', 'glowing']","['glycerin', 'green tea', 'vitamin c', 'aha', 'bha']"
+239,"['dry', 'sensitive', 'combination', 'normal', 'oily']","['wrinkles', 'dryness', 'redness', 'acne']","['hydrating', 'brightening', 'smoothing']",['glycerin']
+240,"['combination', 'sensitive', 'oily', 'dry', 'normal']","['acne', 'dryness', 'pores', 'redness', 'dark spots', 'hyperpigmentation', 'oiliness']","['pore-minimizing', 'smoothing', 'brightening', 'hydrating', 'oil-control', 'glowing']","['bha', 'green tea', 'salicylic acid', 'retinol', 'aha', 'niacinamide']"
+241,"['oily', 'normal', 'dry', 'combination', 'sensitive']","['acne', 'oiliness', 'pores', 'redness', 'dryness']","['brightening', 'smoothing', 'hydrating', 'oil-control']","['bha', 'niacinamide', 'salicylic acid']"
+242,"['oily', 'combination', 'normal', 'sensitive', 'dry']","['wrinkles', 'dryness', 'pores', 'oiliness', 'acne', 'redness']","['oil-control', 'brightening', 'glowing', 'hydrating']",['niacinamide']
+243,"['combination', 'dry', 'normal', 'oily', 'sensitive']","['acne', 'dryness', 'pores', 'redness']","['brightening', 'hydrating']",['aha']
+244,"['combination', 'dry', 'normal', 'oily']",['acne'],"['brightening', 'hydrating', 'pore-minimizing']",['aha']
+245,"['combination', 'dry', 'normal', 'oily', 'sensitive']","['pores', 'redness', 'acne']","['hydrating', 'brightening', 'smoothing', 'scar-fading']","['aha', 'bha']"
+246,"['oily', 'combination', 'dry', 'normal', 'sensitive']","['pores', 'redness', 'acne', 'dryness']","['hydrating', 'brightening', 'smoothing']",['vitamin c']
+247,"['oily', 'dry', 'sensitive', 'combination', 'normal']","['acne', 'pores', 'redness', 'oiliness', 'dryness']","['hydrating', 'glowing', 'refreshing', 'oil-control', 'brightening', 'smoothing']","['glycerin', 'green tea', 'salicylic acid', 'bha', 'aha']"
+248,"['combination', 'normal', 'sensitive', 'oily', 'dry']","['acne', 'pores', 'redness', 'dryness']","['hydrating', 'glowing', 'refreshing', 'regenerating', 'brightening', 'scar-fading', 'oil-control', 'smoothing']","['glycerin', 'salicylic acid', 'aha', 'bha', 'retinol']"
+249,"['oily', 'normal', 'dry', 'combination', 'sensitive']","['acne', 'pores', 'dryness', 'redness']","['hydrating', 'refreshing', 'smoothing', 'brightening', 'glowing', 'plumping']","['glycerin', 'green tea']"
+250,['sensitive'],[],[],['glycerin']
+251,"['dry', 'sensitive', 'combination', 'normal', 'oily']","['dryness', 'pores', 'acne', 'redness']","['hydrating', 'glowing', 'refreshing', 'brightening', 'smoothing']","['aha', 'bha', 'glycerin']"
+252,"['combination', 'sensitive', 'oily', 'dry', 'normal']","['pores', 'redness', 'acne', 'dryness']","['brightening', 'glowing', 'hydrating', 'smoothing', 'tone-evening']","['glycerin', 'retinol']"
+253,"['combination', 'oily', 'dry', 'normal', 'sensitive']","['acne', 'oiliness', 'pores', 'redness', 'dryness']","['smoothing', 'oil-control', 'brightening']","['aha', 'bha', 'glycerin', 'vitamin c']"
+254,"['oily', 'combination', 'dry', 'normal', 'sensitive']","['acne', 'dryness', 'pores', 'oiliness', 'dark spots']","['smoothing', 'oil-control', 'brightening', 'scar-fading']",['glycerin']
+255,"['combination', 'oily', 'normal', 'dry']","['acne', 'pores']","['brightening', 'scar-fading']",['aha']
+256,"['dry', 'sensitive', 'combination', 'normal', 'oily']","['acne', 'dryness', 'pores', 'redness']","['glowing', 'smoothing', 'hydrating', 'brightening', 'scar-fading']","['glycerin', 'vitamin c']"
+257,"['combination', 'dry', 'normal', 'oily', 'sensitive']","['pores', 'redness', 'acne', 'dryness']","['smoothing', 'hydrating']",['aha']
+258,['sensitive'],[],[],"['glycerin', 'niacinamide']"
+259,"['dry', 'oily', 'sensitive', 'combination', 'normal']","['dryness', 'oiliness', 'acne', 'pores', 'dark spots', 'redness']","['smoothing', 'hydrating', 'brightening']","['aha', 'bha']"
+260,"['combination', 'dry', 'normal', 'oily']","['pores', 'acne']","['brightening', 'hydrating']",['aha']
+261,"['dry', 'oily', 'sensitive', 'combination', 'normal']","['dryness', 'oiliness', 'acne']","['hydrating', 'glowing', 'brightening', 'regenerating']","['aha', 'niacinamide', 'bha']"
+262,"['combination', 'oily', 'dry', 'sensitive', 'normal']","['acne', 'oiliness', 'redness', 'dryness', 'pores']","['oil-control', 'hydrating', 'brightening']","['glycerin', 'green tea']"
+263,"['oily', 'dry', 'combination', 'normal', 'sensitive']","['acne', 'dryness', 'pores', 'oiliness', 'redness']","['brightening', 'hydrating', 'oil-control', 'pore-minimizing', 'nourishing', 'refreshing']","['aha', 'niacinamide']"
+264,"['dry', 'normal', 'oily', 'sensitive', 'combination']","['dryness', 'oiliness', 'acne', 'dark spots', 'redness']","['brightening', 'nourishing', 'tone-evening', 'hydrating', 'smoothing', 'healthy', 'scar-fading']","['aha', 'vitamin c', 'green tea', 'retinol']"
+265,"['dry', 'sensitive', 'combination', 'oily', 'normal']","['acne', 'dryness', 'pores', 'oiliness', 'redness', 'wrinkles']","['brightening', 'tone-evening', 'hydrating', 'plumping', 'pore-minimizing', 'smoothing', 'regenerating', 'scar-fading', 'anti-aging']","['aha', 'bha', 'glycerin', 'niacinamide', 'salicylic acid', 'ceramide', 'hyaluronic acid', 'allantoin', 'panthenol', 'retinol']"
+266,"['dry', 'oily', 'combination', 'normal']","['wrinkles', 'acne']",['brightening'],"['green tea', 'niacinamide', 'retinol']"
+267,"['combination', 'oily', 'dry', 'sensitive']","['acne', 'dryness']","['barrier-repair', 'brightening', 'hydrating', 'scar-fading']","['glycerin', 'niacinamide']"
+268,"['oily', 'combination', 'dry', 'normal', 'sensitive']","['acne', 'dryness', 'pores', 'redness', 'oiliness']","['oil-control', 'pore-minimizing', 'tone-evening', 'hydrating']","['glycerin', 'salicylic acid', 'zinc', 'bha', 'niacinamide']"
+269,"['oily', 'combination', 'dry', 'normal', 'sensitive']","['acne', 'fine lines', 'wrinkles', 'pores', 'dryness', 'redness', 'oiliness']","['hydrating', 'scar-fading', 'brightening', 'plumping', 'oil-control', 'pore-minimizing', 'barrier-repair', 'healthy']","['glycerin', 'niacinamide', 'hyaluronic acid', 'retinol', 'ceramide']"
+270,"['oily', 'combination', 'dry', 'normal', 'sensitive']","['acne', 'dryness', 'redness', 'oiliness', 'pores']","['scar-fading', 'smoothing', 'brightening', 'hydrating']","['salicylic acid', 'aha', 'bha', 'retinol']"
+271,"['combination', 'sensitive', 'dry', 'oily', 'normal']","['acne', 'fine lines', 'wrinkles', 'pores', 'dryness', 'oiliness', 'redness']","['hydrating', 'pore-minimizing', 'glowing', 'barrier-repair', 'oil-control']","['ceramide', 'hyaluronic acid', 'salicylic acid', 'retinol']"
+272,"['dry', 'oily', 'sensitive', 'combination', 'normal']","['dryness', 'oiliness', 'redness', 'acne', 'pores']","['brightening', 'glowing', 'hydrating', 'plumping', 'anti-aging']","['ceramide', 'niacinamide', 'allantoin', 'glycerin', 'hyaluronic acid', 'panthenol', 'retinol', 'aha']"
+273,"['dry', 'oily', 'sensitive', 'combination', 'normal']","['acne', 'dryness', 'pores', 'dark spots', 'hyperpigmentation', 'redness', 'oiliness']","['hydrating', 'scar-fading', 'glowing', 'refreshing', 'smoothing', 'brightening', 'regenerating', 'tone-evening', 'pore-minimizing']","['aha', 'bha', 'retinol', 'allantoin', 'glycerin', 'salicylic acid']"
+274,"['combination', 'sensitive', 'dry', 'normal', 'oily']","['fine lines', 'hyperpigmentation', 'acne', 'redness', 'dark spots', 'dryness']","['brightening', 'tone-evening', 'hydrating', 'scar-fading', 'glowing', 'anti-aging']","['allantoin', 'glycerin', 'vitamin c', 'retinol', 'aha', 'hyaluronic acid']"
+275,"['dry', 'oily', 'sensitive', 'combination', 'normal']","['acne', 'pores', 'dryness', 'oiliness', 'redness', 'hyperpigmentation']","['hydrating', 'scar-fading', 'plumping', 'pore-minimizing', 'healthy', 'brightening', 'smoothing']","['bha', 'glycerin', 'hyaluronic acid', 'salicylic acid', 'aha', 'retinol']"
+276,"['oily', 'dry', 'combination', 'normal', 'sensitive']","['wrinkles', 'acne', 'fine lines', 'redness', 'pores', 'dryness', 'oiliness']","['hydrating', 'scar-fading', 'anti-aging', 'barrier-repair', 'brightening', 'smoothing', 'regenerating']","['allantoin', 'azelaic acid', 'bha', 'glycerin', 'niacinamide', 'panthenol', 'green tea', 'retinol', 'aha']"
+277,"['combination', 'oily', 'dry', 'sensitive', 'normal']","['acne', 'oiliness', 'pores', 'dryness', 'redness', 'dark spots']","['hydrating', 'scar-fading', 'healthy', 'plumping', 'oil-control', 'smoothing', 'brightening', 'regenerating', 'barrier-repair']","['allantoin', 'bha', 'ceramide', 'glycerin', 'green tea', 'hyaluronic acid', 'niacinamide', 'retinol', 'salicylic acid', 'vitamin c', 'aha']"
+278,"['oily', 'dry', 'sensitive', 'combination', 'normal']","['dryness', 'oiliness', 'dark spots', 'redness', 'acne']","['hydrating', 'plumping', 'barrier-repair', 'glowing', 'healthy', 'brightening', 'anti-aging', 'smoothing']","['ceramide', 'glycerin', 'hyaluronic acid', 'niacinamide', 'panthenol']"
+279,"['dry', 'oily', 'sensitive', 'combination', 'normal']","['acne', 'dryness']",['hydrating'],"['allantoin', 'glycerin', 'green tea']"
+280,"['oily', 'combination', 'dry', 'normal', 'sensitive']","['acne', 'oiliness', 'pores', 'dryness']","['oil-control', 'hydrating']","['glycerin', 'salicylic acid']"
+281,"['oily', 'combination', 'dry', 'normal', 'sensitive']","['acne', 'pores', 'hyperpigmentation', 'oiliness', 'dryness', 'redness']","['brightening', 'healthy', 'hydrating', 'smoothing', 'refreshing', 'oil-control', 'scar-fading', 'pore-minimizing', 'barrier-repair']","['aha', 'allantoin', 'bha', 'panthenol', 'salicylic acid']"
+282,"['oily', 'combination', 'dry', 'normal', 'sensitive']","['dryness', 'oiliness', 'redness', 'hyperpigmentation', 'acne']","['hydrating', 'plumping', 'barrier-repair', 'oil-control', 'brightening']","['niacinamide', 'bha', 'aha', 'allantoin', 'panthenol']"
+283,"['oily', 'dry', 'combination', 'sensitive', 'normal']","['dryness', 'oiliness', 'acne', 'dark spots', 'redness', 'pores']","['oil-control', 'hydrating', 'regenerating']","['aha', 'allantoin', 'bha', 'panthenol', 'vitamin c', 'salicylic acid']"
+284,['sensitive'],[],[],['glycerin']
+285,"['oily', 'combination', 'dry', 'normal', 'sensitive']","['oiliness', 'redness', 'acne', 'dryness']","['hydrating', 'brightening', 'plumping', 'smoothing']","['panthenol', 'retinol']"
+286,"['dry', 'oily', 'sensitive', 'combination', 'normal']","['dryness', 'oiliness', 'redness', 'pores', 'acne']","['hydrating', 'scar-fading', 'oil-control', 'plumping', 'barrier-repair', 'brightening', 'smoothing']","['aha', 'bha', 'hyaluronic acid', 'panthenol', 'retinol']"
+287,"['combination', 'sensitive', 'oily', 'dry', 'normal']","['pores', 'redness', 'dryness', 'oiliness', 'acne']","['brightening', 'hydrating', 'pore-minimizing', 'smoothing', 'scar-fading', 'glowing']","['allantoin', 'glycerin', 'niacinamide', 'retinol']"
+288,"['oily', 'combination', 'dry', 'normal', 'sensitive']","['dryness', 'acne', 'oiliness', 'redness']","['oil-control', 'hydrating', 'scar-fading']","['zinc', 'niacinamide', 'bha']"
+289,"['normal', 'oily', 'combination', 'dry']","['acne', 'pores', 'dryness', 'oiliness', 'redness']","['hydrating', 'refreshing', 'healthy', 'brightening', 'nourishing']",['green tea']
+290,"['dry', 'oily', 'sensitive', 'combination', 'normal']","['dryness', 'oiliness', 'redness', 'acne']","['barrier-repair', 'hydrating', 'brightening']","['panthenol', 'green tea']"
+291,"['combination', 'dry', 'normal', 'sensitive', 'oily']","['dryness', 'oiliness', 'acne', 'pores', 'redness']","['hydrating', 'refreshing', 'smoothing', 'pore-minimizing']","['glycerin', 'hyaluronic acid', 'aha', 'green tea', 'bha']"
+292,"['oily', 'dry', 'combination', 'sensitive', 'normal']","['acne', 'oiliness', 'redness', 'pores', 'dark spots']","['hydrating', 'oil-control', 'scar-fading', 'brightening']","['allantoin', 'hyaluronic acid', 'niacinamide', 'salicylic acid', 'zinc', 'aha', 'bha']"
+293,"['oily', 'combination', 'dry', 'normal', 'sensitive']","['pores', 'redness', 'dryness', 'acne', 'dark spots', 'oiliness']","['brightening', 'hydrating', 'oil-control', 'pore-minimizing', 'nourishing', 'refreshing', 'glowing', 'smoothing']","['niacinamide', 'retinol']"
+294,"['dry', 'sensitive', 'combination', 'normal', 'oily']","['acne', 'dryness', 'redness']","['hydrating', 'nourishing', 'brightening', 'glowing', 'smoothing', 'refreshing']","['niacinamide', 'hyaluronic acid', 'panthenol']"
+295,"['oily', 'combination', 'dry', 'normal', 'sensitive']","['acne', 'pores', 'dryness', 'oiliness', 'redness']","['barrier-repair', 'hydrating', 'oil-control', 'brightening']","['ceramide', 'glycerin']"
+296,"['oily', 'combination', 'dry', 'normal', 'sensitive']","['wrinkles', 'redness', 'oiliness', 'pores', 'dryness', 'fine lines', 'acne']","['anti-aging', 'hydrating', 'barrier-repair', 'plumping', 'firming', 'brightening']","['ceramide', 'glycerin', 'green tea', 'hyaluronic acid', 'retinol']"
+297,"['combination', 'normal', 'sensitive', 'dry', 'oily']","['dark spots', 'acne', 'hyperpigmentation', 'dryness', 'pores', 'redness']","['brightening', 'healthy', 'hydrating', 'scar-fading', 'glowing', 'smoothing', 'barrier-repair']","['hyaluronic acid', 'vitamin c', 'aha', 'bha']"
+298,"['oily', 'dry', 'sensitive', 'combination', 'normal']","['acne', 'dryness', 'pores', 'oiliness', 'redness']","['hydrating', 'anti-aging', 'barrier-repair', 'brightening', 'oil-control']","['hyaluronic acid', 'retinol']"
+299,['sensitive'],[],[],['glycerin']
+300,"['oily', 'combination', 'dry', 'normal']","['redness', 'acne', 'dryness']",['hydrating'],"['hyaluronic acid', 'retinol', 'aha', 'bha', 'vitamin c']"
+301,"['dry', 'oily', 'sensitive', 'combination', 'normal']","['acne', 'dryness', 'redness', 'pores']","['hydrating', 'glowing', 'scar-fading', 'oil-control', 'brightening', 'smoothing']","['aha', 'bha']"
+302,"['oily', 'normal', 'combination', 'dry', 'sensitive']","['dryness', 'oiliness', 'redness', 'pores', 'acne']","['hydrating', 'oil-control', 'brightening', 'smoothing', 'plumping', 'barrier-repair']","['hyaluronic acid', 'retinol']"
+303,"['oily', 'combination', 'dry', 'normal', 'sensitive']","['oiliness', 'acne', 'dryness']","['hydrating', 'brightening']","['niacinamide', 'retinol', 'glycerin']"
+304,"['oily', 'combination', 'dry', 'normal', 'sensitive']","['dark spots', 'dryness', 'acne', 'redness']","['hydrating', 'refreshing', 'brightening', 'nourishing', 'oil-control', 'firming']",['glycerin']
+305,"['normal', 'oily', 'combination', 'dry', 'sensitive']","['wrinkles', 'acne', 'pores', 'dryness', 'redness', 'oiliness']","['hydrating', 'scar-fading', 'brightening', 'oil-control', 'pore-minimizing', 'barrier-repair', 'plumping']","['allantoin', 'glycerin']"
+306,"['dry', 'sensitive', 'combination', 'oily', 'normal']","['dryness', 'pores', 'acne', 'redness', 'hyperpigmentation']","['brightening', 'glowing', 'scar-fading', 'tone-evening', 'smoothing', 'hydrating']","['aha', 'glycerin', 'panthenol', 'salicylic acid', 'bha', 'hyaluronic acid', 'retinol']"
+307,['sensitive'],[],[],['glycerin']
+308,"['oily', 'dry', 'combination', 'sensitive', 'normal']","['dryness', 'redness', 'oiliness', 'acne']","['hydrating', 'refreshing', 'brightening', 'smoothing']","['aha', 'bha', 'ceramide']"
+309,"['combination', 'oily', 'dry', 'normal']","['dryness', 'pores', 'acne', 'oiliness', 'redness']","['brightening', 'glowing', 'hydrating', 'scar-fading', 'smoothing', 'tone-evening', 'anti-aging']",['hyaluronic acid']
+310,['sensitive'],[],[],['glycerin']
+311,"['combination', 'dry', 'normal', 'oily', 'sensitive']","['acne', 'dark spots', 'pores', 'hyperpigmentation', 'dryness', 'redness']","['brightening', 'glowing', 'hydrating', 'scar-fading']","['hyaluronic acid', 'niacinamide', 'vitamin c', 'aha', 'bha']"
+312,"['oily', 'dry', 'sensitive', 'combination', 'normal']","['acne', 'dryness', 'pores', 'redness', 'oiliness']","['hydrating', 'brightening', 'oil-control', 'pore-minimizing', 'smoothing']","['allantoin', 'niacinamide', 'aha', 'bha']"
+313,"['dry', 'oily', 'combination', 'normal']","['dryness', 'acne', 'redness']","['brightening', 'glowing', 'oil-control', 'refreshing', 'healthy', 'hydrating', 'scar-fading']","['aha', 'bha', 'niacinamide']"
+314,['sensitive'],[],[],['glycerin']
+315,['sensitive'],[],[],['glycerin']
+316,"['oily', 'normal', 'dry', 'combination', 'sensitive', 'medium']","['dryness', 'oiliness', 'acne', 'pores', 'redness']","['brightening', 'hydrating']","['glycerin', 'niacinamide', 'panthenol', 'vitamin c']"
+317,"['dry', 'oily', 'combination', 'normal', 'sensitive']","['acne', 'pores', 'dryness']","['anti-aging', 'hydrating', 'nourishing', 'regenerating', 'firming', 'brightening']","['allantoin', 'glycerin', 'niacinamide', 'panthenol', 'peptides', 'aha']"
+318,"['dry', 'sensitive', 'combination', 'oily', 'normal']","['acne', 'dryness', 'redness', 'oiliness', 'dark spots']","['hydrating', 'glowing', 'healthy', 'barrier-repair', 'brightening', 'smoothing', 'tone-evening']","['allantoin', 'ceramide', 'glycerin']"
+319,"['combination', 'dry', 'normal', 'oily', 'sensitive']",['acne'],"['smoothing', 'brightening']",['salicylic acid']
+320,"['dry', 'oily', 'combination', 'normal', 'sensitive']","['acne', 'dryness']","['brightening', 'glowing', 'tone-evening', 'hydrating']",['aha']
+321,"['oily', 'combination', 'dry', 'normal', 'sensitive']","['dryness', 'oiliness', 'redness', 'acne']","['brightening', 'glowing', 'tone-evening', 'oil-control', 'hydrating']","['salicylic acid', 'hyaluronic acid']"
+322,"['normal', 'oily', 'combination', 'dry', 'sensitive']","['acne', 'pores', 'dryness', 'oiliness', 'redness']","['firming', 'healthy', 'tone-evening', 'glowing', 'brightening', 'scar-fading', 'regenerating', 'hydrating', 'oil-control']","['glycerin', 'vitamin c', 'retinol', 'aha', 'bha']"
+323,"['oily', 'combination', 'dry', 'normal', 'sensitive']","['pores', 'redness', 'dryness', 'acne', 'oiliness']","['brightening', 'hydrating', 'pore-minimizing']","['aha', 'glycerin', 'hyaluronic acid', 'niacinamide']"
+324,"['oily', 'dry', 'sensitive', 'combination', 'normal']","['dryness', 'acne', 'redness', 'oiliness']","['hydrating', 'scar-fading', 'barrier-repair', 'brightening']","['hyaluronic acid', 'panthenol', 'aha', 'bha', 'retinol', 'salicylic acid', 'ceramide']"
+325,"['combination', 'sensitive', 'oily', 'dry', 'normal']","['dryness', 'hyperpigmentation', 'oiliness', 'redness', 'acne', 'pores']","['hydrating', 'barrier-repair', 'anti-aging', 'brightening', 'glowing']","['hyaluronic acid', 'niacinamide', 'vitamin c', 'retinol']"
+326,"['oily', 'combination', 'dry', 'normal', 'sensitive']","['acne', 'dryness', 'pores', 'oiliness']","['hydrating', 'brightening', 'smoothing', 'refreshing', 'plumping']",['niacinamide']
+327,"['combination', 'oily', 'dry', 'sensitive', 'normal']","['dryness', 'oiliness', 'acne', 'redness']","['hydrating', 'refreshing', 'brightening', 'oil-control']","['ceramide', 'hyaluronic acid', 'allantoin', 'glycerin']"
+328,"['combination', 'dry', 'normal', 'oily', 'sensitive']","['pores', 'acne', 'dryness']","['hydrating', 'brightening', 'pore-minimizing']",['vitamin c']
+329,"['combination', 'sensitive', 'dry', 'oily', 'normal']","['acne', 'redness', 'dryness']","['refreshing', 'regenerating', 'hydrating', 'barrier-repair', 'oil-control']","['allantoin', 'glycerin', 'niacinamide', 'panthenol', 'green tea']"
+330,"['oily', 'combination', 'dry', 'normal', 'sensitive']","['pores', 'oiliness', 'acne']","['hydrating', 'glowing', 'pore-minimizing', 'brightening', 'oil-control', 'healthy', 'regenerating']","['aha', 'glycerin', 'salicylic acid', 'bha']"
+331,"['oily', 'combination', 'dry', 'normal', 'sensitive']","['pores', 'redness', 'acne', 'dryness', 'oiliness']","['hydrating', 'barrier-repair', 'brightening']","['niacinamide', 'aha', 'bha', 'retinol', 'hyaluronic acid']"
+332,"['oily', 'combination', 'dry', 'normal', 'sensitive']","['acne', 'pores', 'dryness', 'redness', 'oiliness']","['hydrating', 'scar-fading', 'brightening', 'smoothing', 'refreshing', 'glowing', 'barrier-repair', 'healthy']","['glycerin', 'hyaluronic acid', 'niacinamide', 'aha', 'ceramide', 'retinol', 'bha']"
+333,"['dry', 'oily', 'sensitive', 'combination', 'normal']","['dryness', 'redness', 'acne', 'pores']","['barrier-repair', 'brightening', 'hydrating', 'smoothing']","['ceramide', 'hyaluronic acid', 'retinol']"
+334,"['oily', 'combination', 'dry', 'normal', 'sensitive']","['dryness', 'redness', 'oiliness', 'acne']","['brightening', 'hydrating', 'nourishing', 'regenerating', 'barrier-repair', 'healthy', 'scar-fading']","['ceramide', 'glycerin', 'hyaluronic acid', 'niacinamide', 'panthenol', 'retinol', 'aha', 'bha']"
+335,"['oily', 'dry', 'sensitive', 'combination', 'normal']","['pores', 'wrinkles', 'dryness', 'redness', 'acne', 'oiliness']","['brightening', 'hydrating', 'anti-aging', 'plumping']","['glycerin', 'hyaluronic acid', 'peptides', 'retinol', 'aha']"
+336,"['dry', 'oily', 'sensitive', 'combination', 'normal']","['acne', 'dryness', 'pores', 'redness', 'uneven texture', 'dark spots']","['hydrating', 'pore-minimizing', 'brightening', 'oil-control']","['aha', 'bha', 'niacinamide', 'vitamin c']"
+337,"['oily', 'dry', 'combination', 'normal', 'sensitive']","['acne', 'dark spots', 'dryness', 'pores', 'oiliness', 'redness']","['brightening', 'tone-evening', 'hydrating', 'glowing', 'refreshing']","['niacinamide', 'vitamin c', 'retinol', 'aha', 'bha']"
+338,"['oily', 'combination', 'dry', 'normal', 'sensitive']","['acne', 'dryness', 'pores', 'redness']","['brightening', 'regenerating', 'barrier-repair', 'hydrating', 'scar-fading', 'smoothing']","['aha', 'bha', 'niacinamide']"
+339,"['dry', 'oily', 'sensitive', 'combination', 'normal']","['acne', 'oiliness', 'pores', 'dryness']","['glowing', 'tone-evening', 'hydrating']","['aha', 'allantoin', 'bha', 'salicylic acid', 'hyaluronic acid', 'niacinamide']"
+340,"['oily', 'dry', 'sensitive', 'combination', 'normal']","['dryness', 'redness', 'acne']","['hydrating', 'brightening', 'healthy']","['allantoin', 'hyaluronic acid', 'niacinamide', 'aha', 'bha', 'retinol']"
+341,"['oily', 'dry', 'sensitive', 'combination', 'normal']","['acne', 'pores', 'redness', 'dryness']","['hydrating', 'plumping', 'glowing', 'scar-fading', 'refreshing', 'brightening']","['aha', 'bha']"
+342,"['dry', 'oily', 'sensitive', 'combination', 'normal']","['dryness', 'oiliness', 'redness', 'wrinkles', 'acne']","['anti-aging', 'barrier-repair', 'hydrating', 'plumping', 'glowing', 'healthy', 'brightening']","['ceramide', 'hyaluronic acid', 'aha', 'panthenol', 'retinol', 'niacinamide', 'bha']"
+343,"['combination', 'sensitive', 'oily', 'dry', 'normal']","['acne', 'pores', 'dryness', 'oiliness', 'redness']","['hydrating', 'scar-fading', 'oil-control', 'brightening', 'pore-minimizing', 'refreshing', 'smoothing', 'firming']","['aha', 'glycerin', 'squalane']"
+344,"['oily', 'dry', 'sensitive', 'combination', 'normal']","['dryness', 'oiliness', 'redness', 'acne']","['brightening', 'hydrating', 'oil-control']",['allantoin']
+345,"['oily', 'combination', 'dry', 'normal', 'sensitive']","['dryness', 'acne', 'oiliness', 'pores', 'redness']","['oil-control', 'hydrating', 'brightening', 'pore-minimizing']","['allantoin', 'glycerin', 'aha', 'bha', 'niacinamide', 'salicylic acid']"
+346,"['combination', 'oily', 'dry', 'normal', 'sensitive']","['oiliness', 'redness', 'acne']","['oil-control', 'hydrating', 'plumping']",['glycerin']
+347,"['dry', 'oily', 'combination', 'normal', 'sensitive']","['dryness', 'oiliness', 'redness', 'acne']","['hydrating', 'glowing', 'plumping', 'healthy', 'brightening', 'smoothing', 'nourishing']","['glycerin', 'retinol', 'niacinamide']"
+348,"['oily', 'combination', 'dry', 'normal', 'sensitive']","['acne', 'pores', 'dark spots', 'fine lines', 'hyperpigmentation', 'dryness', 'oiliness', 'redness']","['hydrating', 'glowing', 'healthy', 'smoothing', 'oil-control', 'brightening', 'scar-fading']","['aha', 'bha', 'glycerin', 'niacinamide', 'salicylic acid', 'retinol']"
+349,"['oily', 'dry', 'combination', 'sensitive', 'normal']","['acne', 'dryness', 'redness']","['hydrating', 'plumping']","['glycerin', 'panthenol', 'retinol', 'salicylic acid', 'niacinamide', 'hyaluronic acid']"
+350,"['oily', 'combination', 'dry', 'normal', 'sensitive']","['oiliness', 'redness', 'acne', 'dryness']","['smoothing', 'hydrating', 'glowing', 'refreshing']","['aha', 'bha', 'hyaluronic acid', 'green tea']"
+351,"['combination', 'oily', 'dry', 'normal', 'sensitive']","['acne', 'oiliness', 'pores', 'redness', 'dryness']","['pore-minimizing', 'refreshing', 'brightening', 'hydrating', 'oil-control']",['green tea']
+352,"['normal', 'oily', 'dry', 'combination', 'sensitive']","['dryness', 'pores', 'acne', 'oiliness', 'redness']","['brightening', 'refreshing', 'hydrating', 'plumping', 'oil-control']",['green tea']
+353,"['oily', 'dry', 'combination', 'sensitive', 'normal']","['acne', 'dryness', 'pores', 'oiliness', 'redness']","['refreshing', 'smoothing', 'brightening', 'hydrating', 'nourishing', 'oil-control']",['green tea']
+354,"['oily', 'dry', 'combination', 'normal']","['acne', 'oiliness', 'pores', 'redness', 'dryness']","['oil-control', 'refreshing']","['vitamin c', 'green tea']"
+355,"['combination', 'normal', 'sensitive', 'dry', 'oily']","['acne', 'dryness', 'pores', 'redness']","['nourishing', 'refreshing', 'hydrating', 'anti-aging', 'brightening']",['green tea']
+356,"['combination', 'dry', 'normal', 'oily']","['pores', 'acne', 'dryness']","['brightening', 'glowing', 'hydrating', 'pore-minimizing', 'refreshing', 'plumping']","['glycerin', 'niacinamide', 'aha']"
+357,"['oily', 'combination', 'dry', 'normal']","['acne', 'pores', 'oiliness', 'dryness', 'redness']","['brightening', 'pore-minimizing', 'hydrating']",['green tea']
+358,"['oily', 'combination', 'dry', 'normal', 'sensitive']","['pores', 'oiliness', 'acne', 'dryness']","['hydrating', 'oil-control', 'refreshing', 'brightening', 'smoothing']","['aha', 'bha']"
+359,"['combination', 'dry', 'normal', 'oily', 'sensitive']","['dark spots', 'dryness', 'pores', 'redness', 'acne']","['brightening', 'hydrating', 'refreshing', 'tone-evening']","['niacinamide', 'retinol']"
+360,"['oily', 'combination', 'sensitive', 'dry', 'normal']","['pores', 'redness', 'acne', 'oiliness']","['brightening', 'hydrating', 'oil-control', 'refreshing', 'scar-fading', 'tone-evening']","['niacinamide', 'vitamin c', 'aha', 'bha', 'retinol', 'hyaluronic acid']"
+361,"['oily', 'combination', 'dry', 'normal', 'sensitive']","['acne', 'dark spots', 'redness', 'pores', 'oiliness']","['anti-aging', 'brightening', 'healthy', 'hydrating']","['allantoin', 'hyaluronic acid', 'niacinamide', 'salicylic acid', 'zinc', 'aha', 'bha']"
+362,"['combination', 'oily', 'normal', 'dry']","['wrinkles', 'fine lines']","['hydrating', 'brightening', 'firming']","['niacinamide', 'retinol', 'vitamin c']"
+363,"['combination', 'oily', 'normal', 'dry']","['fine lines', 'wrinkles']",['hydrating'],"['glycerin', 'vitamin c']"
+364,"['combination', 'dry', 'normal', 'oily', 'sensitive']","['fine lines', 'wrinkles', 'dryness']","['hydrating', 'brightening']",['glycerin']
+365,"['combination', 'dry', 'normal', 'oily', 'sensitive']","['acne', 'fine lines', 'wrinkles', 'redness']","['hydrating', 'anti-aging', 'brightening', 'tone-evening', 'firming']","['allantoin', 'glycerin', 'peptides']"
+366,"['combination', 'oily', 'normal']","['acne', 'fine lines', 'wrinkles']",['brightening'],"['peptides', 'niacinamide']"
+367,"['oily', 'combination', 'dry', 'normal', 'sensitive']","['acne', 'dryness', 'redness']","['glowing', 'tone-evening', 'hydrating', 'brightening']",['vitamin c']
+368,['sensitive'],[],['glowing'],['vitamin c']
+369,"['oily', 'combination', 'dry', 'normal']","['dryness', 'oiliness', 'redness', 'pores', 'acne']","['glowing', 'tone-evening', 'hydrating', 'brightening']",['vitamin c']
+370,"['combination', 'oily', 'normal', 'dry']","['wrinkles', 'dark spots', 'oiliness', 'pores', 'acne', 'redness']","['glowing', 'tone-evening', 'brightening', 'healthy']",['unknown']
+371,"['combination', 'dry', 'normal', 'oily']","['acne', 'dryness']","['brightening', 'hydrating', 'nourishing', 'scar-fading', 'tone-evening']",['glycerin']
+372,"['dry', 'oily', 'combination', 'normal', 'sensitive']","['pores', 'redness', 'acne']","['brightening', 'refreshing', 'hydrating', 'oil-control', 'glowing', 'healthy']",['zinc']
+373,"['normal', 'oily', 'combination', 'dry']",['acne'],['glowing'],['aha']
+374,"['normal', 'oily', 'combination', 'dry']","['oiliness', 'acne', 'dryness']","['glowing', 'tone-evening', 'nourishing', 'hydrating', 'oil-control']","['glycerin', 'niacinamide', 'vitamin c']"
+375,"['oily', 'combination', 'dry', 'normal']","['acne', 'dark spots', 'dryness', 'pores', 'oiliness', 'redness']","['glowing', 'healthy']","['niacinamide', 'vitamin c', 'green tea']"
+376,"['oily', 'combination', 'dry', 'normal']","['acne', 'pores', 'dryness', 'oiliness']","['glowing', 'healthy', 'hydrating', 'oil-control', 'brightening']","['glycerin', 'squalane', 'zinc']"
+377,"['combination', 'dry', 'normal', 'oily', 'sensitive']",[],['glowing'],['glycerin']
+378,"['oily', 'combination', 'dry', 'normal']","['dark spots', 'dryness', 'pores', 'fine lines', 'acne', 'redness']","['hydrating', 'healthy', 'brightening', 'oil-control', 'tone-evening']",['unknown']
+379,"['oily', 'combination', 'dry', 'normal']","['acne', 'pores', 'dryness', 'oiliness', 'redness']","['hydrating', 'brightening', 'oil-control', 'tone-evening']",['green tea']
+380,"['combination', 'dry', 'normal', 'oily', 'sensitive']","['acne', 'pores', 'dryness', 'fine lines', 'redness']","['hydrating', 'glowing', 'healthy', 'brightening', 'tone-evening']",['zinc']
+381,['sensitive'],[],"['glowing', 'regenerating']",['vitamin c']
+382,"['oily', 'combination', 'dry', 'normal', 'sensitive']","['dark spots', 'dryness', 'pores', 'oiliness', 'redness', 'acne']","['brightening', 'tone-evening', 'hydrating', 'scar-fading', 'oil-control']",['vitamin c']
+383,"['dry', 'sensitive', 'combination', 'normal', 'oily']","['acne', 'dryness', 'pores', 'oiliness', 'redness']","['oil-control', 'hydrating']",['hyaluronic acid']
+384,"['combination', 'oily', 'dry', 'normal', 'sensitive']","['acne', 'oiliness', 'pores', 'hyperpigmentation']","['hydrating', 'oil-control', 'scar-fading', 'tone-evening', 'healthy']","['allantoin', 'glycerin', 'hyaluronic acid', 'niacinamide', 'zinc']"
+385,"['oily', 'combination', 'dry', 'normal', 'sensitive']","['acne', 'fine lines', 'wrinkles', 'pores', 'dryness', 'redness']","['brightening', 'nourishing', 'tone-evening', 'anti-aging', 'glowing', 'oil-control', 'hydrating']","['allantoin', 'glycerin', 'niacinamide', 'vitamin c', 'zinc']"
+386,['sensitive'],[],"['brightening', 'nourishing']",['vitamin c']
+387,"['combination', 'dry', 'normal', 'oily']","['acne', 'pores', 'dryness']","['brightening', 'glowing', 'hydrating', 'scar-fading']","['niacinamide', 'vitamin c']"
+388,"['dry', 'sensitive', 'combination', 'normal', 'oily']","['fine lines', 'oiliness', 'pores', 'dryness', 'dark spots', 'acne']","['brightening', 'healthy', 'nourishing', 'regenerating', 'glowing', 'hydrating', 'anti-aging']","['niacinamide', 'vitamin c']"
+389,"['oily', 'dry', 'combination', 'normal', 'sensitive']","['acne', 'pores', 'dryness', 'redness', 'oiliness']","['oil-control', 'hydrating', 'brightening']","['green tea', 'salicylic acid', 'zinc', 'niacinamide']"
+390,"['oily', 'combination', 'dry', 'normal']","['acne', 'pores', 'dryness', 'oiliness', 'redness', 'dark spots']","['hydrating', 'scar-fading', 'glowing', 'brightening', 'tone-evening']","['niacinamide', 'vitamin c', 'green tea']"
+391,"['oily', 'dry', 'sensitive', 'combination', 'normal']","['acne', 'pores', 'dryness', 'oiliness', 'redness']","['hydrating', 'glowing', 'healthy', 'plumping', 'barrier-repair', 'brightening']","['glycerin', 'green tea', 'hyaluronic acid']"
+392,"['oily', 'dry', 'combination', 'normal', 'sensitive']","['wrinkles', 'dryness', 'redness', 'pores', 'oiliness', 'acne']","['glowing', 'hydrating', 'regenerating', 'oil-control', 'barrier-repair', 'smoothing', 'healthy', 'brightening']","['allantoin', 'niacinamide', 'panthenol', 'retinol']"
+393,"['dry', 'oily', 'sensitive', 'combination', 'normal']","['acne', 'pores', 'dryness', 'oiliness', 'redness']","['hydrating', 'anti-aging', 'glowing']","['aha', 'ceramide', 'glycerin', 'retinol']"
+394,"['dry', 'oily', 'sensitive', 'combination', 'normal']","['acne', 'fine lines', 'redness']","['barrier-repair', 'brightening', 'hydrating']","['ceramide', 'hyaluronic acid', 'niacinamide', 'panthenol']"
+395,"['oily', 'combination', 'dry', 'normal']","['wrinkles', 'dryness', 'pores', 'oiliness', 'redness', 'acne']","['brightening', 'hydrating', 'refreshing', 'oil-control', 'scar-fading']","['allantoin', 'glycerin', 'niacinamide']"
+396,"['combination', 'dry', 'normal', 'oily']","['acne', 'dark spots', 'dryness', 'redness', 'wrinkles']","['hydrating', 'brightening']",['squalane']
+397,"['oily', 'combination', 'dry', 'normal', 'sensitive']","['acne', 'oiliness', 'redness', 'dryness']","['brightening', 'tone-evening', 'hydrating', 'glowing', 'scar-fading', 'healthy']","['ceramide', 'niacinamide', 'vitamin c']"
+398,"['combination', 'dry', 'normal', 'oily']","['acne', 'dark spots', 'dryness', 'redness']","['brightening', 'hydrating', 'scar-fading', 'nourishing', 'smoothing', 'plumping']",['niacinamide']
+399,"['combination', 'dry', 'normal', 'oily', 'sensitive']","['acne', 'dark spots', 'redness']","['brightening', 'tone-evening', 'pore-minimizing', 'glowing', 'nourishing', 'hydrating', 'healthy', 'oil-control', 'plumping']","['niacinamide', 'zinc']"
+400,"['oily', 'combination', 'dry', 'normal', 'sensitive']","['acne', 'pores', 'dryness', 'oiliness']","['brightening', 'tone-evening', 'glowing', 'oil-control', 'hydrating']","['niacinamide', 'vitamin c']"
+401,"['oily', 'dry', 'sensitive', 'combination', 'normal']","['acne', 'oiliness', 'dryness', 'redness']","['hydrating', 'brightening', 'scar-fading', 'oil-control']",['vitamin c']
+402,['normal'],['acne'],[],['vitamin c']
+403,"['combination', 'normal', 'sensitive', 'dry', 'oily']","['acne', 'dryness']","['brightening', 'glowing', 'hydrating', 'scar-fading']",['niacinamide']
+404,"['normal', 'oily', 'combination', 'sensitive', 'dry']","['pores', 'dryness', 'acne', 'oiliness']","['brightening', 'hydrating', 'oil-control', 'glowing', 'tone-evening', 'smoothing']",['vitamin c']
+405,"['oily', 'dry', 'sensitive', 'combination', 'normal']","['dark spots', 'dryness', 'hyperpigmentation', 'oiliness', 'acne']","['hydrating', 'brightening', 'refreshing', 'tone-evening', 'glowing', 'scar-fading', 'oil-control']","['glycerin', 'niacinamide', 'zinc', 'allantoin', 'vitamin c']"
+406,"['oily', 'combination', 'dry', 'normal', 'sensitive']","['dryness', 'pores', 'oiliness', 'acne', 'redness']","['hydrating', 'barrier-repair', 'brightening', 'smoothing', 'glowing']","['retinol', 'salicylic acid', 'squalane', 'niacinamide', 'glycerin']"
+407,"['oily', 'dry', 'combination', 'normal', 'sensitive']","['wrinkles', 'acne', 'dark spots', 'dryness', 'pores', 'oiliness', 'redness']","['brightening', 'glowing', 'tone-evening', 'hydrating', 'scar-fading', 'healthy', 'plumping']","['glycerin', 'salicylic acid', 'aha', 'niacinamide']"
+408,"['combination', 'dry', 'normal', 'oily']","['acne', 'dark spots', 'dryness', 'hyperpigmentation', 'redness']","['barrier-repair', 'scar-fading', 'plumping', 'hydrating', 'glowing', 'smoothing', 'brightening']","['glycerin', 'niacinamide', 'aha', 'salicylic acid']"
+409,"['combination', 'dry', 'normal']",['dryness'],['brightening'],['unknown']
+410,"['oily', 'combination', 'dry', 'normal', 'sensitive']","['pores', 'oiliness', 'acne', 'dryness', 'redness']","['oil-control', 'brightening', 'hydrating']","['niacinamide', 'zinc', 'aha', 'bha', 'salicylic acid', 'retinol']"
+411,"['combination', 'sensitive', 'dry', 'oily', 'normal']","['dryness', 'redness', 'acne', 'pores', 'oiliness']","['hydrating', 'nourishing', 'barrier-repair', 'healthy', 'plumping', 'brightening', 'oil-control']","['aha', 'allantoin', 'bha', 'glycerin', 'retinol', 'squalane', 'ceramide', 'panthenol']"
+412,"['oily', 'combination', 'dry', 'normal']","['acne', 'dark spots', 'hyperpigmentation', 'dryness', 'wrinkles', 'pores', 'redness']","['hydrating', 'scar-fading', 'plumping', 'barrier-repair', 'healthy', 'brightening', 'glowing']","['niacinamide', 'squalane']"
+413,"['combination', 'dry', 'normal', 'oily']","['pores', 'redness', 'acne', 'dark spots', 'dryness']","['brightening', 'hydrating', 'healthy']",['zinc']
+414,"['combination', 'dry', 'normal', 'oily']","['dryness', 'oiliness', 'redness', 'wrinkles', 'acne', 'pores']","['hydrating', 'brightening', 'smoothing']",['glycerin']
+415,"['oily', 'combination', 'dry', 'normal', 'sensitive']","['acne', 'dark spots', 'pores', 'dryness', 'oiliness', 'redness']","['anti-aging', 'barrier-repair', 'brightening', 'hydrating', 'smoothing', 'healthy', 'plumping']","['aha', 'allantoin', 'green tea', 'hyaluronic acid', 'niacinamide', 'retinol', 'salicylic acid']"
+416,"['oily', 'combination', 'dry', 'normal', 'sensitive']","['acne', 'dark spots', 'redness', 'dryness', 'oiliness', 'pores']","['anti-aging', 'brightening', 'refreshing', 'barrier-repair', 'pore-minimizing', 'smoothing', 'hydrating']","['niacinamide', 'salicylic acid', 'ceramide']"
+417,"['oily', 'dry', 'sensitive', 'combination', 'normal']","['acne', 'fine lines', 'pores', 'redness', 'wrinkles', 'dryness', 'oiliness', 'dark spots']","['healthy', 'tone-evening', 'hydrating', 'brightening', 'anti-aging']","['aha', 'bha', 'glycerin', 'niacinamide', 'panthenol', 'zinc', 'green tea', 'vitamin c']"
+418,['sensitive'],"['fine lines', 'pores', 'wrinkles']",[],"['glycerin', 'niacinamide', 'panthenol', 'zinc']"
+419,"['combination', 'dry', 'normal', 'oily']","['acne', 'dryness']","['brightening', 'hydrating', 'refreshing', 'barrier-repair']","['aha', 'hyaluronic acid', 'niacinamide']"
+420,"['oily', 'combination', 'dry', 'normal', 'sensitive']","['dryness', 'pores', 'acne', 'oiliness', 'redness']","['brightening', 'hydrating', 'nourishing', 'tone-evening']",['vitamin c']
+421,"['combination', 'dry', 'normal', 'oily']","['acne', 'dryness']","['brightening', 'hydrating', 'nourishing', 'tone-evening']","['aha', 'hyaluronic acid', 'niacinamide']"
+422,"['oily', 'combination', 'dry', 'normal', 'sensitive']","['acne', 'hyperpigmentation', 'dryness', 'redness', 'oiliness']","['brightening', 'hydrating', 'tone-evening', 'barrier-repair', 'scar-fading', 'plumping']","['hyaluronic acid', 'retinol', 'niacinamide']"
+423,"['combination', 'oily', 'normal', 'dry']",['acne'],"['smoothing', 'brightening', 'hydrating']","['allantoin', 'glycerin']"
+424,"['oily', 'dry', 'combination', 'normal']","['acne', 'fine lines', 'pores', 'wrinkles', 'dryness', 'dark spots']","['brightening', 'firming', 'glowing', 'hydrating', 'plumping']","['aha', 'bha', 'niacinamide', 'vitamin c']"
+425,"['oily', 'dry', 'sensitive', 'combination', 'normal']","['dryness', 'oiliness', 'acne', 'pores', 'redness', 'wrinkles']","['hydrating', 'anti-aging', 'brightening', 'regenerating', 'barrier-repair', 'tone-evening']","['ceramide', 'niacinamide', 'squalane', 'retinol']"
+426,"['oily', 'combination', 'dry', 'normal', 'sensitive']","['acne', 'pores', 'dryness', 'oiliness', 'redness']","['hydrating', 'scar-fading', 'oil-control', 'brightening', 'plumping', 'anti-aging', 'barrier-repair', 'healthy', 'glowing']","['aha', 'bha', 'niacinamide', 'retinol', 'vitamin c', 'green tea']"
+427,"['combination', 'sensitive', 'dry', 'oily', 'normal']","['acne', 'dryness', 'pores', 'redness', 'oiliness']","['hydrating', 'anti-aging', 'barrier-repair', 'healthy', 'brightening', 'smoothing']","['allantoin', 'ceramide', 'glycerin', 'green tea', 'panthenol', 'retinol', 'niacinamide', 'azelaic acid']"
+428,"['dry', 'oily', 'sensitive', 'combination', 'normal']","['acne', 'dryness', 'pores']","['hydrating', 'healthy', 'scar-fading']",['glycerin']
+429,"['oily', 'dry', 'normal', 'combination', 'sensitive']","['acne', 'pores', 'dryness', 'oiliness', 'hyperpigmentation', 'redness']","['hydrating', 'oil-control', 'plumping', 'barrier-repair', 'nourishing']","['allantoin', 'glycerin', 'hyaluronic acid', 'ceramide', 'retinol', 'niacinamide', 'zinc', 'squalane', 'bha', 'salicylic acid']"
+430,"['oily', 'dry', 'sensitive', 'combination', 'normal']","['dryness', 'pores', 'oiliness', 'redness', 'acne']","['brightening', 'hydrating', 'oil-control', 'plumping', 'barrier-repair', 'healthy', 'smoothing']","['ceramide', 'hyaluronic acid', 'glycerin', 'retinol', 'allantoin', 'panthenol']"
+431,"['normal', 'oily', 'combination', 'dry', 'sensitive']","['pores', 'redness', 'dryness', 'oiliness', 'fine lines', 'acne']","['hydrating', 'barrier-repair', 'brightening', 'healthy']","['ceramide', 'retinol', 'niacinamide']"
+432,"['combination', 'dry', 'normal', 'oily', 'sensitive']","['wrinkles', 'dryness', 'redness']","['hydrating', 'brightening']",['glycerin']
+433,['sensitive'],[],[],['glycerin']
+434,"['oily', 'dry', 'combination', 'normal', 'sensitive']","['acne', 'dryness', 'redness']","['brightening', 'hydrating', 'scar-fading', 'tone-evening']","['allantoin', 'niacinamide', 'retinol']"
+435,"['normal', 'oily', 'dry', 'combination', 'sensitive']","['pores', 'redness', 'acne', 'dryness']","['brightening', 'hydrating', 'nourishing', 'plumping', 'smoothing', 'glowing', 'scar-fading', 'tone-evening']","['allantoin', 'niacinamide', 'aha']"
+436,"['oily', 'combination', 'dry', 'normal']","['wrinkles', 'dryness', 'pores', 'oiliness', 'acne']","['anti-aging', 'brightening', 'healthy', 'hydrating', 'nourishing', 'pore-minimizing', 'tone-evening', 'scar-fading']","['aha', 'hyaluronic acid']"
+437,"['oily', 'combination', 'dry', 'normal']","['oiliness', 'redness', 'acne', 'fine lines']","['hydrating', 'anti-aging']",['unknown']
+438,"['oily', 'combination', 'dry', 'normal']",['acne'],"['brightening', 'hydrating', 'oil-control', 'glowing']","['allantoin', 'glycerin', 'niacinamide']"
+439,"['oily', 'combination', 'dry', 'normal']","['acne', 'dark spots', 'fine lines', 'hyperpigmentation', 'wrinkles', 'dryness', 'oiliness', 'redness']","['brightening', 'healthy', 'hydrating', 'oil-control', 'scar-fading', 'nourishing', 'glowing', 'plumping', 'tone-evening']",['hyaluronic acid']
+440,"['dry', 'sensitive', 'combination', 'normal', 'oily']",['dryness'],"['brightening', 'hydrating']",['niacinamide']
+441,"['oily', 'dry', 'combination', 'normal', 'sensitive']","['redness', 'acne', 'dark spots', 'dryness']","['brightening', 'hydrating', 'nourishing', 'glowing', 'scar-fading']","['niacinamide', 'glycerin', 'retinol']"
+442,"['oily', 'combination', 'dry', 'sensitive', 'normal']","['dryness', 'oiliness', 'acne', 'redness']","['brightening', 'hydrating', 'oil-control', 'scar-fading']","['niacinamide', 'zinc']"
+443,"['oily', 'dry', 'combination']","['dryness', 'oiliness', 'acne']","['brightening', 'hydrating', 'oil-control', 'tone-evening']",['niacinamide']
+444,['sensitive'],[],[],['glycerin']
+445,"['oily', 'dry', 'sensitive', 'combination', 'normal']","['acne', 'pores', 'dryness', 'oiliness', 'redness']","['hydrating', 'barrier-repair', 'scar-fading', 'brightening']","['ceramide', 'hyaluronic acid', 'niacinamide', 'aha', 'bha', 'retinol']"
+446,"['oily', 'combination', 'dry', 'normal']","['oiliness', 'acne', 'dryness']","['hydrating', 'glowing', 'plumping', 'brightening', 'smoothing']","['glycerin', 'niacinamide']"
+447,"['combination', 'normal', 'dry', 'sensitive', 'oily']","['wrinkles', 'dryness', 'oiliness', 'acne', 'uneven texture', 'pores', 'redness']","['hydrating', 'oil-control', 'plumping', 'scar-fading', 'brightening', 'smoothing']","['glycerin', 'retinol', 'aha']"
+448,"['oily', 'dry', 'sensitive', 'combination', 'normal']","['acne', 'dark spots', 'pores', 'dryness', 'hyperpigmentation', 'redness', 'oiliness', 'fine lines']","['brightening', 'healthy', 'hydrating', 'oil-control', 'scar-fading', 'glowing', 'tone-evening', 'smoothing', 'plumping', 'barrier-repair']","['aha', 'ceramide', 'glycerin', 'niacinamide', 'squalane', 'vitamin c']"
+449,"['oily', 'dry', 'combination', 'normal', 'sensitive']","['dryness', 'pores', 'oiliness', 'acne', 'redness']","['brightening', 'hydrating', 'oil-control']","['glycerin', 'green tea']"
+450,"['oily', 'dry', 'combination', 'sensitive', 'normal']","['oiliness', 'redness', 'acne', 'dryness']","['hydrating', 'oil-control', 'plumping', 'healthy', 'brightening', 'smoothing', 'glowing']","['allantoin', 'glycerin', 'niacinamide']"
+451,"['normal', 'oily', 'combination', 'sensitive', 'dry']","['dark spots', 'hyperpigmentation', 'redness', 'acne', 'dryness']","['hydrating', 'glowing', 'brightening', 'smoothing', 'plumping', 'healthy', 'regenerating']","['aha', 'vitamin c']"
+452,"['oily', 'dry', 'combination', 'normal', 'sensitive']","['acne', 'dark spots', 'dryness', 'oiliness', 'redness']","['brightening', 'healthy', 'hydrating', 'scar-fading', 'glowing', 'tone-evening', 'barrier-repair']","['glycerin', 'hyaluronic acid', 'niacinamide', 'vitamin c', 'salicylic acid', 'ceramide']"
+453,"['oily', 'dry', 'sensitive', 'combination', 'normal']","['dryness', 'pores', 'oiliness', 'redness', 'acne']","['hydrating', 'plumping', 'barrier-repair', 'brightening', 'glowing', 'scar-fading', 'tone-evening', 'healthy', 'smoothing']","['ceramide', 'glycerin', 'niacinamide', 'salicylic acid', 'vitamin c']"
+454,"['dry', 'oily', 'sensitive', 'combination', 'normal']","['acne', 'oiliness', 'redness', 'pores', 'dryness']","['oil-control', 'scar-fading', 'hydrating', 'plumping', 'brightening', 'healthy', 'refreshing', 'glowing']","['allantoin', 'niacinamide', 'vitamin c', 'retinol']"
+455,"['combination', 'dry', 'normal', 'oily', 'sensitive']","['redness', 'acne', 'dryness']","['brightening', 'tone-evening', 'glowing', 'hydrating', 'healthy', 'smoothing']",['niacinamide']
+456,"['oily', 'dry', 'combination', 'normal', 'sensitive']","['dryness', 'oiliness', 'fine lines', 'redness', 'acne', 'dark spots']","['anti-aging', 'brightening', 'nourishing', 'hydrating']","['glycerin', 'hyaluronic acid', 'niacinamide', 'retinol', 'ceramide']"
+457,"['oily', 'dry', 'sensitive', 'combination', 'normal']","['dryness', 'oiliness', 'acne', 'redness']","['hydrating', 'brightening', 'plumping']","['glycerin', 'retinol', 'aha', 'bha', 'azelaic acid', 'vitamin c']"
+458,"['combination', 'sensitive', 'dry', 'oily', 'normal']","['acne', 'pores', 'dryness', 'redness', 'oiliness', 'wrinkles']","['hydrating', 'brightening', 'smoothing']","['niacinamide', 'hyaluronic acid', 'green tea', 'aha', 'bha', 'retinol']"
+459,"['oily', 'combination', 'dry', 'normal', 'sensitive']","['acne', 'pores', 'dryness', 'hyperpigmentation', 'oiliness', 'fine lines', 'redness']","['brightening', 'hydrating', 'nourishing', 'tone-evening', 'smoothing', 'glowing']","['allantoin', 'glycerin', 'niacinamide', 'retinol']"
+460,"['combination', 'sensitive', 'oily', 'dry', 'normal']","['dryness', 'pores', 'oiliness', 'redness', 'acne']","['healthy', 'oil-control', 'hydrating']",['glycerin']
+461,"['combination', 'dry', 'normal', 'oily', 'sensitive']","['acne', 'oiliness', 'pores', 'dryness', 'dark spots', 'wrinkles', 'redness']","['hydrating', 'scar-fading', 'brightening', 'oil-control', 'glowing', 'smoothing', 'tone-evening', 'healthy']","['glycerin', 'salicylic acid', 'hyaluronic acid', 'aha', 'bha']"
+462,"['oily', 'combination', 'dry', 'normal']","['pores', 'oiliness', 'acne', 'dryness']","['hydrating', 'healthy']","['glycerin', 'squalane', 'zinc']"
+463,"['oily', 'combination', 'dry', 'normal']","['dryness', 'pores', 'redness', 'acne']","['hydrating', 'plumping', 'healthy', 'smoothing', 'barrier-repair', 'brightening']","['aha', 'allantoin', 'bha', 'ceramide', 'glycerin', 'retinol', 'niacinamide']"
+464,"['combination', 'dry', 'normal', 'sensitive', 'oily']","['dryness', 'oiliness', 'pores', 'uneven texture', 'redness', 'acne']","['hydrating', 'oil-control', 'plumping', 'barrier-repair', 'brightening', 'anti-aging', 'smoothing', 'glowing']","['allantoin', 'glycerin', 'hyaluronic acid', 'ceramide']"
+465,"['oily', 'combination', 'sensitive', 'dry', 'normal']","['acne', 'dark spots', 'dryness', 'pores', 'oiliness', 'redness']","['brightening', 'glowing', 'hydrating', 'plumping']","['allantoin', 'glycerin', 'niacinamide']"
+466,"['dry', 'oily', 'sensitive', 'combination', 'normal']","['acne', 'dryness', 'oiliness']","['barrier-repair', 'glowing', 'hydrating', 'brightening', 'smoothing']","['ceramide', 'hyaluronic acid']"
+467,"['oily', 'dry', 'combination', 'normal']","['dryness', 'oiliness', 'acne']","['brightening', 'glowing', 'smoothing', 'hydrating', 'oil-control']","['niacinamide', 'vitamin c', 'bha', 'salicylic acid', 'retinol']"
+468,"['oily', 'dry', 'combination', 'normal', 'sensitive']","['dryness', 'pores', 'redness', 'acne', 'oiliness']","['brightening', 'glowing', 'hydrating', 'healthy', 'anti-aging', 'plumping', 'nourishing']","['niacinamide', 'retinol']"
+469,"['dry', 'oily', 'sensitive', 'combination', 'normal']","['acne', 'dark spots', 'dryness', 'redness', 'oiliness', 'pores']","['brightening', 'tone-evening', 'hydrating', 'glowing', 'barrier-repair', 'plumping', 'nourishing']","['niacinamide', 'hyaluronic acid', 'ceramide']"
+470,"['oily', 'dry', 'sensitive', 'combination', 'normal']","['pores', 'redness', 'dryness', 'acne', 'oiliness']","['brightening', 'hydrating', 'oil-control', 'pore-minimizing', 'smoothing']","['allantoin', 'niacinamide', 'retinol']"
+471,"['oily', 'dry', 'combination', 'normal', 'sensitive']","['acne', 'pores', 'dryness', 'oiliness', 'hyperpigmentation', 'redness']","['healthy', 'smoothing', 'brightening', 'hydrating', 'oil-control']","['allantoin', 'glycerin', 'panthenol', 'salicylic acid', 'squalane', 'bha']"
+472,"['oily', 'combination', 'dry', 'normal', 'sensitive']","['wrinkles', 'pores', 'redness', 'dryness', 'fine lines', 'acne']","['hydrating', 'glowing', 'brightening', 'plumping', 'firming', 'barrier-repair', 'oil-control', 'healthy']","['glycerin', 'hyaluronic acid', 'niacinamide', 'ceramide', 'retinol', 'aha', 'bha']"
+473,"['oily', 'combination', 'sensitive', 'dry', 'normal']","['acne', 'oiliness', 'redness', 'pores', 'dryness']","['oil-control', 'scar-fading', 'hydrating', 'brightening', 'pore-minimizing', 'barrier-repair']","['ceramide', 'glycerin', 'panthenol', 'retinol', 'squalane', 'green tea', 'salicylic acid', 'hyaluronic acid']"
+474,"['dry', 'oily', 'sensitive', 'normal', 'combination']","['acne', 'dryness', 'fine lines', 'redness', 'oiliness', 'wrinkles']","['barrier-repair', 'brightening', 'hydrating', 'oil-control']","['ceramide', 'hyaluronic acid', 'niacinamide', 'panthenol', 'retinol']"
+475,"['oily', 'combination', 'dry', 'normal']","['acne', 'pores', 'dark spots', 'redness', 'dryness', 'hyperpigmentation', 'oiliness']","['hydrating', 'scar-fading', 'brightening', 'oil-control', 'pore-minimizing', 'barrier-repair', 'tone-evening']","['ceramide', 'niacinamide', 'aha', 'bha', 'glycerin', 'panthenol', 'retinol']"
+476,"['oily', 'dry', 'combination', 'normal']","['dryness', 'oiliness', 'dark spots', 'hyperpigmentation', 'acne']","['hydrating', 'scar-fading', 'plumping', 'brightening', 'healthy']","['niacinamide', 'vitamin c', 'aha', 'bha']"
+477,"['combination', 'normal', 'dry']","['redness', 'acne']",['hydrating'],"['allantoin', 'ceramide', 'glycerin', 'niacinamide', 'retinol', 'zinc']"
+478,"['oily', 'combination', 'dry', 'normal']","['acne', 'pores', 'dryness', 'oiliness', 'redness']","['oil-control', 'scar-fading', 'hydrating', 'brightening']",['glycerin']
+479,"['oily', 'dry', 'combination', 'normal']","['acne', 'dryness', 'redness']","['oil-control', 'hydrating', 'glowing', 'scar-fading']","['allantoin', 'ceramide', 'glycerin', 'hyaluronic acid', 'panthenol', 'retinol']"
+480,"['oily', 'combination', 'dry', 'normal']","['acne', 'redness', 'wrinkles']","['hydrating', 'smoothing']","['glycerin', 'retinol']"
+481,"['combination', 'sensitive', 'dry', 'oily', 'normal']","['acne', 'dryness', 'redness', 'oiliness']","['hydrating', 'brightening', 'healthy']",['salicylic acid']
+482,"['combination', 'sensitive', 'dry', 'oily', 'normal']","['dryness', 'redness', 'acne', 'oiliness', 'dark spots']","['hydrating', 'barrier-repair', 'brightening', 'smoothing', 'nourishing']","['allantoin', 'ceramide', 'glycerin', 'niacinamide', 'panthenol', 'aha', 'bha', 'retinol', 'azelaic acid']"
+483,"['oily', 'combination', 'dry', 'normal']","['dark spots', 'hyperpigmentation', 'acne', 'dryness', 'oiliness', 'pores', 'redness']","['barrier-repair', 'brightening', 'hydrating', 'scar-fading']","['allantoin', 'ceramide', 'glycerin', 'niacinamide', 'vitamin c', 'panthenol']"
+484,"['dry', 'sensitive', 'combination', 'normal', 'oily']","['dark spots', 'dryness', 'pores', 'fine lines', 'redness', 'acne']","['hydrating', 'barrier-repair', 'healthy', 'regenerating', 'glowing']","['glycerin', 'hyaluronic acid', 'ceramide']"
+485,"['oily', 'dry', 'combination', 'normal']","['acne', 'pores', 'dryness', 'redness', 'oiliness']","['hydrating', 'plumping', 'glowing', 'healthy', 'barrier-repair', 'brightening', 'smoothing']","['aha', 'bha', 'hyaluronic acid', 'retinol']"
+486,"['oily', 'dry', 'sensitive', 'combination', 'normal']","['dryness', 'oiliness', 'pores', 'fine lines', 'redness', 'acne']","['hydrating', 'plumping', 'anti-aging', 'brightening', 'regenerating']","['retinol', 'glycerin']"
+487,"['oily', 'combination', 'dry', 'normal', 'sensitive']","['pores', 'redness', 'dryness', 'acne', 'oiliness']","['hydrating', 'oil-control', 'healthy', 'barrier-repair', 'brightening']","['niacinamide', 'retinol']"
+488,"['oily', 'dry', 'combination', 'normal', 'sensitive']","['dryness', 'oiliness', 'fine lines', 'wrinkles', 'redness', 'acne']","['brightening', 'glowing', 'tone-evening', 'hydrating', 'anti-aging', 'barrier-repair', 'healthy']","['allantoin', 'squalane', 'vitamin c']"
+489,"['oily', 'combination', 'sensitive', 'dry', 'normal']","['oiliness', 'redness', 'acne']","['brightening', 'scar-fading', 'oil-control', 'hydrating']",['bha']
+490,"['oily', 'combination', 'dry', 'normal', 'sensitive']","['dryness', 'pores', 'oiliness', 'acne', 'redness']","['hydrating', 'brightening', 'barrier-repair']","['ceramide', 'aha', 'bha', 'retinol']"
+491,"['oily', 'dry', 'combination', 'normal', 'sensitive']","['acne', 'pores', 'dryness', 'oiliness', 'redness']","['hydrating', 'healthy', 'scar-fading', 'barrier-repair', 'oil-control', 'brightening', 'nourishing']","['niacinamide', 'panthenol', 'bha', 'allantoin', 'aha', 'green tea']"
+492,"['oily', 'combination', 'dry', 'normal', 'sensitive']","['acne', 'dark spots', 'pores', 'oiliness', 'dryness', 'redness']","['hydrating', 'nourishing', 'oil-control', 'scar-fading', 'brightening']","['allantoin', 'glycerin', 'niacinamide', 'panthenol', 'retinol']"
+493,"['oily', 'combination', 'dry', 'normal']","['oiliness', 'acne', 'dryness', 'redness']","['barrier-repair', 'hydrating']","['allantoin', 'glycerin', 'niacinamide', 'salicylic acid', 'squalane', 'bha']"
+494,"['combination', 'dry', 'normal', 'oily', 'sensitive']",[],"['hydrating', 'plumping', 'smoothing']",['glycerin']
+495,"['combination', 'dry', 'normal', 'oily']",['dryness'],"['smoothing', 'hydrating']","['allantoin', 'glycerin']"
+496,"['combination', 'dry', 'normal', 'oily']",['dryness'],"['hydrating', 'brightening', 'smoothing']","['allantoin', 'glycerin']"
+497,"['combination', 'oily', 'normal', 'dry']",[],['hydrating'],"['glycerin', 'vitamin c']"
+498,"['combination', 'dry', 'normal', 'oily']",['dryness'],"['hydrating', 'brightening', 'healthy']","['allantoin', 'glycerin']"
+499,"['medium light', 'combination', 'dry', 'normal', 'oily']","['acne', 'pores', 'dryness', 'redness']","['glowing', 'hydrating', 'brightening']",['unknown']
+500,"['combination', 'oily', 'dry', 'normal', 'sensitive']","['dryness', 'oiliness', 'pores', 'redness', 'acne']","['healthy', 'tone-evening', 'glowing', 'hydrating', 'refreshing', 'scar-fading']","['ceramide', 'glycerin', 'green tea', 'bha']"
+501,"['oily', 'dry', 'sensitive', 'combination', 'normal']","['dryness', 'pores', 'acne', 'redness', 'uneven texture', 'fine lines']","['brightening', 'hydrating', 'refreshing', 'regenerating', 'barrier-repair', 'plumping']","['hyaluronic acid', 'niacinamide', 'aha', 'bha']"
+502,['sensitive'],[],[],['glycerin']
+503,"['dry', 'oily', 'sensitive', 'combination', 'normal']","['acne', 'dryness', 'oiliness', 'redness', 'pores']","['barrier-repair', 'hydrating', 'smoothing', 'brightening', 'oil-control']","['allantoin', 'ceramide', 'glycerin', 'squalane', 'aha', 'bha', 'retinol', 'salicylic acid']"
+504,"['oily', 'dry', 'combination', 'normal', 'sensitive']","['acne', 'pores', 'oiliness', 'dryness', 'redness']","['hydrating', 'anti-aging', 'firming', 'nourishing']","['niacinamide', 'green tea']"
+505,"['dry', 'oily', 'sensitive', 'combination', 'normal']","['acne', 'dryness', 'redness', 'oiliness']","['barrier-repair', 'hydrating', 'brightening']","['ceramide', 'glycerin', 'hyaluronic acid', 'panthenol', 'azelaic acid', 'niacinamide', 'retinol', 'aha']"
+506,"['oily', 'dry', 'sensitive', 'combination', 'normal']","['wrinkles', 'dryness', 'pores', 'redness', 'acne']",['hydrating'],"['glycerin', 'retinol']"
+507,"['combination', 'dry', 'sensitive', 'normal', 'oily']","['acne', 'dryness']",['hydrating'],"['glycerin', 'panthenol']"
+508,"['dry', 'oily', 'combination', 'normal']","['acne', 'dryness', 'pores', 'oiliness', 'dark spots', 'redness']","['brightening', 'hydrating', 'oil-control']",['niacinamide']
+509,"['oily', 'dry', 'combination', 'sensitive', 'normal']","['acne', 'pores', 'oiliness', 'dryness', 'redness']","['brightening', 'hydrating', 'oil-control']","['glycerin', 'salicylic acid', 'bha']"
+510,"['dry', 'oily', 'combination', 'sensitive', 'normal']","['acne', 'dryness', 'fine lines', 'redness', 'oiliness', 'pores']","['oil-control', 'brightening', 'hydrating']","['glycerin', 'salicylic acid', 'green tea']"
+511,"['oily', 'combination', 'dry', 'normal', 'sensitive']","['acne', 'pores', 'hyperpigmentation', 'dryness', 'fine lines', 'oiliness']","['hydrating', 'brightening', 'tone-evening', 'barrier-repair', 'healthy', 'oil-control', 'scar-fading']","['bha', 'hyaluronic acid', 'aha']"
+512,"['combination', 'normal', 'dry', 'sensitive', 'oily']","['fine lines', 'oiliness', 'acne', 'dryness', 'pores', 'redness', 'uneven texture']","['barrier-repair', 'firming', 'pore-minimizing', 'brightening', 'hydrating']",['glycerin']
+513,['sensitive'],[],[],['glycerin']
+514,"['combination', 'oily', 'dry', 'normal', 'sensitive']","['dryness', 'oiliness', 'pores', 'acne']","['brightening', 'hydrating', 'oil-control', 'nourishing', 'tone-evening', 'barrier-repair', 'healthy']","['aha', 'allantoin', 'glycerin', 'hyaluronic acid', 'panthenol', 'bha', 'retinol']"
+515,"['oily', 'combination', 'dry', 'normal', 'sensitive']","['pores', 'redness', 'acne', 'dark spots', 'oiliness', 'dryness']","['hydrating', 'oil-control', 'healthy', 'brightening', 'smoothing']","['allantoin', 'bha', 'hyaluronic acid', 'niacinamide', 'panthenol', 'zinc', 'aha']"
+516,"['oily', 'dry', 'combination', 'normal', 'sensitive']","['dryness', 'oiliness', 'acne', 'pores', 'redness']","['hydrating', 'oil-control', 'brightening', 'plumping', 'healthy']","['aha', 'allantoin', 'bha', 'glycerin', 'panthenol', 'retinol', 'vitamin c']"
+517,"['combination', 'dry', 'normal', 'oily', 'sensitive']","['redness', 'acne', 'dryness']",['hydrating'],"['aha', 'glycerin']"
+518,"['oily', 'dry', 'sensitive', 'combination', 'normal']","['dryness', 'oiliness', 'redness', 'acne', 'pores']","['hydrating', 'plumping', 'barrier-repair', 'brightening', 'smoothing']","['aha', 'bha', 'allantoin', 'panthenol', 'squalane']"
+519,"['dry', 'oily', 'sensitive', 'combination', 'normal']","['acne', 'dryness', 'pores', 'redness', 'oiliness']","['hydrating', 'scar-fading', 'oil-control', 'barrier-repair', 'smoothing']","['allantoin', 'bha', 'ceramide', 'glycerin', 'niacinamide', 'zinc', 'salicylic acid', 'retinol', 'aha']"
+520,"['dry', 'oily', 'sensitive', 'combination', 'normal']","['dryness', 'pores', 'redness', 'oiliness', 'acne']","['barrier-repair', 'plumping', 'hydrating']","['allantoin', 'ceramide', 'hyaluronic acid', 'niacinamide', 'panthenol']"
+521,"['oily', 'combination', 'dry', 'normal', 'sensitive']","['acne', 'fine lines', 'wrinkles', 'redness', 'pores', 'dryness']","['brightening', 'healthy', 'hydrating', 'scar-fading', 'pore-minimizing', 'refreshing', 'anti-aging', 'smoothing']","['niacinamide', 'panthenol', 'peptides', 'retinol', 'vitamin c', 'hyaluronic acid']"
+522,"['oily', 'dry', 'sensitive', 'combination', 'normal']","['dryness', 'redness', 'acne', 'oiliness']","['hydrating', 'barrier-repair', 'scar-fading', 'healthy', 'oil-control']","['ceramide', 'niacinamide', 'azelaic acid', 'bha', 'aha', 'zinc', 'retinol', 'allantoin', 'salicylic acid']"
+523,"['oily', 'combination', 'dry', 'normal']","['acne', 'dark spots', 'dryness', 'oiliness', 'fine lines']","['hydrating', 'plumping', 'brightening', 'smoothing', 'glowing']",['glycerin']
+524,"['oily', 'combination', 'dry', 'normal', 'sensitive']","['dryness', 'oiliness', 'redness', 'pores', 'acne']","['barrier-repair', 'hydrating']","['glycerin', 'hyaluronic acid', 'panthenol', 'squalane', 'green tea']"
+525,"['oily', 'dry', 'sensitive', 'combination', 'normal']","['dryness', 'oiliness', 'redness', 'pores', 'acne', 'wrinkles']","['hydrating', 'glowing', 'healthy', 'barrier-repair', 'brightening']","['niacinamide', 'aha', 'bha', 'retinol', 'hyaluronic acid']"
+526,"['normal', 'oily', 'dry', 'combination', 'sensitive']","['dryness', 'oiliness', 'pores', 'redness', 'acne']","['hydrating', 'brightening', 'scar-fading', 'plumping', 'barrier-repair', 'healthy']","['glycerin', 'hyaluronic acid', 'retinol', 'salicylic acid']"
+527,"['oily', 'dry', 'combination', 'normal', 'sensitive']","['acne', 'fine lines', 'oiliness', 'wrinkles', 'pores', 'dark spots']","['brightening', 'glowing', 'nourishing', 'anti-aging', 'barrier-repair', 'scar-fading', 'hydrating', 'smoothing', 'oil-control', 'plumping', 'healthy']","['niacinamide', 'aha', 'bha', 'retinol', 'hyaluronic acid', 'salicylic acid']"
+528,"['oily', 'dry', 'combination', 'normal', 'sensitive']","['acne', 'dark spots', 'dryness', 'oiliness', 'redness']","['brightening', 'tone-evening', 'hydrating', 'barrier-repair', 'glowing']","['hyaluronic acid', 'niacinamide', 'vitamin c', 'retinol', 'bha', 'aha', 'glycerin']"
+529,"['combination', 'sensitive', 'dry', 'oily', 'normal']","['acne', 'pores', 'dryness', 'redness', 'oiliness']","['barrier-repair', 'healthy', 'brightening', 'hydrating', 'smoothing']","['allantoin', 'ceramide', 'glycerin', 'panthenol', 'squalane', 'aha', 'bha', 'hyaluronic acid', 'niacinamide', 'retinol']"
+530,['sensitive'],[],[],['glycerin']
+531,['sensitive'],[],[],['glycerin']
+532,['sensitive'],[],[],['glycerin']
+533,"['combination', 'oily', 'dry', 'sensitive', 'normal']","['dryness', 'oiliness', 'redness', 'acne']","['oil-control', 'hydrating', 'brightening', 'scar-fading']","['niacinamide', 'salicylic acid', 'green tea']"
+534,"['combination', 'oily', 'dry', 'normal']","['dryness', 'pores', 'oiliness', 'acne', 'redness']","['oil-control', 'hydrating', 'brightening']",['green tea']
+535,"['combination', 'oily', 'dry']","['acne', 'dryness']",['hydrating'],"['green tea', 'hyaluronic acid']"
+536,"['oily', 'dry', 'combination', 'normal']","['fine lines', 'pores', 'redness', 'acne', 'dryness', 'wrinkles', 'oiliness']","['brightening', 'smoothing', 'hydrating', 'anti-aging', 'firming']","['glycerin', 'green tea', 'squalane', 'hyaluronic acid', 'retinol']"
+537,"['combination', 'sensitive', 'dry', 'oily', 'normal']","['acne', 'fine lines', 'wrinkles', 'pores', 'redness', 'oiliness', 'dryness']","['hydrating', 'plumping', 'pore-minimizing', 'barrier-repair', 'anti-aging', 'healthy', 'tone-evening', 'brightening', 'firming', 'nourishing', 'smoothing']","['ceramide', 'glycerin', 'niacinamide', 'retinol', 'peptides']"
+538,['sensitive'],[],[],['glycerin']
+539,"['oily', 'dry', 'sensitive', 'normal', 'combination']","['dryness', 'pores', 'acne', 'redness', 'oiliness']","['hydrating', 'regenerating', 'barrier-repair']","['aha', 'bha', 'retinol', 'squalane', 'vitamin c', 'ceramide', 'niacinamide']"
+540,"['oily', 'dry', 'normal', 'combination']","['dryness', 'pores', 'oiliness', 'redness', 'acne']","['hydrating', 'healthy', 'brightening', 'nourishing']","['glycerin', 'zinc']"
+541,"['oily', 'dry', 'sensitive', 'combination', 'normal']","['acne', 'dryness', 'redness', 'pores', 'oiliness', 'fine lines', 'wrinkles']","['barrier-repair', 'hydrating', 'brightening', 'scar-fading']","['green tea', 'vitamin c', 'retinol', 'aha', 'hyaluronic acid', 'glycerin']"
+542,"['combination', 'sensitive', 'oily', 'dry', 'normal']","['oiliness', 'acne', 'dryness']","['hydrating', 'brightening', 'healthy']","['glycerin', 'niacinamide', 'zinc']"
+543,"['oily', 'dry', 'combination', 'normal']","['dryness', 'oiliness', 'wrinkles', 'pores', 'acne']","['hydrating', 'plumping', 'brightening', 'tone-evening']",['retinol']
+544,['sensitive'],[],[],['glycerin']
+545,"['oily', 'dry', 'combination', 'normal']","['fine lines', 'oiliness', 'dark spots', 'dryness', 'pores', 'redness', 'acne']","['hydrating', 'plumping', 'smoothing', 'oil-control', 'healthy', 'brightening']","['bha', 'retinol', 'vitamin c', 'aha']"
+546,"['oily', 'combination', 'dry', 'normal']","['oiliness', 'redness', 'acne', 'dryness']","['brightening', 'healthy', 'hydrating', 'tone-evening', 'plumping', 'scar-fading']","['glycerin', 'panthenol', 'squalane']"
+547,"['combination', 'dry', 'normal', 'oily']","['fine lines', 'wrinkles', 'dryness']","['hydrating', 'nourishing', 'smoothing', 'anti-aging', 'brightening', 'firming']",['vitamin c']
+548,['sensitive'],[],[],['glycerin']
+549,"['oily', 'dry', 'sensitive', 'combination', 'normal']","['acne', 'pores', 'dryness', 'redness', 'oiliness']","['hydrating', 'refreshing', 'healthy', 'barrier-repair', 'oil-control', 'nourishing', 'smoothing']","['ceramide', 'glycerin', 'panthenol', 'aha', 'bha', 'retinol']"
+550,"['dry', 'sensitive', 'combination', 'normal', 'oily']","['dryness', 'pores', 'redness', 'acne']","['hydrating', 'regenerating']","['ceramide', 'squalane', 'retinol']"
+551,"['oily', 'combination', 'dry', 'normal', 'sensitive']","['acne', 'pores', 'dryness', 'oiliness', 'redness']","['brightening', 'hydrating', 'scar-fading', 'pore-minimizing', 'oil-control']","['glycerin', 'green tea', 'niacinamide', 'salicylic acid']"
+552,"['oily', 'dry', 'combination', 'sensitive', 'normal']","['acne', 'fine lines', 'wrinkles', 'redness', 'oiliness', 'dryness']","['anti-aging', 'barrier-repair', 'brightening', 'hydrating', 'firming', 'scar-fading', 'plumping']","['glycerin', 'niacinamide', 'panthenol', 'peptides', 'retinol', 'vitamin c', 'aha', 'bha']"
+553,"['dry', 'oily', 'sensitive', 'normal', 'combination']","['acne', 'dryness', 'pores', 'redness']","['hydrating', 'brightening', 'barrier-repair']","['allantoin', 'ceramide', 'glycerin', 'niacinamide', 'bha', 'aha', 'retinol']"
+554,"['oily', 'combination', 'dry', 'normal', 'sensitive']","['dark spots', 'oiliness', 'acne', 'dryness']","['hydrating', 'barrier-repair', 'healthy', 'brightening', 'glowing']","['aha', 'bha', 'retinol']"
+555,"['combination', 'oily', 'normal', 'dry']",[],"['hydrating', 'brightening']",['glycerin']
+556,"['combination', 'oily', 'normal', 'dry']",[],"['hydrating', 'brightening']",['glycerin']
+557,"['oily', 'combination', 'dry', 'normal', 'sensitive']","['acne', 'dryness']","['brightening', 'hydrating', 'scar-fading']","['glycerin', 'niacinamide', 'vitamin c']"
+558,"['oily', 'combination', 'dry', 'normal', 'sensitive']","['acne', 'pores', 'dryness', 'oiliness', 'redness']","['scar-fading', 'oil-control', 'hydrating']","['glycerin', 'green tea']"
+559,"['combination', 'oily', 'sensitive', 'dry', 'normal']","['acne', 'dryness', 'redness', 'pores']","['hydrating', 'oil-control', 'smoothing']","['aha', 'bha', 'retinol']"
+560,"['combination', 'dry', 'normal', 'oily', 'sensitive']","['wrinkles', 'acne', 'dark spots', 'dryness', 'pores', 'fine lines', 'redness']","['brightening', 'tone-evening', 'hydrating', 'plumping', 'smoothing', 'firming', 'glowing', 'nourishing']","['ceramide', 'niacinamide', 'retinol', 'hyaluronic acid', 'aha', 'bha', 'vitamin c']"
+561,"['combination', 'sensitive', 'oily', 'normal', 'dry']","['oiliness', 'acne', 'dryness']","['hydrating', 'oil-control', 'glowing', 'brightening', 'smoothing']","['glycerin', 'niacinamide', 'hyaluronic acid']"
+562,"['combination', 'dry', 'normal', 'oily', 'sensitive']","['dryness', 'oiliness', 'acne']","['hydrating', 'brightening', 'smoothing']","['allantoin', 'glycerin', 'green tea']"
+563,"['combination', 'dry', 'normal', 'oily']","['acne', 'dryness']","['hydrating', 'brightening']","['aha', 'hyaluronic acid', 'niacinamide']"
+564,"['oily', 'combination', 'dry', 'normal', 'sensitive']","['acne', 'fine lines', 'wrinkles', 'redness', 'dryness']","['brightening', 'hydrating', 'smoothing', 'barrier-repair', 'tone-evening']","['ceramide', 'hyaluronic acid']"
+565,"['combination', 'dry', 'normal', 'oily', 'sensitive']",['fine lines'],"['hydrating', 'tone-evening']",['vitamin c']
+566,"['normal', 'oily', 'combination', 'sensitive', 'dry']","['oiliness', 'redness', 'acne', 'dryness']","['barrier-repair', 'brightening', 'hydrating', 'tone-evening', 'oil-control', 'plumping', 'refreshing', 'glowing']","['niacinamide', 'vitamin c']"
+567,"['dry', 'oily', 'sensitive', 'combination', 'normal']","['acne', 'dryness', 'pores', 'redness', 'oiliness']","['hydrating', 'brightening']","['allantoin', 'glycerin', 'hyaluronic acid', 'panthenol', 'aha', 'bha', 'retinol']"
+568,"['oily', 'combination', 'dry', 'normal']","['dark spots', 'dryness', 'pores', 'oiliness', 'acne', 'redness']","['brightening', 'tone-evening', 'plumping', 'glowing', 'hydrating', 'smoothing', 'scar-fading', 'pore-minimizing']","['glycerin', 'niacinamide', 'panthenol', 'squalane']"
+569,['sensitive'],[],[],['glycerin']
+570,"['normal', 'oily', 'combination', 'sensitive', 'dry']","['dryness', 'pores', 'oiliness', 'redness', 'acne']","['hydrating', 'barrier-repair']","['ceramide', 'glycerin', 'panthenol', 'retinol', 'aha', 'bha', 'niacinamide', 'hyaluronic acid', 'vitamin c']"
+571,['sensitive'],[],[],['glycerin']
+572,"['oily', 'combination', 'sensitive', 'dry', 'normal']","['acne', 'dark spots', 'fine lines', 'wrinkles', 'oiliness', 'dryness', 'redness']","['brightening', 'glowing', 'oil-control', 'hydrating', 'barrier-repair', 'scar-fading', 'anti-aging']","['glycerin', 'niacinamide', 'aha', 'bha', 'retinol', 'ceramide']"
+573,"['dry', 'combination', 'normal', 'sensitive']","['acne', 'redness']","['glowing', 'hydrating']",['glycerin']
+574,"['oily', 'dry', 'combination', 'normal', 'sensitive']","['dryness', 'oiliness', 'fine lines', 'acne', 'pores', 'redness']","['hydrating', 'brightening']","['aha', 'bha', 'niacinamide']"
+575,"['oily', 'combination', 'dry', 'normal']","['wrinkles', 'fine lines', 'pores', 'oiliness', 'redness', 'acne', 'dryness']","['hydrating', 'plumping', 'healthy', 'brightening']","['glycerin', 'green tea', 'squalane', 'hyaluronic acid', 'retinol']"
+576,"['oily', 'combination', 'dry', 'normal', 'sensitive']","['wrinkles', 'dryness', 'pores', 'redness', 'acne']","['hydrating', 'healthy', 'brightening', 'nourishing', 'glowing', 'firming']",['hyaluronic acid']
+577,"['combination', 'dry', 'normal', 'oily', 'sensitive']","['dryness', 'pores', 'wrinkles', 'acne', 'redness', 'fine lines']","['hydrating', 'firming', 'glowing', 'healthy', 'pore-minimizing', 'barrier-repair', 'anti-aging']",['peptides']
+578,['sensitive'],[],[],['glycerin']
+579,"['oily', 'dry', 'combination', 'normal', 'sensitive']","['acne', 'pores', 'dryness', 'redness']","['barrier-repair', 'pore-minimizing', 'scar-fading', 'hydrating', 'plumping', 'brightening', 'oil-control']","['aha', 'bha', 'glycerin', 'hyaluronic acid', 'zinc', 'ceramide']"
+580,"['oily', 'combination', 'dry', 'normal', 'sensitive']","['oiliness', 'acne']","['hydrating', 'brightening']","['glycerin', 'squalane']"
+581,['sensitive'],[],[],['glycerin']
+582,['sensitive'],[],[],['glycerin']
+583,"['oily', 'combination', 'dry', 'normal', 'sensitive']","['oiliness', 'acne']","['oil-control', 'brightening', 'hydrating']","['aha', 'bha']"
+584,"['oily', 'dry', 'combination', 'normal']","['acne', 'pores', 'dryness', 'oiliness', 'redness']","['hydrating', 'oil-control']",['green tea']
+585,['sensitive'],[],[],['glycerin']
+586,"['dry', 'sensitive', 'combination', 'normal', 'oily']","['fine lines', 'acne', 'dryness']","['anti-aging', 'glowing', 'hydrating']",['glycerin']
+587,"['combination', 'oily', 'dry', 'sensitive', 'normal']","['acne', 'oiliness', 'redness', 'pores', 'dryness']","['oil-control', 'hydrating', 'pore-minimizing']","['green tea', 'salicylic acid']"
+588,"['combination', 'normal', 'dry', 'oily']","['acne', 'pores', 'dryness']","['hydrating', 'nourishing', 'brightening', 'smoothing']",['green tea']
+589,"['normal', 'oily', 'combination', 'sensitive', 'dry']","['pores', 'oiliness', 'acne', 'dryness']","['hydrating', 'pore-minimizing', 'brightening', 'smoothing']",['green tea']
+590,"['oily', 'combination', 'dry', 'normal', 'sensitive']","['acne', 'dark spots', 'pores', 'dryness']","['brightening', 'hydrating', 'refreshing', 'smoothing', 'pore-minimizing']",['vitamin c']
+591,"['oily', 'normal', 'dry', 'combination']","['dryness', 'oiliness', 'pores', 'acne']","['oil-control', 'hydrating', 'brightening']",['allantoin']
+592,"['oily', 'dry', 'sensitive', 'combination', 'normal']","['acne', 'pores', 'dryness', 'oiliness', 'redness']","['oil-control', 'tone-evening']","['vitamin c', 'zinc', 'aha']"
+593,"['combination', 'sensitive', 'oily', 'normal', 'dry']","['dark spots', 'dryness', 'pores', 'oiliness', 'acne']","['oil-control', 'brightening', 'healthy', 'hydrating']",['glycerin']
+594,"['oily', 'combination', 'dry', 'normal', 'sensitive']","['dryness', 'redness', 'pores', 'oiliness', 'acne']","['hydrating', 'oil-control', 'brightening', 'glowing']","['glycerin', 'green tea']"
+595,"['oily', 'combination', 'dry', 'normal', 'sensitive']","['oiliness', 'acne', 'dryness']","['hydrating', 'brightening', 'healthy']",['hyaluronic acid']
+596,"['combination', 'sensitive', 'dry', 'oily', 'normal']","['acne', 'pores', 'dark spots', 'dryness', 'oiliness', 'hyperpigmentation', 'redness']","['oil-control', 'hydrating', 'glowing', 'brightening']","['allantoin', 'niacinamide', 'squalane', 'vitamin c', 'zinc']"
+597,"['dry', 'sensitive', 'combination', 'normal', 'oily']","['acne', 'dryness']","['glowing', 'healthy', 'hydrating', 'oil-control']","['allantoin', 'glycerin', 'niacinamide', 'squalane', 'zinc']"
+598,"['oily', 'dry', 'combination', 'sensitive', 'normal']","['acne', 'dryness', 'oiliness', 'pores', 'redness']","['oil-control', 'hydrating', 'barrier-repair', 'tone-evening']","['niacinamide', 'salicylic acid', 'allantoin', 'vitamin c', 'retinol']"
+599,"['oily', 'dry', 'combination', 'sensitive', 'normal']","['dryness', 'oiliness', 'acne', 'redness']","['barrier-repair', 'hydrating', 'nourishing', 'plumping']","['ceramide', 'niacinamide']"
+600,"['oily', 'combination', 'dry', 'normal', 'sensitive']","['dark spots', 'oiliness', 'acne', 'dryness']","['hydrating', 'healthy', 'brightening', 'tone-evening']","['hyaluronic acid', 'vitamin c']"
+601,"['dry', 'oily', 'sensitive', 'combination', 'normal']","['acne', 'dark spots', 'oiliness', 'pores', 'redness', 'dryness']","['brightening', 'hydrating', 'nourishing', 'scar-fading', 'glowing']","['green tea', 'vitamin c', 'niacinamide', 'ceramide', 'retinol']"
+602,"['oily', 'combination', 'dry', 'normal', 'sensitive']","['oiliness', 'redness', 'acne', 'dryness']","['hydrating', 'barrier-repair']","['ceramide', 'hyaluronic acid']"
+603,"['oily', 'combination', 'dry', 'normal', 'sensitive']","['acne', 'pores', 'dryness', 'redness']","['brightening', 'hydrating', 'plumping', 'anti-aging']","['zinc', 'ceramide']"
+604,"['oily', 'dry', 'normal', 'combination', 'sensitive']","['acne', 'pores', 'dryness', 'oiliness', 'redness']","['hydrating', 'oil-control', 'healthy']",['zinc']
+605,"['combination', 'oily', 'dry', 'normal', 'sensitive']","['dryness', 'oiliness', 'pores', 'acne', 'redness']","['hydrating', 'oil-control', 'brightening', 'healthy', 'smoothing']","['niacinamide', 'zinc']"
+606,"['oily', 'dry', 'combination', 'normal', 'sensitive']","['dryness', 'oiliness', 'pores', 'redness', 'acne']",['hydrating'],['hyaluronic acid']
+607,"['oily', 'dry', 'sensitive', 'combination', 'normal']","['dark spots', 'dryness', 'pores', 'oiliness', 'redness', 'acne']","['hydrating', 'brightening', 'refreshing']",['hyaluronic acid']
+608,"['combination', 'normal', 'dry', 'sensitive', 'oily']","['acne', 'pores', 'dryness', 'oiliness', 'redness']","['healthy', 'tone-evening', 'hydrating', 'glowing', 'scar-fading', 'oil-control']","['niacinamide', 'zinc']"
+609,"['oily', 'dry', 'combination', 'normal', 'sensitive']","['dryness', 'oiliness', 'acne', 'redness']","['hydrating', 'oil-control', 'brightening', 'refreshing']","['niacinamide', 'zinc']"
+610,"['oily', 'combination', 'dry', 'normal', 'sensitive']","['pores', 'oiliness', 'acne', 'dryness']","['oil-control', 'hydrating', 'brightening']",['niacinamide']
+611,"['dry', 'oily', 'sensitive', 'normal', 'combination']","['dryness', 'oiliness', 'redness', 'pores', 'acne']","['brightening', 'hydrating', 'plumping', 'anti-aging', 'smoothing']",['glycerin']
+612,"['combination', 'sensitive', 'dry', 'oily', 'normal']","['dryness', 'oiliness', 'redness', 'acne']","['hydrating', 'glowing', 'anti-aging', 'healthy', 'oil-control', 'brightening']","['allantoin', 'glycerin', 'niacinamide', 'panthenol']"
+613,"['combination', 'dry', 'sensitive', 'normal', 'oily']","['acne', 'pores', 'dryness', 'oiliness', 'redness']","['brightening', 'healthy', 'hydrating', 'oil-control']","['allantoin', 'niacinamide', 'panthenol']"
+614,"['oily', 'combination', 'sensitive', 'dry', 'normal']","['acne', 'pores', 'oiliness']",['hydrating'],"['ceramide', 'hyaluronic acid', 'panthenol', 'zinc']"
+615,"['oily', 'normal', 'dry', 'combination', 'sensitive']","['acne', 'oiliness', 'pores', 'redness', 'dryness']","['oil-control', 'hydrating', 'glowing', 'healthy']","['bha', 'salicylic acid', 'zinc']"
+616,"['oily', 'combination', 'dry', 'normal']","['hyperpigmentation', 'acne', 'dryness']","['brightening', 'hydrating', 'nourishing', 'plumping', 'healthy', 'glowing']","['glycerin', 'vitamin c']"
+617,"['oily', 'combination', 'sensitive', 'dry', 'normal']","['dryness', 'pores', 'oiliness', 'redness', 'acne']","['oil-control', 'brightening', 'hydrating']",['panthenol']
+618,"['oily', 'dry', 'sensitive', 'combination', 'normal']","['dryness', 'oiliness', 'acne', 'pores']","['hydrating', 'oil-control']","['allantoin', 'glycerin', 'hyaluronic acid', 'panthenol']"
+619,"['oily', 'combination', 'dry', 'normal', 'sensitive']","['dryness', 'pores', 'redness', 'acne', 'oiliness']","['oil-control', 'hydrating', 'healthy']","['glycerin', 'green tea']"
+620,"['oily', 'combination', 'dry', 'normal', 'sensitive']","['acne', 'dryness', 'oiliness', 'redness']","['hydrating', 'glowing', 'nourishing']",['salicylic acid']
+621,"['oily', 'normal', 'dry', 'sensitive', 'combination']","['dark spots', 'dryness', 'redness', 'fine lines', 'wrinkles', 'oiliness', 'pores', 'acne']","['brightening', 'hydrating', 'oil-control', 'scar-fading']",['niacinamide']
+622,"['combination', 'normal', 'sensitive', 'dry', 'oily']","['redness', 'acne']","['brightening', 'tone-evening', 'hydrating', 'healthy']","['hyaluronic acid', 'vitamin c', 'allantoin', 'squalane']"
+623,"['oily', 'dry', 'combination', 'sensitive', 'normal']","['acne', 'dryness', 'oiliness', 'redness', 'pores']","['brightening', 'glowing', 'oil-control', 'hydrating', 'scar-fading']","['niacinamide', 'retinol', 'panthenol', 'zinc']"
+624,"['combination', 'sensitive', 'dry', 'oily', 'normal']","['acne', 'pores', 'dryness', 'oiliness']","['hydrating', 'healthy', 'brightening', 'oil-control', 'tone-evening']",['zinc']
+625,"['oily', 'combination', 'dry', 'normal', 'sensitive']","['dark spots', 'oiliness', 'redness', 'acne', 'pores']","['brightening', 'hydrating', 'glowing', 'healthy']",['niacinamide']
+626,"['oily', 'normal', 'combination', 'dry', 'sensitive']","['fine lines', 'hyperpigmentation', 'redness', 'acne', 'pores', 'oiliness', 'dryness']","['hydrating', 'brightening', 'anti-aging', 'smoothing']","['allantoin', 'glycerin', 'niacinamide', 'panthenol', 'vitamin c']"
+627,"['oily', 'combination', 'dry', 'normal', 'sensitive']","['dark spots', 'dryness', 'redness', 'pores', 'acne']","['brightening', 'healthy', 'tone-evening', 'hydrating']","['vitamin c', 'aha', 'bha']"
+628,"['oily', 'combination', 'dry', 'normal', 'sensitive']","['dark spots', 'oiliness', 'acne', 'dryness']",['brightening'],['vitamin c']
+629,"['oily', 'combination', 'sensitive', 'dry', 'normal']","['dark spots', 'oiliness', 'dryness', 'redness', 'acne']","['scar-fading', 'brightening', 'hydrating']","['glycerin', 'salicylic acid', 'vitamin c']"
+630,"['oily', 'dry', 'normal', 'combination', 'sensitive']","['dryness', 'oiliness', 'pores', 'redness', 'acne']","['brightening', 'glowing', 'hydrating']","['allantoin', 'glycerin', 'niacinamide', 'vitamin c']"
+631,"['oily', 'combination', 'sensitive', 'dry', 'normal']","['acne', 'oiliness', 'redness', 'dryness']","['hydrating', 'anti-aging', 'brightening', 'barrier-repair', 'smoothing', 'tone-evening']","['ceramide', 'hyaluronic acid', 'allantoin', 'glycerin']"
+632,"['oily', 'combination', 'dry', 'normal']","['acne', 'dryness', 'oiliness', 'redness']","['hydrating', 'healthy', 'brightening']",['hyaluronic acid']
+633,"['oily', 'combination', 'dry', 'normal', 'sensitive']","['pores', 'oiliness', 'acne', 'dryness']","['oil-control', 'brightening']",['green tea']
+634,"['dry', 'oily', 'sensitive', 'combination', 'normal']","['acne', 'dryness']","['hydrating', 'brightening']","['green tea', 'vitamin c']"
+635,"['oily', 'dry', 'combination', 'normal', 'sensitive']","['dark spots', 'dryness', 'pores', 'oiliness', 'acne']","['tone-evening', 'brightening', 'hydrating']","['green tea', 'zinc']"
+636,"['oily', 'combination', 'dry', 'normal', 'sensitive']","['acne', 'pores', 'dryness', 'oiliness', 'redness']","['barrier-repair', 'brightening', 'hydrating', 'healthy']","['allantoin', 'ceramide', 'glycerin', 'niacinamide', 'zinc']"
+637,"['oily', 'combination', 'dry', 'normal', 'sensitive']","['pores', 'oiliness', 'acne']","['brightening', 'glowing', 'nourishing', 'oil-control', 'hydrating']","['niacinamide', 'panthenol']"
+638,"['oily', 'combination', 'dry', 'normal', 'sensitive']","['dark spots', 'dryness', 'pores', 'oiliness', 'acne']","['anti-aging', 'glowing', 'healthy', 'hydrating', 'oil-control']","['green tea', 'vitamin c']"
+639,"['oily', 'combination', 'dry', 'normal', 'sensitive']","['oiliness', 'acne', 'dryness']","['brightening', 'hydrating', 'healthy']","['glycerin', 'niacinamide', 'squalane']"
+640,"['oily', 'combination', 'dry', 'normal', 'sensitive']","['oiliness', 'acne', 'dryness']","['hydrating', 'brightening', 'plumping']",['glycerin']
+641,"['oily', 'combination', 'dry', 'normal']","['hyperpigmentation', 'redness', 'acne', 'oiliness']","['glowing', 'scar-fading']","['glycerin', 'hyaluronic acid']"
+642,"['combination', 'oily', 'normal', 'dry', 'sensitive']","['dryness', 'oiliness', 'fine lines', 'redness', 'pores', 'acne']","['oil-control', 'hydrating', 'brightening', 'glowing']",['glycerin']
+643,"['oily', 'dry', 'sensitive', 'combination', 'normal']","['fine lines', 'hyperpigmentation', 'wrinkles', 'dark spots', 'redness', 'acne', 'dryness', 'oiliness']","['hydrating', 'anti-aging', 'brightening']","['glycerin', 'salicylic acid', 'hyaluronic acid', 'peptides']"
+644,"['oily', 'combination', 'dry', 'normal', 'sensitive']","['pores', 'oiliness', 'acne', 'dryness']","['hydrating', 'glowing']","['aha', 'bha']"
+645,"['combination', 'oily', 'dry', 'normal', 'sensitive']","['acne', 'dryness', 'oiliness']","['oil-control', 'hydrating', 'healthy']","['glycerin', 'niacinamide', 'hyaluronic acid']"
+646,"['oily', 'combination', 'dry', 'normal', 'sensitive']","['wrinkles', 'dryness', 'pores', 'oiliness', 'acne']","['hydrating', 'oil-control']",['hyaluronic acid']
+647,"['dry', 'sensitive', 'combination', 'oily', 'normal']","['dryness', 'pores', 'redness', 'acne']","['hydrating', 'glowing', 'healthy', 'brightening', 'tone-evening']",['zinc']
+648,"['oily', 'combination', 'dry', 'normal']","['acne', 'pores', 'dryness']","['hydrating', 'glowing', 'brightening', 'oil-control']","['allantoin', 'glycerin', 'niacinamide']"
+649,"['oily', 'combination', 'dry', 'normal', 'sensitive']","['pores', 'oiliness', 'acne', 'dryness']","['anti-aging', 'oil-control', 'hydrating']","['aha', 'bha']"
+650,"['oily', 'dry', 'sensitive', 'combination', 'normal']","['dark spots', 'oiliness', 'acne', 'redness']","['hydrating', 'brightening']","['glycerin', 'vitamin c']"
+651,"['oily', 'dry', 'combination', 'normal', 'sensitive']","['acne', 'pores', 'dryness', 'oiliness', 'redness']","['brightening', 'hydrating', 'healthy', 'oil-control']","['niacinamide', 'vitamin c']"
+652,"['oily', 'combination', 'sensitive', 'dry', 'normal']","['acne', 'dark spots', 'oiliness', 'dryness']","['oil-control', 'brightening', 'hydrating']","['aha', 'bha']"
+653,"['oily', 'combination', 'dry', 'normal']","['dryness', 'hyperpigmentation', 'oiliness', 'acne']","['hydrating', 'oil-control', 'anti-aging', 'brightening', 'healthy']","['niacinamide', 'vitamin c']"
+654,"['oily', 'dry', 'combination', 'normal', 'sensitive']","['dryness', 'oiliness', 'acne', 'redness']","['hydrating', 'brightening', 'glowing', 'healthy', 'oil-control']","['allantoin', 'glycerin', 'vitamin c']"
+655,"['oily', 'combination', 'dry', 'normal', 'sensitive']","['oiliness', 'redness', 'acne']","['brightening', 'tone-evening', 'pore-minimizing', 'glowing', 'hydrating', 'barrier-repair']","['niacinamide', 'vitamin c']"
+656,"['oily', 'dry', 'normal', 'combination', 'sensitive']","['dryness', 'pores', 'oiliness', 'acne', 'redness']","['brightening', 'hydrating', 'tone-evening', 'glowing', 'oil-control']","['glycerin', 'green tea']"
+657,"['dry', 'oily', 'sensitive', 'combination', 'normal']","['dryness', 'oiliness', 'acne', 'redness']",['hydrating'],"['allantoin', 'hyaluronic acid', 'squalane']"
+658,"['normal', 'oily', 'combination', 'dry', 'sensitive']","['pores', 'oiliness', 'acne']","['brightening', 'hydrating', 'nourishing', 'oil-control', 'healthy', 'scar-fading', 'glowing']","['hyaluronic acid', 'zinc']"
+659,"['oily', 'dry', 'combination', 'normal', 'sensitive']","['acne', 'pores', 'dryness', 'oiliness', 'redness']","['healthy', 'hydrating', 'nourishing', 'firming', 'scar-fading', 'tone-evening']","['panthenol', 'zinc', 'ceramide', 'hyaluronic acid']"
+660,"['oily', 'combination', 'dry', 'normal', 'sensitive']","['acne', 'dryness']","['brightening', 'hydrating', 'nourishing', 'scar-fading']","['hyaluronic acid', 'niacinamide']"
+661,"['dry', 'oily', 'sensitive', 'combination', 'normal']","['wrinkles', 'dryness', 'oiliness', 'acne', 'redness']","['hydrating', 'anti-aging', 'brightening', 'nourishing', 'glowing', 'healthy', 'smoothing']",['hyaluronic acid']
+662,"['oily', 'dry', 'sensitive', 'combination', 'normal']","['acne', 'pores', 'dryness', 'oiliness', 'redness']","['hydrating', 'brightening', 'nourishing', 'healthy', 'oil-control', 'tone-evening']","['niacinamide', 'zinc', 'ceramide']"
+663,"['dry', 'oily', 'combination', 'sensitive', 'normal']","['oiliness', 'redness', 'acne']","['hydrating', 'oil-control', 'barrier-repair']","['ceramide', 'hyaluronic acid']"
+664,"['oily', 'combination', 'dry', 'normal', 'sensitive']","['oiliness', 'acne']","['barrier-repair', 'brightening', 'hydrating', 'refreshing']","['ceramide', 'hyaluronic acid']"
+665,"['oily', 'dry', 'combination', 'normal', 'sensitive']","['pores', 'redness', 'acne', 'oiliness']","['glowing', 'healthy']",['retinol']
+666,['sensitive'],['redness'],[],"['allantoin', 'glycerin', 'zinc']"
+667,"['oily', 'dry', 'combination', 'normal']","['dryness', 'redness', 'pores', 'oiliness', 'acne']","['hydrating', 'glowing', 'healthy', 'brightening', 'oil-control']",['ceramide']
+668,"['oily', 'combination', 'dry', 'normal']","['acne', 'dryness']","['hydrating', 'glowing', 'healthy']","['zinc', 'vitamin c', 'aha']"
+669,"['oily', 'combination', 'dry', 'normal', 'sensitive']","['oiliness', 'redness', 'acne', 'dryness']","['oil-control', 'hydrating', 'brightening']",['vitamin c']
+670,"['oily', 'dry', 'combination', 'normal', 'sensitive']","['acne', 'fine lines', 'hyperpigmentation', 'redness', 'wrinkles', 'dryness', 'oiliness']","['brightening', 'hydrating', 'nourishing']","['ceramide', 'glycerin', 'hyaluronic acid', 'niacinamide', 'panthenol', 'retinol', 'vitamin c', 'zinc']"
+671,['combination'],[],[],['niacinamide']
+672,"['oily', 'normal', 'combination', 'dry', 'sensitive']","['dryness', 'oiliness', 'acne']","['hydrating', 'smoothing']","['glycerin', 'vitamin c']"
+673,"['oily', 'dry', 'combination', 'normal']","['acne', 'pores', 'dryness', 'oiliness', 'redness']","['hydrating', 'scar-fading', 'brightening', 'oil-control']","['salicylic acid', 'vitamin c', 'zinc', 'allantoin', 'squalane']"
+674,"['oily', 'dry', 'normal', 'sensitive', 'combination']","['dryness', 'oiliness', 'dark spots', 'hyperpigmentation', 'redness', 'acne']","['hydrating', 'anti-aging', 'brightening', 'scar-fading']","['allantoin', 'glycerin', 'niacinamide', 'salicylic acid', 'panthenol', 'vitamin c']"
+675,['sensitive'],[],[],['glycerin']
+676,"['oily', 'combination', 'dry', 'sensitive', 'normal']","['acne', 'oiliness', 'pores', 'redness']","['hydrating', 'healthy', 'scar-fading', 'brightening', 'oil-control']","['panthenol', 'salicylic acid']"
+677,"['oily', 'dry', 'combination', 'normal', 'sensitive']","['dryness', 'pores', 'oiliness', 'redness', 'acne']","['oil-control', 'hydrating', 'glowing']","['glycerin', 'vitamin c']"
+678,"['oily', 'dry', 'combination', 'sensitive', 'normal']","['dryness', 'oiliness', 'acne']","['hydrating', 'brightening']","['allantoin', 'glycerin']"
+679,"['dry', 'oily', 'sensitive', 'combination', 'normal']","['oiliness', 'redness', 'acne', 'dryness']","['hydrating', 'nourishing', 'healthy']","['allantoin', 'ceramide', 'glycerin', 'squalane']"
+680,['sensitive'],"['acne', 'redness']",[],['hyaluronic acid']
+681,"['oily', 'combination', 'dry', 'normal', 'sensitive']","['acne', 'pores', 'dark spots', 'dryness', 'oiliness']","['brightening', 'tone-evening', 'hydrating', 'healthy', 'scar-fading']",['zinc']
+682,"['oily', 'combination', 'dry', 'normal', 'sensitive']","['pores', 'redness', 'acne', 'dryness']","['brightening', 'healthy', 'hydrating', 'oil-control']","['hyaluronic acid', 'niacinamide']"
+683,"['oily', 'dry', 'combination', 'normal', 'sensitive']","['acne', 'pores', 'dryness', 'redness', 'oiliness']","['oil-control', 'hydrating', 'brightening']",['ceramide']
+684,"['combination', 'oily', 'normal', 'dry']","['redness', 'acne']",['hydrating'],"['bha', 'vitamin c']"
+685,"['combination', 'dry', 'normal', 'oily']",['dryness'],"['hydrating', 'brightening']",['niacinamide']
+686,"['combination', 'dry', 'normal', 'oily', 'sensitive']","['hyperpigmentation', 'dryness']","['anti-aging', 'glowing', 'hydrating', 'tone-evening', 'smoothing', 'brightening']","['zinc', 'vitamin c']"
+687,"['oily', 'dry', 'combination', 'sensitive', 'normal']","['acne', 'pores', 'oiliness', 'redness']","['oil-control', 'hydrating', 'brightening']","['aha', 'niacinamide', 'hyaluronic acid']"
+688,"['combination', 'dry', 'normal', 'oily']","['dryness', 'wrinkles', 'redness', 'dark spots']","['hydrating', 'brightening', 'healthy']","['glycerin', 'zinc']"
+689,"['combination', 'dry', 'normal', 'oily']",['dryness'],"['brightening', 'hydrating', 'nourishing', 'healthy', 'glowing']","['aha', 'niacinamide', 'vitamin c', 'glycerin']"
+690,"['combination', 'dry', 'normal', 'oily', 'sensitive']","['redness', 'acne', 'dryness']","['brightening', 'tone-evening', 'hydrating']","['glycerin', 'niacinamide']"
+691,"['combination', 'dry', 'normal', 'oily']","['acne', 'pores', 'dryness', 'dark spots']",['hydrating'],['salicylic acid']
+692,"['oily', 'combination', 'dry', 'normal', 'sensitive']","['acne', 'dark spots', 'oiliness', 'dryness', 'redness']","['brightening', 'scar-fading']","['allantoin', 'salicylic acid', 'bha']"
+693,"['combination', 'dry', 'normal', 'oily', 'sensitive']","['acne', 'pores', 'redness']",[],['allantoin']
+694,"['oily', 'combination', 'dry', 'normal']","['acne', 'pores']",[],['salicylic acid']
+695,"['combination', 'oily', 'normal', 'sensitive']",['acne'],['healthy'],['glycerin']
+696,"['oily', 'combination', 'dry', 'normal']","['acne', 'dryness', 'hyperpigmentation', 'redness']",['brightening'],"['allantoin', 'niacinamide', 'bha', 'salicylic acid', 'zinc']"
+697,"['combination', 'dry', 'normal', 'oily', 'sensitive']","['acne', 'pores', 'redness']",['hydrating'],"['allantoin', 'niacinamide', 'panthenol', 'salicylic acid', 'zinc', 'green tea']"
+698,"['dry', 'sensitive', 'combination', 'normal', 'oily']","['acne', 'dryness', 'redness']",['scar-fading'],"['bha', 'salicylic acid', 'niacinamide', 'hyaluronic acid']"
+699,"['dry', 'sensitive', 'combination', 'normal', 'oily']","['acne', 'pores', 'redness', 'dryness']",['hydrating'],"['aha', 'allantoin', 'salicylic acid', 'panthenol']"
+700,"['oily', 'combination', 'dry', 'normal', 'sensitive']","['acne', 'dryness', 'redness', 'oiliness']","['oil-control', 'brightening']","['allantoin', 'glycerin', 'niacinamide', 'salicylic acid', 'aha', 'bha', 'retinol']"
+701,"['combination', 'dry', 'normal', 'oily']","['acne', 'fine lines', 'wrinkles', 'pores', 'dryness', 'redness']","['brightening', 'oil-control', 'scar-fading', 'pore-minimizing', 'glowing']","['niacinamide', 'salicylic acid', 'retinol', 'panthenol']"
+702,"['combination', 'dry', 'normal', 'oily']","['acne', 'pores', 'dryness', 'redness']",['hydrating'],"['niacinamide', 'salicylic acid', 'green tea']"
+703,"['combination', 'dry', 'normal', 'oily']","['acne', 'dryness', 'hyperpigmentation', 'redness']",[],"['niacinamide', 'bha', 'vitamin c', 'aha', 'retinol', 'salicylic acid']"
+704,"['combination', 'dry', 'normal', 'oily', 'sensitive']","['acne', 'dryness', 'hyperpigmentation', 'redness']",[],"['aha', 'bha', 'azelaic acid', 'salicylic acid', 'retinol']"
+705,"['oily', 'combination', 'dry', 'normal']","['acne', 'oiliness', 'redness', 'dryness']",[],['salicylic acid']
+706,"['combination', 'dry', 'dry skin']",['dryness'],['brightening'],['unknown']
+707,"['combination', 'dry', 'normal', 'oily', 'sensitive']","['acne', 'pores', 'dryness', 'redness']","['hydrating', 'anti-aging', 'regenerating', 'scar-fading']","['allantoin', 'glycerin', 'panthenol', 'green tea']"
+708,"['oily', 'combination', 'dry', 'normal']","['acne', 'dryness', 'oiliness', 'redness']",[],['retinol']
+709,"['oily', 'dry', 'combination', 'normal']","['acne', 'pores', 'dark spots', 'redness', 'dryness', 'oiliness', 'hyperpigmentation', 'fine lines', 'wrinkles']","['anti-aging', 'glowing', 'hydrating', 'scar-fading', 'brightening']","['aha', 'bha', 'salicylic acid', 'zinc']"
+710,"['dry', 'oily', 'combination', 'normal']","['acne', 'pores', 'redness']",[],['allantoin']
+711,"['oily', 'combination', 'dry', 'normal']","['acne', 'dark spots', 'pores', 'hyperpigmentation', 'dryness', 'redness']","['brightening', 'tone-evening', 'scar-fading']","['ceramide', 'salicylic acid', 'bha']"
+712,"['combination', 'oily', 'normal', 'dry']","['acne', 'redness']",[],"['niacinamide', 'salicylic acid']"
+713,"['combination', 'oily', 'normal', 'dry']","['acne', 'redness']","['hydrating', 'scar-fading']",['salicylic acid']
+714,"['combination', 'dry', 'normal', 'oily']","['acne', 'dryness', 'redness']",['scar-fading'],"['bha', 'salicylic acid']"
+715,"['oily', 'combination', 'dry', 'normal', 'sensitive']","['acne', 'dryness', 'redness', 'pores']","['smoothing', 'hydrating']","['glycerin', 'niacinamide', 'aha', 'bha']"
+716,"['dry', 'sensitive', 'combination', 'oily', 'normal']","['acne', 'dryness', 'pores', 'redness', 'oiliness']",['barrier-repair'],"['azelaic acid', 'retinol', 'niacinamide', 'green tea', 'aha', 'bha']"
+717,"['oily', 'combination', 'dry', 'normal', 'sensitive']","['acne', 'pores', 'dryness', 'oiliness', 'redness']","['brightening', 'hydrating', 'oil-control', 'scar-fading', 'pore-minimizing', 'smoothing']","['aha', 'bha', 'green tea', 'niacinamide', 'salicylic acid']"
+718,"['oily', 'dry', 'combination', 'normal', 'sensitive']","['acne', 'dark spots', 'dryness', 'oiliness', 'redness']","['hydrating', 'glowing']",['aha']
+719,"['oily', 'combination', 'dry', 'normal', 'sensitive']","['oiliness', 'acne', 'dryness', 'redness']","['brightening', 'scar-fading']","['bha', 'green tea', 'salicylic acid', 'aha']"
+720,['oily'],"['acne', 'oiliness']",['oil-control'],['unknown']
+721,"['dry', 'oily', 'combination', 'normal']","['acne', 'dryness', 'redness']",['brightening'],"['allantoin', 'bha', 'niacinamide']"
+722,"['oily', 'combination', 'dry', 'normal']","['acne', 'redness']",[],"['bha', 'salicylic acid']"
+723,"['combination', 'dry', 'normal', 'oily']","['acne', 'pores', 'dryness', 'redness', 'wrinkles']","['brightening', 'pore-minimizing', 'scar-fading']","['aha', 'allantoin', 'bha', 'niacinamide', 'salicylic acid']"
+724,"['oily', 'normal', 'combination', 'dry']","['acne', 'oiliness', 'redness']","['oil-control', 'brightening', 'hydrating', 'scar-fading']",['glycerin']
+725,"['combination', 'dry', 'normal', 'oily']","['acne', 'dryness', 'pores', 'redness']",['scar-fading'],['salicylic acid']
+726,"['oily', 'combination', 'dry', 'normal']","['acne', 'pores', 'redness', 'dryness']","['hydrating', 'oil-control', 'brightening', 'smoothing', 'tone-evening']","['niacinamide', 'salicylic acid', 'bha']"
+727,"['combination', 'oily', 'normal', 'dry']","['acne', 'dark spots', 'pores', 'hyperpigmentation', 'redness']",['scar-fading'],['niacinamide']
+728,"['oily', 'combination', 'dry', 'normal', 'sensitive']","['acne', 'hyperpigmentation', 'pores', 'redness', 'dryness']","['smoothing', 'hydrating', 'brightening', 'scar-fading']","['niacinamide', 'green tea', 'glycerin', 'panthenol', 'squalane']"
+729,"['combination', 'dry', 'normal', 'oily', 'sensitive']","['acne', 'pores', 'dryness', 'redness']","['brightening', 'hydrating', 'scar-fading']","['bha', 'salicylic acid']"
+730,"['combination', 'dry', 'normal', 'oily', 'sensitive']","['acne', 'redness', 'dryness']","['hydrating', 'scar-fading']","['niacinamide', 'salicylic acid', 'bha']"
+731,"['combination', 'dry', 'normal', 'oily']","['acne', 'dryness', 'redness', 'pores']",[],['salicylic acid']
+732,['sensitive'],"['acne', 'pores']",['healthy'],['glycerin']
+733,"['combination', 'oily', 'dry', 'normal', 'sensitive']","['acne', 'oiliness', 'pores', 'redness', 'dryness']","['oil-control', 'hydrating']","['niacinamide', 'zinc']"
+734,"['medium light', 'combination', 'dry', 'oily']","['acne', 'dryness']",['hydrating'],"['salicylic acid', 'zinc']"
+735,"['combination', 'dry', 'normal', 'oily']","['acne', 'pores', 'dryness', 'redness']","['oil-control', 'hydrating']","['niacinamide', 'salicylic acid', 'zinc']"
+736,"['dry', 'sensitive', 'combination', 'normal', 'oily']","['acne', 'dryness', 'redness']",['hydrating'],"['allantoin', 'glycerin', 'niacinamide', 'retinol', 'salicylic acid']"
+737,"['combination', 'dry', 'normal', 'oily']","['acne', 'dryness', 'redness']",['oil-control'],"['salicylic acid', 'green tea']"
+738,"['combination', 'dry', 'oily', 'sensitive']","['acne', 'redness']",[],['vitamin c']
+739,"['combination', 'dry', 'normal', 'oily', 'sensitive']","['acne', 'dryness', 'pores', 'redness']",['scar-fading'],"['aha', 'bha', 'salicylic acid', 'zinc']"
+740,"['combination', 'dry', 'normal', 'oily', 'sensitive']","['acne', 'fine lines', 'dryness', 'redness']",['brightening'],"['aha', 'bha', 'niacinamide', 'ceramide']"
+741,"['dry', 'sensitive', 'combination', 'normal', 'oily']","['acne', 'dryness', 'redness']",['hydrating'],['salicylic acid']
+742,['sensitive'],[],[],['glycerin']
+743,"['oily', 'combination', 'dry', 'normal', 'sensitive']","['acne', 'dryness', 'redness']","['oil-control', 'hydrating']","['zinc', 'retinol']"
+744,"['combination', 'dry', 'normal', 'oily']","['acne', 'dark spots', 'hyperpigmentation', 'redness']","['scar-fading', 'brightening']","['niacinamide', 'vitamin c', 'aha', 'bha', 'retinol']"
+745,"['combination', 'dry', 'normal', 'oily', 'sensitive']","['acne', 'pores', 'redness', 'dryness']","['oil-control', 'nourishing', 'scar-fading']","['niacinamide', 'salicylic acid']"
+746,"['combination', 'oily', 'normal', 'dry']","['acne', 'hyperpigmentation', 'redness']",[],"['glycerin', 'niacinamide', 'salicylic acid']"
+747,"['combination', 'dry', 'normal', 'oily', 'sensitive']","['acne', 'pores', 'redness']","['pore-minimizing', 'smoothing', 'hydrating']",['glycerin']
+748,"['combination', 'oily', 'normal', 'dry']","['acne', 'pores', 'redness']",['nourishing'],['salicylic acid']
+749,"['oily', 'combination', 'dry', 'normal']","['acne', 'redness']",[],"['aha', 'bha']"
+750,"['combination', 'dry', 'normal', 'oily']","['acne', 'pores', 'dryness']","['scar-fading', 'nourishing', 'hydrating', 'smoothing']","['glycerin', 'niacinamide', 'aha']"
+751,"['combination', 'dry', 'normal', 'oily', 'sensitive']","['acne', 'redness']",['nourishing'],"['hyaluronic acid', 'vitamin c', 'allantoin', 'squalane']"
+752,"['combination', 'dry', 'normal', 'oily', 'sensitive']","['acne', 'dryness', 'pores', 'redness']","['oil-control', 'hydrating', 'brightening']","['niacinamide', 'salicylic acid', 'zinc', 'aha', 'bha']"
+753,"['combination', 'dry', 'normal', 'oily', 'sensitive']","['acne', 'dark spots', 'redness', 'pores']","['brightening', 'tone-evening', 'scar-fading', 'hydrating']","['niacinamide', 'vitamin c', 'allantoin', 'salicylic acid', 'zinc']"
+754,"['oily', 'combination', 'dry', 'normal', 'sensitive']","['acne', 'hyperpigmentation', 'dryness', 'oiliness', 'redness']","['brightening', 'hydrating', 'scar-fading']","['niacinamide', 'bha', 'aha', 'allantoin', 'panthenol']"
+755,"['combination', 'dry', 'normal', 'oily', 'sensitive']","['acne', 'pores', 'redness', 'dryness', 'hyperpigmentation']","['oil-control', 'brightening']",['salicylic acid']
+756,['sensitive'],[],[],['glycerin']
+757,"['combination', 'dry', 'normal', 'oily', 'sensitive']","['acne', 'pores', 'redness', 'dryness']","['brightening', 'hydrating']","['aha', 'bha', 'salicylic acid', 'retinol']"
+758,"['combination', 'oily', 'normal', 'dry']",['acne'],[],"['glycerin', 'salicylic acid', 'zinc']"
+759,"['combination', 'dry', 'normal', 'oily']","['acne', 'dryness', 'redness']",['scar-fading'],"['aha', 'allantoin', 'bha', 'glycerin', 'salicylic acid']"
+760,"['combination', 'dry', 'normal', 'oily', 'sensitive']","['pores', 'acne', 'dryness', 'redness']","['oil-control', 'pore-minimizing', 'brightening', 'scar-fading']",['aha']
+761,"['combination', 'oily', 'normal', 'dry']","['acne', 'pores', 'redness']",[],"['bha', 'salicylic acid', 'zinc']"
+762,"['combination', 'dry', 'normal', 'oily', 'sensitive']","['acne', 'dryness', 'redness']","['brightening', 'hydrating']","['aha', 'glycerin']"
+763,"['combination', 'dry', 'normal', 'oily', 'sensitive']","['acne', 'redness']","['oil-control', 'hydrating', 'brightening']",['zinc']
+764,"['combination', 'oily', 'normal', 'dry']",['acne'],[],"['bha', 'retinol']"
+765,"['dry', 'sensitive', 'combination', 'normal', 'oily']","['acne', 'dryness', 'redness']",['hydrating'],"['allantoin', 'glycerin', 'salicylic acid', 'zinc', 'bha', 'retinol']"
+766,"['dry', 'sensitive', 'combination', 'normal', 'oily']","['acne', 'pores', 'redness', 'dryness']","['smoothing', 'scar-fading']","['allantoin', 'panthenol']"
+767,"['oily', 'combination', 'dry', 'normal', 'sensitive']","['acne', 'dryness', 'redness', 'oiliness']","['hydrating', 'oil-control']","['glycerin', 'salicylic acid', 'zinc']"
+768,"['combination', 'oily', 'dry']","['acne', 'pores']",[],['bha']
+769,"['dry', 'sensitive', 'combination', 'normal', 'oily']","['acne', 'pores', 'dryness', 'redness', 'oiliness', 'wrinkles']","['barrier-repair', 'brightening', 'firming', 'hydrating', 'oil-control', 'refreshing', 'pore-minimizing']","['bha', 'retinol']"
+770,"['oily', 'dry', 'combination', 'normal', 'sensitive']","['acne', 'dryness', 'redness', 'oiliness', 'pores']","['brightening', 'regenerating', 'scar-fading']","['niacinamide', 'salicylic acid', 'retinol', 'ceramide', 'bha']"
+771,"['combination', 'dry', 'normal', 'oily', 'sensitive']","['acne', 'dark spots', 'pores', 'dryness', 'redness']","['hydrating', 'brightening', 'smoothing', 'scar-fading', 'plumping']","['aha', 'bha', 'niacinamide', 'green tea']"
+772,"['dry', 'oily', 'combination', 'normal']","['acne', 'pores', 'dryness', 'redness']","['hydrating', 'pore-minimizing', 'glowing', 'plumping', 'barrier-repair', 'oil-control', 'brightening']","['aha', 'bha', 'niacinamide']"
+773,"['combination', 'oily', 'normal', 'dry']",['acne'],['oil-control'],"['salicylic acid', 'bha']"
+774,"['oily', 'dry', 'normal', 'combination']","['acne', 'dark spots', 'hyperpigmentation', 'dryness', 'redness', 'oiliness']","['brightening', 'hydrating', 'oil-control', 'scar-fading', 'smoothing', 'healthy', 'barrier-repair']","['aha', 'bha', 'glycerin', 'green tea', 'niacinamide', 'retinol', 'ceramide']"
+775,"['combination', 'oily', 'normal', 'sensitive']",['acne'],['oil-control'],['glycerin']
+776,"['oily', 'combination', 'dry', 'normal']","['acne', 'oiliness', 'redness']",['hydrating'],['green tea']
+777,"['oily', 'dry', 'combination', 'normal', 'sensitive']","['dark spots', 'hyperpigmentation', 'wrinkles', 'acne', 'oiliness', 'redness', 'pores']","['brightening', 'tone-evening', 'hydrating', 'glowing', 'scar-fading']","['hyaluronic acid', 'vitamin c', 'niacinamide', 'retinol']"
+778,"['combination', 'dry', 'normal', 'oily']","['acne', 'dark spots', 'pores', 'hyperpigmentation', 'dryness', 'redness']","['brightening', 'hydrating', 'scar-fading']","['allantoin', 'niacinamide', 'salicylic acid']"
+779,"['oily', 'combination', 'dry', 'normal', 'sensitive']","['acne', 'dryness', 'redness']","['oil-control', 'brightening']","['niacinamide', 'salicylic acid', 'allantoin']"
+780,['sensitive'],[],[],['glycerin']
+781,"['combination', 'oily', 'sensitive', 'dry']","['acne', 'wrinkles', 'dark spots', 'redness']",['glowing'],"['aha', 'bha', 'vitamin c', 'retinol']"
+782,"['oily', 'combination', 'dry', 'normal', 'sensitive']","['acne', 'pores', 'dryness', 'oiliness', 'redness']","['hydrating', 'scar-fading', 'anti-aging', 'regenerating', 'brightening']","['aha', 'bha', 'retinol']"
+783,"['combination', 'dry', 'normal', 'oily']","['acne', 'dryness', 'redness']",[],"['allantoin', 'glycerin', 'panthenol', 'salicylic acid']"
+784,"['oily', 'combination', 'dry', 'normal']","['acne', 'oiliness', 'redness', 'dryness']",['scar-fading'],['zinc']
+785,"['combination', 'dry', 'normal', 'oily', 'sensitive']","['acne', 'pores', 'dryness', 'redness']",['brightening'],"['bha', 'salicylic acid', 'retinol']"
+786,"['oily', 'combination', 'dry', 'normal']","['acne', 'oiliness', 'pores', 'redness', 'dryness']","['hydrating', 'pore-minimizing']",['green tea']
+787,"['oily', 'combination', 'dry', 'normal']","['pores', 'redness', 'dryness', 'acne', 'oiliness']","['oil-control', 'smoothing']","['aha', 'bha', 'salicylic acid']"
+788,"['combination', 'dry', 'normal', 'oily', 'sensitive']","['acne', 'dryness', 'redness']","['oil-control', 'hydrating', 'scar-fading']","['bha', 'salicylic acid']"
+789,"['combination', 'dry', 'normal', 'oily', 'sensitive']","['acne', 'dryness', 'pores', 'redness']","['brightening', 'hydrating', 'scar-fading']",['salicylic acid']
+790,"['dry', 'oily', 'sensitive', 'combination', 'normal']","['acne', 'dryness', 'redness', 'oiliness', 'dark spots']","['tone-evening', 'scar-fading']","['niacinamide', 'salicylic acid', 'vitamin c']"
+791,"['oily', 'combination', 'dry', 'normal', 'sensitive']","['acne', 'fine lines', 'pores', 'redness', 'dark spots', 'dryness']","['hydrating', 'scar-fading', 'smoothing', 'anti-aging', 'brightening', 'pore-minimizing']","['aha', 'bha']"
+792,"['combination', 'dry', 'normal', 'oily']","['pores', 'acne']",['hydrating'],['green tea']
+793,"['combination', 'oily', 'normal', 'dry']","['wrinkles', 'acne']",[],['green tea']
+794,"['normal', 'oily', 'dry', 'combination', 'sensitive']","['acne', 'hyperpigmentation', 'oiliness', 'pores', 'redness', 'dryness']","['hydrating', 'oil-control', 'glowing', 'brightening']","['allantoin', 'bha', 'glycerin', 'green tea', 'niacinamide', 'panthenol', 'aha']"
+795,"['combination', 'dry', 'normal', 'oily', 'sensitive']",['pores'],['smoothing'],['hyaluronic acid']
+796,"['combination', 'dry', 'normal', 'oily', 'sensitive']","['dark spots', 'acne', 'dryness']","['hydrating', 'firming']",['unknown']
+797,"['combination', 'oily', 'normal', 'dry']",[],['brightening'],"['aha', 'bha']"
+798,"['normal', 'oily', 'combination', 'dry', 'sensitive']",['acne'],"['barrier-repair', 'oil-control', 'tone-evening']","['aha', 'bha']"
+799,"['oily', 'combination', 'sensitive', 'dry', 'normal']","['acne', 'dryness', 'pores', 'redness', 'dark spots', 'fine lines', 'oiliness']","['pore-minimizing', 'smoothing', 'brightening', 'regenerating', 'hydrating']","['aha', 'bha', 'hyaluronic acid', 'retinol', 'green tea', 'niacinamide', 'vitamin c']"
+800,"['normal', 'oily', 'combination', 'dry']",['oiliness'],"['glowing', 'plumping']","['aha', 'bha']"
+801,"['combination', 'oily', 'dry']","['acne', 'redness']",[],"['aha', 'bha', 'ceramide', 'hyaluronic acid', 'salicylic acid']"
+802,"['combination', 'oily', 'dry']","['pores', 'acne']",[],"['bha', 'retinol', 'salicylic acid', 'niacinamide', 'aha']"
+803,"['oily', 'combination', 'dry', 'normal', 'sensitive']","['pores', 'redness', 'acne', 'oiliness', 'uneven texture']","['oil-control', 'pore-minimizing', 'hydrating']","['aha', 'allantoin', 'bha', 'panthenol']"
+804,"['combination', 'dry', 'normal', 'oily', 'sensitive']","['hyperpigmentation', 'wrinkles', 'pores', 'dark spots', 'acne']","['smoothing', 'brightening', 'plumping']","['aha', 'bha', 'retinol']"
+805,"['oily', 'combination', 'sensitive', 'dry', 'normal']","['acne', 'fine lines', 'pores']",['healthy'],"['aha', 'bha', 'glycerin', 'salicylic acid', 'squalane']"
+806,"['dry', 'sensitive', 'combination', 'oily', 'normal']","['acne', 'dark spots', 'pores', 'dryness', 'redness']","['hydrating', 'brightening', 'pore-minimizing', 'smoothing', 'oil-control', 'regenerating', 'scar-fading', 'tone-evening', 'healthy']","['aha', 'bha', 'niacinamide', 'salicylic acid', 'ceramide']"
+807,"['dry', 'sensitive', 'combination', 'oily', 'normal']","['acne', 'redness', 'dark spots', 'dryness']","['brightening', 'glowing']","['aha', 'glycerin', 'retinol', 'vitamin c', 'bha']"
+808,['sensitive'],[],[],['glycerin']
+809,"['dry', 'sensitive']","['dryness', 'pores']",['hydrating'],['aha']
+810,"['dry', 'sensitive', 'combination', 'normal', 'oily']","['dark spots', 'dryness', 'pores', 'acne', 'redness']","['brightening', 'glowing', 'hydrating', 'smoothing']",['aha']
+811,"['dry', 'oily', 'normal']","['fine lines', 'acne']","['brightening', 'hydrating', 'smoothing']","['aha', 'vitamin c']"
+812,"['combination', 'dry', 'normal', 'oily', 'sensitive']","['acne', 'dryness', 'pores', 'hyperpigmentation', 'wrinkles']","['brightening', 'tone-evening', 'hydrating', 'scar-fading', 'smoothing']","['aha', 'bha', 'hyaluronic acid', 'retinol']"
+813,"['combination', 'oily', 'normal', 'dry']","['pores', 'acne']","['glowing', 'brightening']",['aha']
+814,"['dry', 'sensitive', 'combination', 'normal', 'oily']","['acne', 'dryness', 'pores']","['brightening', 'plumping', 'glowing']",['glycerin']
+815,"['dry', 'sensitive', 'combination', 'normal', 'oily']","['acne', 'dryness', 'pores']","['anti-aging', 'glowing', 'brightening']","['glycerin', 'niacinamide']"
+816,"['combination', 'dry', 'normal', 'oily', 'sensitive']","['pores', 'redness', 'dryness']","['brightening', 'hydrating', 'nourishing', 'pore-minimizing', 'smoothing']",['retinol']
+817,"['dry', 'oily', 'combination', 'normal', 'sensitive']","['dryness', 'oiliness', 'acne']",['brightening'],"['glycerin', 'niacinamide', 'hyaluronic acid']"
+818,"['combination', 'dry', 'normal', 'oily', 'sensitive']","['pores', 'redness', 'acne']","['hydrating', 'healthy']","['aha', 'bha', 'niacinamide']"
+819,"['dry', 'sensitive', 'combination', 'normal', 'oily']","['acne', 'dryness']",[],['ceramide']
+820,"['combination', 'dry', 'normal', 'oily', 'sensitive']","['pores', 'redness', 'acne']","['hydrating', 'brightening']","['aha', 'allantoin', 'panthenol', 'bha']"
+821,"['dry', 'oily', 'combination', 'normal']",['acne'],"['hydrating', 'scar-fading']","['aha', 'bha', 'panthenol', 'salicylic acid']"
+822,"['combination', 'dry', 'normal', 'oily', 'sensitive']","['acne', 'hyperpigmentation', 'pores', 'uneven texture']","['smoothing', 'brightening', 'barrier-repair']","['allantoin', 'glycerin', 'niacinamide', 'salicylic acid', 'aha', 'bha']"
+823,"['combination', 'dry', 'oily', 'sensitive']","['acne', 'dryness']",[],['vitamin c']
+824,"['combination', 'dry', 'normal', 'oily', 'sensitive']","['fine lines', 'hyperpigmentation', 'acne', 'redness', 'dryness', 'pores']","['hydrating', 'scar-fading', 'brightening', 'glowing', 'regenerating']","['allantoin', 'glycerin', 'hyaluronic acid', 'niacinamide', 'panthenol', 'aha', 'bha', 'retinol']"
+825,"['dry', 'oily', 'sensitive', 'combination', 'normal']","['acne', 'dryness', 'oiliness', 'pores']","['brightening', 'healthy', 'smoothing']",['glycerin']
+826,"['dry', 'sensitive', 'combination', 'normal', 'oily']","['acne', 'redness', 'dryness', 'pores']","['brightening', 'tone-evening', 'hydrating', 'pore-minimizing', 'scar-fading']","['glycerin', 'niacinamide', 'aha', 'vitamin c']"
+827,"['combination', 'dry', 'normal', 'oily', 'sensitive']","['acne', 'dryness']","['brightening', 'hydrating']","['glycerin', 'zinc']"
+828,"['combination', 'oily', 'normal', 'dry']",[],['brightening'],"['glycerin', 'niacinamide', 'squalane']"
+829,"['combination', 'dry', 'normal', 'oily']","['pores', 'acne', 'dryness']","['hydrating', 'brightening']",['aha']
+830,"['combination', 'dry', 'normal', 'oily', 'sensitive']",['dryness'],['smoothing'],['hyaluronic acid']
+831,"['combination', 'dry', 'normal', 'oily']","['pores', 'redness', 'acne']",['pore-minimizing'],"['aha', 'bha']"
+832,['sensitive'],[],[],['glycerin']
+833,"['combination', 'oily', 'normal']","['pores', 'redness', 'acne']",['brightening'],"['peptides', 'niacinamide']"
+834,"['combination', 'oily', 'sensitive', 'dry']",['redness'],"['brightening', 'glowing']","['green tea', 'hyaluronic acid']"
+835,"['dry', 'normal', 'oily', 'sensitive', 'combination']","['dryness', 'oiliness', 'acne']","['brightening', 'hydrating', 'nourishing']","['niacinamide', 'panthenol']"
+836,"['combination', 'dry', 'normal', 'oily', 'sensitive']","['acne', 'dryness']","['hydrating', 'brightening', 'smoothing']","['allantoin', 'glycerin', 'vitamin c', 'green tea']"
+837,"['oily', 'combination', 'dry', 'normal']","['pores', 'acne', 'dryness']",['pore-minimizing'],['green tea']
+838,"['combination', 'dry', 'normal', 'oily', 'sensitive']","['pores', 'acne', 'dryness', 'redness']","['hydrating', 'scar-fading', 'smoothing', 'brightening', 'oil-control']",['allantoin']
+839,"['combination', 'dry', 'normal', 'oily', 'sensitive']","['dryness', 'pores', 'redness', 'acne']","['smoothing', 'brightening', 'pore-minimizing']",['aha']
+840,"['combination', 'dry', 'normal', 'oily', 'sensitive']","['pores', 'acne', 'redness']","['hydrating', 'glowing', 'scar-fading', 'smoothing', 'brightening']","['aha', 'allantoin', 'bha']"
+841,"['combination', 'dry', 'normal', 'oily', 'sensitive']",[],"['hydrating', 'brightening']",['glycerin']
+842,"['combination', 'dry', 'normal', 'oily', 'sensitive']","['acne', 'pores', 'redness']",['anti-aging'],['glycerin']
+843,"['combination', 'oily', 'normal', 'dry']",[],['hydrating'],"['glycerin', 'vitamin c']"
+844,"['oily', 'dry', 'sensitive', 'combination', 'normal']","['dryness', 'pores', 'acne', 'redness']","['hydrating', 'scar-fading']","['green tea', 'vitamin c', 'hyaluronic acid', 'aha']"
+845,"['combination', 'dry', 'normal', 'oily']","['dark spots', 'acne', 'dryness']","['firming', 'glowing', 'smoothing', 'brightening', 'scar-fading', 'hydrating', 'plumping']","['aha', 'bha', 'hyaluronic acid', 'vitamin c']"
+846,"['combination', 'sensitive', 'dry', 'normal', 'oily']","['pores', 'redness', 'dryness', 'acne']","['scar-fading', 'smoothing', 'brightening', 'hydrating']","['aha', 'allantoin', 'bha', 'niacinamide', 'panthenol', 'salicylic acid', 'vitamin c']"
+847,"['dry', 'sensitive', 'combination', 'normal', 'oily']","['pores', 'redness', 'acne', 'dryness']","['barrier-repair', 'brightening', 'regenerating', 'smoothing', 'glowing', 'tone-evening']",['ceramide']
+848,"['oily', 'combination', 'dry', 'normal', 'sensitive']","['dryness', 'redness', 'pores', 'acne', 'dark spots', 'oiliness']","['hydrating', 'brightening', 'tone-evening', 'smoothing', 'healthy', 'scar-fading']","['aha', 'bha', 'niacinamide', 'allantoin', 'vitamin c', 'retinol']"
+849,"['combination', 'dry', 'normal', 'oily']","['dryness', 'oiliness', 'acne']",[],"['glycerin', 'zinc']"
+850,"['oily', 'combination', 'sensitive', 'dry', 'normal']","['dryness', 'redness', 'pores', 'acne', 'oiliness']","['hydrating', 'glowing', 'scar-fading', 'regenerating', 'brightening']","['aha', 'glycerin', 'panthenol', 'retinol']"
+851,"['combination', 'dry', 'normal', 'oily', 'sensitive']",['dryness'],"['hydrating', 'smoothing']","['allantoin', 'glycerin', 'vitamin c', 'squalane', 'green tea']"
+852,"['combination', 'dry', 'normal', 'oily']","['acne', 'dryness', 'pores']","['brightening', 'hydrating', 'scar-fading']","['aha', 'allantoin', 'bha', 'niacinamide', 'retinol']"
+853,"['combination', 'dry', 'normal', 'oily', 'sensitive']","['pores', 'redness', 'acne']",['brightening'],"['aha', 'bha', 'salicylic acid']"
+854,"['combination', 'dry', 'normal', 'oily', 'sensitive']","['acne', 'dryness', 'pores', 'wrinkles']","['glowing', 'hydrating', 'scar-fading', 'brightening', 'plumping', 'smoothing']","['aha', 'bha', 'glycerin', 'hyaluronic acid', 'niacinamide', 'retinol', 'ceramide', 'salicylic acid']"
+855,"['combination', 'dry', 'normal', 'oily', 'sensitive']","['acne', 'redness']","['brightening', 'hydrating']","['allantoin', 'bha', 'ceramide', 'hyaluronic acid', 'aha']"
+856,"['oily', 'combination', 'dry', 'normal']","['redness', 'acne']","['brightening', 'smoothing', 'hydrating']","['allantoin', 'niacinamide']"
+857,"['combination', 'dry', 'normal', 'oily', 'sensitive']","['dryness', 'pores', 'fine lines', 'redness', 'acne']","['smoothing', 'oil-control', 'brightening', 'refreshing']",['vitamin c']
+858,"['oily', 'combination', 'dry', 'normal', 'sensitive']","['pores', 'redness', 'acne', 'oiliness', 'dryness']","['hydrating', 'oil-control', 'brightening', 'smoothing']","['aha', 'bha']"
+859,"['combination', 'oily', 'normal', 'sensitive']",['acne'],"['hydrating', 'brightening']",['vitamin c']
+860,"['combination', 'dry', 'oily', 'sensitive']","['hyperpigmentation', 'dryness']",['brightening'],['unknown']
+861,"['oily', 'dry', 'combination', 'sensitive', 'normal']","['dryness', 'oiliness', 'acne', 'pores']","['smoothing', 'healthy', 'hydrating']","['bha', 'glycerin']"
+862,"['combination', 'dry', 'normal', 'oily', 'sensitive']","['acne', 'pores', 'dryness', 'redness']","['glowing', 'hydrating', 'brightening', 'smoothing']","['bha', 'glycerin', 'retinol']"
+863,"['combination', 'dry', 'normal', 'oily']","['acne', 'redness', 'dryness']","['smoothing', 'brightening', 'hydrating']","['aha', 'glycerin']"
+864,['sensitive'],"['acne', 'fine lines', 'pores']","['anti-aging', 'glowing', 'hydrating', 'oil-control', 'regenerating']","['aha', 'allantoin', 'bha', 'ceramide', 'glycerin', 'niacinamide', 'peptides', 'salicylic acid']"
+865,"['combination', 'dry', 'normal', 'oily', 'sensitive']","['acne', 'pores', 'dark spots', 'hyperpigmentation', 'redness']","['brightening', 'pore-minimizing', 'scar-fading']","['aha', 'bha', 'ceramide']"
+866,"['combination', 'dry', 'normal', 'oily']","['acne', 'dark spots', 'dryness', 'pores', 'wrinkles']","['brightening', 'smoothing']","['aha', 'vitamin c']"
+867,"['oily', 'combination', 'dry', 'normal']","['acne', 'fine lines', 'oiliness', 'hyperpigmentation']","['brightening', 'hydrating', 'regenerating']","['allantoin', 'glycerin', 'panthenol', 'salicylic acid', 'aha', 'bha']"
+868,"['dry', 'oily', 'combination', 'normal', 'sensitive']","['acne', 'dryness', 'pores', 'redness', 'fine lines', 'oiliness']","['brightening', 'smoothing', 'hydrating', 'pore-minimizing']","['aha', 'bha', 'glycerin', 'niacinamide', 'panthenol', 'salicylic acid']"
+869,"['oily', 'combination', 'dry', 'normal']","['acne', 'pores', 'redness', 'hyperpigmentation', 'dryness']","['brightening', 'scar-fading', 'tone-evening', 'hydrating', 'glowing']","['aha', 'bha', 'hyaluronic acid', 'salicylic acid', 'retinol']"
+870,"['combination', 'dry', 'normal', 'oily']",['dryness'],['glowing'],"['niacinamide', 'panthenol']"
+871,"['combination', 'dry', 'normal', 'oily', 'sensitive']",['acne'],"['smoothing', 'tone-evening', 'brightening']",['glycerin']
+872,"['combination', 'oily', 'normal', 'dry']","['redness', 'acne']",['brightening'],['aha']
+873,"['dry', 'oily', 'combination', 'normal']",[],[],"['glycerin', 'vitamin c']"
+874,"['combination', 'dry', 'normal', 'oily', 'sensitive']","['acne', 'dryness', 'redness']","['glowing', 'regenerating', 'brightening', 'smoothing', 'scar-fading', 'healthy', 'hydrating']","['glycerin', 'vitamin c']"
+875,"['dry', 'sensitive', 'combination', 'normal', 'oily']","['acne', 'dryness']",['brightening'],"['aha', 'bha', 'glycerin', 'panthenol']"
+876,"['oily', 'combination', 'dry', 'normal', 'sensitive']","['redness', 'acne', 'dryness']",['glowing'],"['aha', 'glycerin']"
+877,"['oily', 'combination', 'dry', 'normal', 'sensitive']","['pores', 'redness', 'acne', 'oiliness', 'hyperpigmentation']","['glowing', 'pore-minimizing', 'smoothing', 'brightening', 'scar-fading']","['aha', 'bha', 'glycerin', 'hyaluronic acid', 'niacinamide', 'panthenol', 'salicylic acid', 'squalane', 'retinol']"
+878,"['combination', 'oily', 'sensitive', 'dry']","['hyperpigmentation', 'dark spots', 'acne', 'redness']","['brightening', 'tone-evening', 'hydrating']","['niacinamide', 'bha', 'aha', 'salicylic acid']"
+879,"['combination', 'dry', 'normal', 'oily', 'sensitive']","['acne', 'fine lines', 'redness', 'pores', 'hyperpigmentation']","['anti-aging', 'glowing', 'tone-evening', 'brightening', 'hydrating']","['aha', 'bha', 'salicylic acid', 'retinol']"
+880,"['combination', 'normal', 'dry']",['acne'],"['brightening', 'tone-evening', 'hydrating']",['aha']
+881,"['dry', 'sensitive', 'combination', 'normal', 'oily']","['acne', 'dryness', 'pores', 'redness']","['smoothing', 'brightening']","['aha', 'bha', 'glycerin', 'hyaluronic acid', 'niacinamide', 'panthenol', 'salicylic acid']"
+882,"['combination', 'medium', 'dry', 'normal', 'oily', 'sensitive']",['acne'],[],"['allantoin', 'glycerin', 'aha']"
+883,"['combination', 'dry', 'normal', 'oily', 'sensitive']","['pores', 'dryness']","['brightening', 'hydrating']",['aha']
+884,"['dry', 'sensitive', 'combination', 'normal', 'oily']","['acne', 'dryness', 'pores', 'redness']","['hydrating', 'pore-minimizing', 'glowing', 'regenerating', 'smoothing']","['aha', 'allantoin', 'bha', 'retinol']"
+885,"['combination', 'dry', 'normal', 'oily']","['acne', 'dryness', 'pores']","['brightening', 'glowing', 'regenerating', 'hydrating']","['glycerin', 'niacinamide', 'aha']"
+886,"['dry', 'sensitive', 'combination', 'normal', 'oily']","['pores', 'redness', 'acne', 'dryness']","['brightening', 'regenerating', 'smoothing', 'hydrating']",['aha']
+887,"['combination', 'oily', 'sensitive', 'dry', 'normal']","['pores', 'redness', 'acne', 'dark spots', 'oiliness']","['barrier-repair', 'brightening', 'oil-control', 'regenerating', 'tone-evening', 'scar-fading', 'hydrating']","['aha', 'bha', 'niacinamide', 'salicylic acid']"
+888,"['dry', 'sensitive', 'combination', 'normal', 'oily']","['acne', 'pores', 'redness', 'dryness']","['brightening', 'hydrating', 'oil-control', 'pore-minimizing', 'smoothing', 'scar-fading']","['aha', 'bha', 'ceramide', 'hyaluronic acid', 'retinol', 'squalane']"
+889,"['combination', 'oily', 'dry']","['acne', 'oiliness', 'pores', 'redness']","['oil-control', 'brightening', 'smoothing']","['aha', 'bha', 'hyaluronic acid']"
+890,"['combination', 'oily', 'normal', 'dry']","['acne', 'dark spots', 'pores']","['brightening', 'smoothing', 'oil-control']",['unknown']
+891,"['dry', 'sensitive', 'combination', 'normal', 'oily']","['wrinkles', 'acne', 'dryness', 'pores', 'hyperpigmentation']","['hydrating', 'brightening', 'scar-fading', 'pore-minimizing', 'plumping', 'regenerating']","['aha', 'bha', 'ceramide', 'hyaluronic acid', 'niacinamide', 'retinol', 'salicylic acid', 'squalane', 'vitamin c']"
+892,"['oily', 'combination', 'dry', 'normal']","['wrinkles', 'acne', 'dark spots', 'fine lines', 'hyperpigmentation', 'dryness', 'oiliness', 'redness', 'pores']","['hydrating', 'brightening', 'glowing', 'smoothing', 'scar-fading', 'anti-aging', 'tone-evening']","['green tea', 'niacinamide', 'retinol', 'vitamin c']"
+893,"['combination', 'dry', 'normal', 'oily', 'sensitive']","['acne', 'dryness', 'pores', 'redness', 'fine lines']","['brightening', 'tone-evening', 'hydrating', 'refreshing', 'barrier-repair', 'scar-fading']","['glycerin', 'hyaluronic acid', 'vitamin c']"
+894,"['normal', 'oily', 'dry', 'combination', 'sensitive']","['acne', 'dryness', 'redness']","['hydrating', 'refreshing', 'plumping', 'oil-control', 'brightening']","['glycerin', 'niacinamide', 'retinol']"
+895,"['combination', 'sensitive', 'oily', 'dry', 'normal']","['acne', 'dark spots', 'pores', 'hyperpigmentation', 'redness']","['brightening', 'tone-evening', 'glowing', 'hydrating', 'scar-fading', 'barrier-repair', 'plumping']","['aha', 'bha', 'glycerin', 'niacinamide', 'salicylic acid', 'vitamin c', 'retinol']"
+896,"['oily', 'dry', 'sensitive', 'combination', 'normal']","['fine lines', 'hyperpigmentation', 'acne', 'redness', 'dryness', 'oiliness', 'pores', 'dark spots']","['brightening', 'tone-evening', 'hydrating', 'regenerating', 'smoothing', 'glowing', 'scar-fading', 'healthy', 'barrier-repair']","['aha', 'allantoin', 'bha', 'glycerin', 'niacinamide', 'retinol', 'panthenol', 'vitamin c']"
+897,"['oily', 'combination', 'dry', 'normal', 'sensitive']","['wrinkles', 'dryness', 'acne', 'fine lines', 'pores', 'redness']","['hydrating', 'plumping', 'brightening', 'scar-fading', 'healthy', 'barrier-repair', 'firming', 'anti-aging', 'regenerating', 'smoothing', 'tone-evening']","['glycerin', 'niacinamide', 'retinol', 'aha', 'bha', 'ceramide']"
+898,"['oily', 'combination', 'dry', 'normal', 'sensitive']","['acne', 'dark spots', 'pores', 'dryness', 'oiliness', 'redness']","['anti-aging', 'brightening', 'hydrating', 'oil-control', 'scar-fading', 'smoothing', 'healthy', 'tone-evening']","['glycerin', 'niacinamide', 'retinol', 'salicylic acid', 'aha', 'bha']"
+899,"['oily', 'dry', 'combination', 'normal']","['acne', 'dryness', 'oiliness', 'pores', 'redness']","['hydrating', 'scar-fading', 'oil-control', 'brightening', 'smoothing']","['glycerin', 'salicylic acid', 'zinc', 'aha', 'bha', 'retinol', 'niacinamide', 'panthenol']"
+900,"['combination', 'dry', 'normal', 'oily', 'sensitive']","['acne', 'dark spots', 'dryness', 'redness']","['brightening', 'tone-evening', 'glowing', 'smoothing', 'hydrating', 'scar-fading', 'barrier-repair']","['glycerin', 'niacinamide', 'retinol', 'vitamin c', 'aha', 'bha']"
+901,"['oily', 'combination', 'dry', 'normal', 'sensitive']","['acne', 'dark spots', 'oiliness', 'redness', 'dryness', 'hyperpigmentation']","['hydrating', 'brightening', 'glowing', 'scar-fading', 'tone-evening']","['allantoin', 'glycerin', 'niacinamide', 'squalane']"
+902,"['combination', 'sensitive', 'dry', 'normal', 'oily']","['acne', 'dryness', 'dark spots', 'redness']","['scar-fading', 'brightening', 'hydrating']","['niacinamide', 'salicylic acid', 'retinol']"
+903,"['oily', 'combination', 'dry', 'normal', 'sensitive']","['acne', 'dark spots', 'dryness', 'pores', 'redness']","['brightening', 'healthy', 'hydrating', 'scar-fading', 'glowing', 'tone-evening', 'plumping', 'regenerating']","['hyaluronic acid', 'niacinamide', 'vitamin c']"
+904,"['oily', 'dry', 'combination', 'normal']","['wrinkles', 'dryness', 'oiliness', 'fine lines', 'acne']","['hydrating', 'scar-fading', 'oil-control', 'plumping', 'barrier-repair', 'brightening', 'firming', 'glowing']","['squalane', 'panthenol', 'retinol']"
+905,"['combination', 'dry', 'normal', 'oily', 'sensitive']","['wrinkles', 'acne', 'fine lines', 'pores', 'dark spots', 'dryness', 'redness']","['hydrating', 'scar-fading', 'healthy', 'brightening', 'smoothing']","['ceramide', 'niacinamide', 'retinol', 'hyaluronic acid', 'aha', 'bha', 'vitamin c']"
+906,"['combination', 'oily', 'normal', 'dry']","['fine lines', 'wrinkles', 'acne']","['anti-aging', 'glowing', 'hydrating', 'healthy', 'smoothing', 'brightening']",['retinol']
+907,"['combination', 'dry', 'normal', 'oily', 'sensitive']",['acne'],"['brightening', 'hydrating', 'smoothing', 'tone-evening']","['allantoin', 'azelaic acid', 'glycerin', 'panthenol']"
+908,"['combination', 'sensitive', 'dry', 'oily', 'normal']","['dark spots', 'fine lines', 'hyperpigmentation', 'pores', 'redness', 'acne', 'wrinkles', 'dryness', 'oiliness']","['anti-aging', 'barrier-repair', 'brightening', 'regenerating', 'scar-fading', 'smoothing', 'tone-evening', 'plumping', 'healthy', 'pore-minimizing', 'hydrating']","['glycerin', 'hyaluronic acid', 'niacinamide', 'panthenol', 'retinol', 'ceramide', 'vitamin c']"
+909,"['oily', 'combination', 'dry', 'normal', 'sensitive']","['acne', 'dryness', 'pores', 'redness', 'oiliness']","['anti-aging', 'brightening', 'glowing', 'hydrating', 'scar-fading', 'barrier-repair', 'healthy', 'tone-evening']","['ceramide', 'squalane', 'retinol']"
+910,"['oily', 'dry', 'sensitive', 'combination', 'normal']","['wrinkles', 'acne', 'pores', 'fine lines', 'hyperpigmentation', 'dryness', 'oiliness', 'redness']","['hydrating', 'healthy', 'smoothing', 'brightening', 'nourishing', 'glowing', 'scar-fading', 'barrier-repair', 'plumping', 'regenerating', 'pore-minimizing', 'tone-evening']","['allantoin', 'panthenol', 'peptides', 'retinol']"
+911,"['oily', 'dry', 'sensitive', 'combination', 'normal']","['dark spots', 'dryness', 'pores', 'acne', 'fine lines', 'redness']","['brightening', 'healthy', 'hydrating', 'glowing', 'smoothing']",['retinol']
+912,"['oily', 'dry', 'combination', 'normal', 'sensitive']","['acne', 'dryness', 'pores', 'redness', 'dark spots', 'hyperpigmentation', 'oiliness']","['brightening', 'pore-minimizing', 'refreshing', 'scar-fading', 'anti-aging', 'firming', 'healthy', 'hydrating', 'tone-evening', 'barrier-repair']","['niacinamide', 'vitamin c']"
+913,"['oily', 'combination', 'dry', 'normal']","['acne', 'dark spots', 'fine lines']","['brightening', 'glowing', 'tone-evening', 'hydrating']","['niacinamide', 'retinol', 'vitamin c']"
+914,"['combination', 'dry', 'normal', 'oily', 'sensitive']","['acne', 'dark spots', 'pores']","['brightening', 'healthy', 'hydrating', 'scar-fading', 'tone-evening']","['panthenol', 'peptides', 'salicylic acid', 'vitamin c']"
+915,"['oily', 'combination', 'dry', 'normal', 'sensitive']","['wrinkles', 'acne', 'dark spots', 'pores', 'fine lines', 'dryness', 'redness']","['anti-aging', 'glowing', 'brightening', 'barrier-repair', 'healthy', 'hydrating', 'plumping']","['aha', 'bha', 'retinol', 'squalane', 'peptides', 'vitamin c', 'niacinamide', 'hyaluronic acid']"
+916,"['dry', 'sensitive', 'combination', 'normal', 'oily']","['acne', 'dark spots', 'pores', 'dryness', 'redness']","['hydrating', 'scar-fading', 'pore-minimizing', 'barrier-repair', 'brightening', 'tone-evening']","['niacinamide', 'vitamin c', 'aha', 'bha', 'ceramide', 'hyaluronic acid', 'retinol']"
+917,"['combination', 'dry', 'normal', 'oily', 'sensitive']","['acne', 'fine lines', 'pores', 'redness', 'wrinkles', 'dryness', 'hyperpigmentation', 'dark spots']","['anti-aging', 'brightening', 'hydrating', 'pore-minimizing', 'tone-evening', 'glowing', 'healthy', 'scar-fading', 'oil-control', 'barrier-repair']","['niacinamide', 'vitamin c']"
+918,"['dry', 'sensitive', 'combination', 'oily', 'normal']","['wrinkles', 'acne', 'dark spots', 'dryness', 'pores', 'oiliness', 'redness']","['brightening', 'tone-evening', 'glowing', 'oil-control', 'plumping', 'pore-minimizing', 'hydrating', 'barrier-repair', 'scar-fading']","['niacinamide', 'vitamin c']"
+919,"['combination', 'dry', 'normal', 'oily', 'sensitive']",['acne'],['brightening'],"['aha', 'glycerin', 'niacinamide', 'salicylic acid', 'vitamin c']"
+920,"['oily', 'combination', 'dry', 'normal', 'sensitive']","['redness', 'acne', 'dryness']","['hydrating', 'scar-fading', 'plumping', 'healthy', 'brightening']","['hyaluronic acid', 'retinol', 'niacinamide']"
+921,"['oily', 'combination', 'dry', 'normal']","['wrinkles', 'acne', 'dark spots', 'redness', 'oiliness']","['hydrating', 'brightening', 'glowing', 'smoothing', 'scar-fading', 'tone-evening']","['niacinamide', 'vitamin c']"
+922,"['oily', 'combination', 'dry', 'normal', 'sensitive']","['acne', 'dark spots', 'wrinkles', 'hyperpigmentation', 'dryness', 'oiliness', 'redness']","['brightening', 'tone-evening', 'hydrating', 'scar-fading']","['aha', 'bha', 'niacinamide', 'salicylic acid', 'vitamin c']"
+923,"['oily', 'combination', 'dry', 'normal', 'sensitive']","['dryness', 'oiliness', 'redness', 'acne']","['hydrating', 'brightening', 'glowing', 'smoothing', 'oil-control', 'plumping']","['niacinamide', 'hyaluronic acid', 'vitamin c']"
+924,"['combination', 'oily', 'normal', 'dry']","['pores', 'acne']","['brightening', 'nourishing', 'plumping', 'tone-evening', 'hydrating']",['aha']
+925,"['combination', 'oily', 'normal', 'dry']","['acne', 'redness']","['hydrating', 'oil-control']",['salicylic acid']
+926,"['oily', 'combination', 'dry', 'normal', 'sensitive']","['dryness', 'pores', 'oiliness', 'acne', 'fine lines', 'wrinkles']","['hydrating', 'plumping', 'firming', 'brightening', 'smoothing', 'glowing', 'tone-evening', 'nourishing', 'scar-fading']","['allantoin', 'glycerin', 'vitamin c', 'niacinamide', 'retinol']"
+927,"['dry', 'oily', 'normal', 'combination']",['acne'],"['brightening', 'smoothing', 'glowing']",['vitamin c']
+928,"['combination', 'dry', 'normal', 'oily', 'sensitive']","['acne', 'dark spots', 'hyperpigmentation', 'redness']","['brightening', 'hydrating', 'nourishing', 'oil-control', 'plumping', 'scar-fading', 'healthy']","['niacinamide', 'salicylic acid', 'vitamin c', 'retinol']"
+929,"['oily', 'combination', 'dry', 'normal']","['wrinkles', 'dark spots', 'dryness', 'pores', 'oiliness', 'fine lines', 'redness', 'acne']","['brightening', 'glowing', 'healthy', 'hydrating', 'smoothing', 'barrier-repair', 'tone-evening', 'firming', 'plumping']","['allantoin', 'ceramide', 'glycerin', 'hyaluronic acid', 'niacinamide', 'retinol', 'squalane', 'green tea']"
+930,"['oily', 'combination', 'dry', 'normal', 'sensitive']","['acne', 'pores', 'dark spots', 'dryness', 'redness', 'oiliness']","['brightening', 'glowing', 'hydrating', 'scar-fading', 'barrier-repair', 'healthy']","['allantoin', 'glycerin', 'green tea', 'hyaluronic acid', 'niacinamide', 'panthenol', 'squalane', 'retinol', 'ceramide', 'vitamin c']"
+931,"['combination', 'dry', 'normal', 'oily', 'sensitive']","['acne', 'fine lines', 'pores', 'redness', 'wrinkles', 'dark spots', 'dryness', 'hyperpigmentation']","['hydrating', 'glowing', 'pore-minimizing', 'scar-fading', 'anti-aging', 'brightening', 'plumping', 'smoothing', 'barrier-repair', 'healthy', 'tone-evening']","['allantoin', 'bha', 'ceramide', 'glycerin', 'hyaluronic acid', 'niacinamide', 'retinol', 'salicylic acid', 'green tea', 'aha']"
+932,"['oily', 'combination', 'dry', 'normal', 'sensitive']","['wrinkles', 'acne', 'fine lines', 'dryness', 'redness', 'pores', 'hyperpigmentation']","['hydrating', 'scar-fading', 'brightening', 'pore-minimizing', 'glowing', 'smoothing', 'healthy', 'barrier-repair', 'nourishing', 'anti-aging']","['niacinamide', 'vitamin c', 'aha', 'bha', 'retinol', 'green tea']"
+933,"['combination', 'dry', 'normal', 'oily', 'sensitive']","['acne', 'dark spots', 'pores', 'redness', 'hyperpigmentation', 'dryness']","['brightening', 'pore-minimizing', 'scar-fading', 'tone-evening', 'regenerating', 'glowing', 'hydrating', 'nourishing']","['niacinamide', 'vitamin c', 'bha', 'retinol', 'aha', 'salicylic acid']"
+934,"['oily', 'dry', 'combination', 'normal', 'sensitive']","['acne', 'fine lines', 'oiliness', 'wrinkles', 'pores', 'dryness', 'hyperpigmentation', 'redness']","['glowing', 'hydrating', 'plumping', 'brightening']","['aha', 'squalane', 'retinol']"
+935,"['combination', 'oily', 'normal', 'dry']",[],['brightening'],"['glycerin', 'niacinamide', 'salicylic acid']"
+936,"['combination', 'dry', 'normal', 'oily']","['dryness', 'fine lines', 'acne']","['brightening', 'hydrating', 'smoothing']","['ceramide', 'glycerin', 'hyaluronic acid', 'niacinamide', 'retinol']"
+937,"['dry', 'sensitive', 'combination', 'normal', 'oily']","['pores', 'redness', 'acne', 'dark spots', 'wrinkles', 'fine lines']","['hydrating', 'firming', 'pore-minimizing', 'glowing', 'tone-evening', 'brightening']","['niacinamide', 'salicylic acid', 'hyaluronic acid']"
+938,"['combination', 'dry', 'normal', 'oily']","['dark spots', 'acne', 'dryness', 'redness']","['hydrating', 'scar-fading', 'smoothing', 'barrier-repair', 'brightening']","['niacinamide', 'aha', 'bha', 'vitamin c', 'salicylic acid']"
+939,"['oily', 'combination', 'dry', 'normal', 'sensitive']","['wrinkles', 'acne', 'pores', 'fine lines', 'hyperpigmentation', 'dryness', 'redness']","['glowing', 'regenerating', 'brightening', 'anti-aging', 'tone-evening', 'healthy', 'hydrating', 'plumping']","['glycerin', 'hyaluronic acid', 'retinol', 'vitamin c']"
+940,"['combination', 'oily', 'dry']",[],"['brightening', 'hydrating']","['glycerin', 'niacinamide', 'vitamin c']"
+941,"['dry', 'oily', 'combination', 'normal']","['dryness', 'oiliness', 'fine lines', 'redness', 'acne']","['hydrating', 'scar-fading', 'oil-control', 'glowing', 'brightening']","['glycerin', 'retinol', 'zinc']"
+942,"['oily', 'combination', 'dry', 'normal', 'sensitive']","['fine lines', 'hyperpigmentation', 'redness', 'pores', 'wrinkles', 'acne', 'dryness']","['hydrating', 'plumping', 'brightening', 'nourishing', 'smoothing', 'anti-aging', 'regenerating', 'tone-evening']","['niacinamide', 'retinol']"
+943,"['combination', 'dry', 'normal', 'oily']","['wrinkles', 'acne', 'dark spots', 'hyperpigmentation', 'fine lines', 'redness']","['brightening', 'tone-evening', 'glowing', 'hydrating', 'healthy', 'barrier-repair', 'scar-fading']","['niacinamide', 'vitamin c', 'retinol']"
+944,"['oily', 'dry', 'combination', 'sensitive', 'normal']","['dryness', 'oiliness', 'acne', 'pores', 'wrinkles', 'hyperpigmentation', 'redness']","['brightening', 'tone-evening', 'hydrating', 'anti-aging', 'glowing', 'plumping', 'pore-minimizing', 'scar-fading']","['glycerin', 'niacinamide', 'retinol', 'vitamin c']"
+945,"['oily', 'combination', 'dry', 'normal', 'sensitive']","['wrinkles', 'dark spots', 'acne', 'hyperpigmentation', 'dryness', 'pores', 'redness']","['brightening', 'tone-evening', 'hydrating', 'scar-fading', 'glowing', 'plumping']","['glycerin', 'hyaluronic acid', 'niacinamide', 'vitamin c', 'aha', 'bha']"
+946,"['combination', 'sensitive', 'normal', 'oily']","['acne', 'redness']","['hydrating', 'barrier-repair']","['allantoin', 'glycerin', 'salicylic acid']"
+947,"['combination', 'dry', 'normal', 'oily', 'sensitive']","['wrinkles', 'dark spots', 'dryness', 'fine lines', 'redness', 'acne']","['anti-aging', 'brightening', 'hydrating', 'smoothing', 'tone-evening', 'barrier-repair', 'plumping', 'firming']","['hyaluronic acid', 'niacinamide']"
+948,"['oily', 'combination', 'dry', 'normal', 'sensitive']","['pores', 'redness', 'dryness', 'acne', 'oiliness']","['brightening', 'plumping', 'hydrating']","['green tea', 'vitamin c', 'bha', 'niacinamide']"
+949,['sensitive'],[],"['barrier-repair', 'brightening', 'hydrating']","['allantoin', 'glycerin']"
+950,"['oily', 'combination', 'dry', 'normal', 'sensitive']","['wrinkles', 'dark spots', 'dryness', 'pores', 'oiliness', 'redness', 'acne']","['hydrating', 'plumping', 'refreshing', 'brightening', 'tone-evening', 'healthy']","['niacinamide', 'vitamin c']"
+951,"['combination', 'dry', 'normal', 'oily', 'sensitive']","['acne', 'fine lines', 'wrinkles', 'dark spots', 'pores', 'redness', 'dryness']","['brightening', 'tone-evening', 'anti-aging', 'plumping', 'nourishing', 'firming', 'glowing', 'hydrating', 'healthy']","['hyaluronic acid', 'niacinamide', 'retinol', 'vitamin c']"
+952,"['oily', 'combination', 'dry', 'normal', 'sensitive']","['acne', 'dark spots', 'pores', 'dryness', 'wrinkles', 'redness']","['brightening', 'tone-evening', 'plumping', 'glowing', 'hydrating', 'oil-control', 'scar-fading', 'pore-minimizing']","['glycerin', 'niacinamide', 'panthenol', 'vitamin c', 'retinol']"
+953,"['oily', 'combination', 'dry', 'normal', 'sensitive']","['dark spots', 'acne', 'hyperpigmentation', 'dryness', 'oiliness']","['brightening', 'hydrating', 'tone-evening', 'barrier-repair', 'glowing']","['niacinamide', 'retinol', 'vitamin c']"
+954,"['oily', 'combination', 'dry', 'normal', 'sensitive']","['acne', 'dark spots', 'hyperpigmentation', 'dryness', 'pores', 'oiliness', 'redness', 'wrinkles']","['brightening', 'tone-evening', 'hydrating', 'scar-fading', 'nourishing']","['niacinamide', 'vitamin c', 'retinol']"
+955,"['oily', 'combination', 'sensitive', 'dry', 'normal']","['acne', 'hyperpigmentation', 'oiliness', 'dark spots', 'dryness', 'redness']","['oil-control', 'brightening', 'hydrating']","['hyaluronic acid', 'niacinamide', 'salicylic acid', 'vitamin c', 'bha']"
+956,"['oily', 'combination', 'dry', 'normal']","['fine lines', 'oiliness', 'acne', 'redness', 'dryness', 'dark spots']","['brightening', 'glowing', 'oil-control', 'hydrating', 'barrier-repair']","['niacinamide', 'retinol', 'aha', 'bha']"
+957,"['combination', 'oily', 'sensitive', 'dry', 'normal']","['wrinkles', 'fine lines', 'redness', 'dark spots', 'pores', 'acne', 'dryness']","['hydrating', 'healthy', 'regenerating', 'brightening', 'refreshing', 'glowing', 'anti-aging', 'firming', 'smoothing', 'plumping', 'tone-evening', 'nourishing']","['ceramide', 'niacinamide', 'retinol', 'hyaluronic acid', 'aha', 'bha', 'vitamin c']"
+958,"['combination', 'sensitive', 'dry', 'normal', 'oily']","['acne', 'dryness', 'redness', 'oiliness', 'pores']","['hydrating', 'oil-control', 'barrier-repair', 'brightening', 'smoothing', 'glowing']","['bha', 'retinol']"
+959,"['dry', 'oily', 'sensitive', 'combination', 'normal']","['acne', 'dryness', 'pores', 'redness', 'hyperpigmentation', 'oiliness']","['hydrating', 'pore-minimizing', 'scar-fading', 'healthy', 'barrier-repair', 'brightening']","['aha', 'bha', 'niacinamide', 'retinol']"
+960,"['oily', 'dry', 'combination', 'normal', 'sensitive']","['acne', 'fine lines', 'wrinkles', 'pores', 'hyperpigmentation', 'dryness', 'oiliness', 'redness']","['brightening', 'regenerating', 'firming', 'hydrating', 'barrier-repair', 'pore-minimizing', 'scar-fading', 'nourishing', 'smoothing']","['aha', 'bha', 'niacinamide', 'ceramide']"
+961,"['dry', 'sensitive', 'combination', 'oily', 'normal']","['acne', 'dark spots', 'redness', 'dryness', 'pores']","['hydrating', 'scar-fading', 'oil-control', 'brightening', 'tone-evening', 'plumping']","['aha', 'bha', 'niacinamide', 'vitamin c', 'retinol']"
+962,"['dry', 'oily', 'sensitive', 'combination', 'normal']","['acne', 'dryness', 'hyperpigmentation', 'redness', 'oiliness']","['barrier-repair', 'brightening', 'hydrating', 'tone-evening', 'plumping', 'scar-fading', 'healthy']","['ceramide', 'niacinamide', 'retinol', 'bha', 'aha', 'hyaluronic acid', 'salicylic acid', 'vitamin c']"
+963,"['oily', 'combination', 'dry', 'normal', 'sensitive']","['acne', 'pores', 'dryness', 'oiliness', 'redness', 'fine lines', 'wrinkles']","['hydrating', 'scar-fading', 'smoothing', 'tone-evening', 'brightening', 'nourishing', 'plumping', 'oil-control', 'glowing', 'anti-aging', 'barrier-repair']","['allantoin', 'glycerin', 'niacinamide', 'retinol', 'ceramide', 'vitamin c', 'hyaluronic acid']"
+964,"['combination', 'sensitive', 'dry', 'oily', 'normal']","['acne', 'fine lines', 'wrinkles', 'pores', 'dryness', 'oiliness', 'redness']","['hydrating', 'scar-fading', 'healthy', 'barrier-repair', 'anti-aging', 'brightening']","['niacinamide', 'retinol', 'salicylic acid']"
+965,"['oily', 'dry', 'normal', 'combination', 'sensitive']","['wrinkles', 'dryness', 'pores', 'fine lines', 'redness', 'acne']","['anti-aging', 'firming', 'pore-minimizing', 'hydrating', 'brightening', 'barrier-repair', 'smoothing']","['allantoin', 'glycerin', 'niacinamide', 'peptides', 'retinol', 'squalane', 'hyaluronic acid']"
+966,"['oily', 'dry', 'combination', 'sensitive', 'normal']","['wrinkles', 'acne', 'pores', 'dryness', 'redness', 'oiliness']","['barrier-repair', 'brightening', 'hydrating', 'plumping', 'smoothing', 'healthy', 'anti-aging', 'glowing', 'refreshing']","['allantoin', 'glycerin', 'hyaluronic acid', 'niacinamide', 'panthenol', 'aha', 'bha', 'retinol']"
+967,"['combination', 'dry', 'normal', 'oily', 'sensitive']","['wrinkles', 'redness', 'acne', 'pores', 'dryness', 'fine lines']","['anti-aging', 'firming', 'regenerating', 'hydrating', 'brightening', 'plumping', 'glowing']","['aha', 'allantoin', 'bha', 'glycerin', 'hyaluronic acid', 'niacinamide', 'retinol', 'squalane']"
+968,['sensitive'],[],['tone-evening'],"['allantoin', 'glycerin']"
+969,"['combination', 'sensitive', 'oily', 'dry', 'normal']","['dryness', 'fine lines', 'wrinkles', 'redness', 'acne']","['hydrating', 'anti-aging', 'regenerating', 'glowing', 'barrier-repair', 'plumping', 'healthy', 'smoothing', 'nourishing', 'brightening']","['niacinamide', 'vitamin c', 'green tea', 'hyaluronic acid', 'retinol', 'salicylic acid']"
+970,"['oily', 'combination', 'dry', 'normal']","['wrinkles', 'dryness', 'fine lines', 'redness', 'pores', 'oiliness', 'acne']","['brightening', 'tone-evening', 'hydrating', 'pore-minimizing', 'anti-aging', 'plumping', 'healthy', 'scar-fading', 'regenerating', 'smoothing']","['glycerin', 'salicylic acid', 'aha', 'bha', 'retinol']"
+971,"['oily', 'combination', 'dry', 'normal']","['acne', 'pores', 'oiliness', 'redness']","['hydrating', 'healthy', 'barrier-repair', 'brightening', 'oil-control']",['salicylic acid']
+972,"['oily', 'combination', 'dry', 'normal', 'sensitive']","['acne', 'dryness', 'hyperpigmentation', 'pores', 'redness', 'wrinkles', 'dark spots']","['hydrating', 'scar-fading', 'brightening', 'plumping', 'tone-evening', 'pore-minimizing']","['hyaluronic acid', 'niacinamide', 'vitamin c', 'zinc', 'azelaic acid', 'aha', 'bha', 'retinol']"
+973,"['oily', 'combination', 'dry', 'normal', 'sensitive']","['acne', 'fine lines', 'wrinkles', 'dark spots', 'pores', 'redness', 'hyperpigmentation', 'dryness', 'oiliness']","['hydrating', 'glowing', 'oil-control', 'tone-evening', 'scar-fading', 'brightening', 'smoothing', 'anti-aging']","['aha', 'bha', 'niacinamide', 'zinc', 'ceramide', 'vitamin c', 'retinol', 'salicylic acid']"
+974,"['dry', 'sensitive', 'combination', 'normal', 'oily']","['acne', 'fine lines', 'wrinkles', 'dark spots', 'redness', 'dryness']","['anti-aging', 'brightening', 'hydrating', 'scar-fading', 'smoothing', 'oil-control', 'healthy', 'glowing', 'tone-evening']","['allantoin', 'glycerin', 'panthenol', 'retinol', 'aha', 'bha', 'azelaic acid', 'niacinamide']"
+975,"['oily', 'combination', 'dry', 'normal']","['acne', 'pores', 'redness']","['barrier-repair', 'healthy', 'hydrating']","['allantoin', 'hyaluronic acid', 'panthenol', 'retinol', 'glycerin']"
+976,"['oily', 'combination', 'dry', 'normal']","['acne', 'dark spots', 'pores', 'dryness', 'oiliness', 'redness']","['brightening', 'hydrating', 'oil-control', 'scar-fading', 'pore-minimizing', 'tone-evening']","['glycerin', 'niacinamide', 'retinol', 'allantoin', 'zinc', 'vitamin c']"
+977,"['oily', 'dry', 'combination', 'sensitive', 'normal']","['acne', 'oiliness', 'dryness', 'redness', 'pores']","['hydrating', 'brightening', 'smoothing', 'oil-control']","['bha', 'ceramide', 'hyaluronic acid', 'salicylic acid', 'aha', 'niacinamide', 'retinol']"
+978,"['oily', 'combination', 'dry', 'normal', 'sensitive']","['dark spots', 'dryness', 'oiliness', 'acne', 'redness']","['brightening', 'tone-evening', 'hydrating', 'pore-minimizing', 'scar-fading', 'smoothing', 'oil-control']","['aha', 'bha', 'ceramide', 'niacinamide', 'salicylic acid']"
+979,"['oily', 'combination', 'dry', 'normal', 'sensitive']","['acne', 'pores', 'dark spots', 'redness']","['barrier-repair', 'tone-evening', 'scar-fading', 'hydrating', 'firming', 'glowing', 'brightening', 'smoothing']","['ceramide', 'niacinamide', 'vitamin c', 'retinol', 'hyaluronic acid']"
+980,"['oily', 'combination', 'dry', 'normal', 'sensitive']","['acne', 'dark spots', 'fine lines', 'dryness']","['barrier-repair', 'brightening', 'hydrating', 'tone-evening', 'scar-fading']","['ceramide', 'hyaluronic acid', 'niacinamide', 'vitamin c', 'retinol']"
+981,"['combination', 'dry', 'normal', 'oily', 'sensitive']","['wrinkles', 'dark spots', 'pores', 'dryness', 'fine lines', 'redness', 'acne']","['hydrating', 'plumping', 'anti-aging', 'barrier-repair', 'healthy', 'brightening', 'glowing']","['ceramide', 'niacinamide', 'hyaluronic acid', 'bha', 'retinol', 'aha']"
+982,"['oily', 'combination', 'dry', 'normal', 'sensitive']","['acne', 'dark spots', 'dryness', 'hyperpigmentation', 'redness', 'oiliness', 'wrinkles']","['brightening', 'hydrating', 'oil-control', 'scar-fading', 'glowing', 'tone-evening', 'smoothing', 'anti-aging']","['bha', 'vitamin c', 'niacinamide', 'retinol', 'salicylic acid', 'aha']"
+983,"['oily', 'combination', 'dry', 'normal']","['acne', 'dark spots', 'pores', 'dryness', 'oiliness', 'redness']","['hydrating', 'brightening', 'pore-minimizing', 'glowing', 'scar-fading', 'tone-evening']","['bha', 'vitamin c', 'aha']"
+984,"['dry', 'normal', 'oily', 'combination']","['fine lines', 'wrinkles', 'redness', 'acne', 'dryness']","['hydrating', 'glowing', 'plumping']","['niacinamide', 'salicylic acid']"
+985,"['combination', 'dry', 'normal', 'oily', 'sensitive']","['acne', 'pores', 'dryness', 'redness']","['brightening', 'healthy', 'scar-fading', 'hydrating', 'tone-evening']","['glycerin', 'niacinamide', 'retinol']"
+986,"['oily', 'combination', 'dry', 'normal']","['dark spots', 'acne', 'hyperpigmentation', 'dryness', 'redness', 'oiliness']","['brightening', 'glowing', 'hydrating', 'scar-fading', 'smoothing', 'tone-evening', 'plumping']","['allantoin', 'niacinamide', 'green tea']"
+987,"['oily', 'combination', 'dry', 'normal']","['wrinkles', 'dark spots', 'dryness', 'pores', 'oiliness', 'redness', 'acne']","['brightening', 'tone-evening', 'plumping', 'scar-fading', 'glowing', 'pore-minimizing', 'smoothing', 'hydrating']","['hyaluronic acid', 'aha']"
+988,"['oily', 'combination', 'dry', 'normal', 'sensitive']","['acne', 'dark spots', 'redness', 'dryness', 'pores']","['barrier-repair', 'brightening', 'hydrating', 'oil-control', 'tone-evening', 'glowing', 'scar-fading']","['niacinamide', 'retinol', 'vitamin c']"
+989,"['oily', 'combination', 'sensitive', 'dry', 'normal']","['acne', 'oiliness', 'redness', 'dark spots', 'pores']","['brightening', 'hydrating', 'oil-control', 'pore-minimizing', 'smoothing']","['bha', 'retinol']"
+990,"['dry', 'oily', 'combination', 'normal', 'sensitive']","['acne', 'dryness', 'fine lines', 'hyperpigmentation', 'pores', 'redness', 'wrinkles', 'dark spots']","['brightening', 'nourishing', 'tone-evening', 'scar-fading', 'hydrating', 'oil-control']","['niacinamide', 'retinol', 'vitamin c']"
