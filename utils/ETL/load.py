@@ -3,15 +3,18 @@ import pandas as pd
 import logging
 from datetime import datetime
 
+# Create logs directory if it doesn't exist
+log_dir = os.path.abspath(os.path.join(os.path.dirname(__file__), "../../logs"))
+os.makedirs(log_dir, exist_ok=True)
 
 # Configure logging
 logging.basicConfig(
     level=logging.INFO,
-    format='%(asctime)s - %(levelname)s - %(message)s',
     handlers=[
-        logging.FileHandler('../../logs/data_loading.log'),
+        logging.FileHandler(os.path.join(log_dir, "data_loading.log")),
         logging.StreamHandler()
-    ]
+    ],
+    format='%(asctime)s - %(levelname)s - %(message)s'
 )
 
 def load_data():
@@ -31,7 +34,7 @@ def load_data():
         logger.info("Starting data loading process...")
         
         # Define file paths
-        data_dir = '../../data'
+        data_dir = os.path.abspath(os.path.join(os.path.dirname(__file__), '../../data'))
         files = {
             'products_list': os.path.join(data_dir, 'products_list.csv'),
             'products_details': os.path.join(data_dir, 'products_detail.csv'),

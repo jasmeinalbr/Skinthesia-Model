@@ -3,41 +3,141 @@ import numpy as np
 import re
 import logging
 import ast
+import os
 from datetime import datetime
 from typing import Tuple, Dict, List, Optional
 from collections import Counter
 
 # Configure logging
-import os
+# Create logs directory if it doesn't exist
+log_dir = os.path.abspath(os.path.join(os.path.dirname(__file__), "../../logs"))
+os.makedirs(log_dir, exist_ok=True)
+
 logging.basicConfig(
     level=logging.INFO,
-    format='%(asctime)s - %(levelname)s - %(message)s',
     handlers=[
-        logging.FileHandler('../../logs/data_transformation.log'),
+        logging.FileHandler(os.path.join(log_dir, "data_transformation.log")),
         logging.StreamHandler()
-    ]
+    ],
+    format='%(asctime)s - %(levelname)s - %(message)s'
 )
 
 # Define all keyword lists and synonym mappings
 INGREDIENTS_KEYWORDS = [
-    'niacinamide', 'asam salisilat', 'salicylic acid', 'retinol', 'vitamin c',
-    'asam hialuronat', 'hyaluronic acid', 'ceramide', 'asam azelaic', 'azelaic acid',
-    'aha', 'bha', 'zinc', 'teh hijau', 'green tea', 'peptida', 'peptides',
-    'gliserin', 'glycerin', 'squalane', 'panthenol', 'allantoin'
+    # Brightening
+    'niacinamide', 'vitamin c', 'vit c', 'arbutin', 'licorice', 'licorice root',
+
+    # Acne / Exfoliant
+    'salicylic acid', 'asam salisilat', 'bha', 'aha', 'pha', 'azelaic acid', 'asam azelaic',
+    'retinoid', 'asam retinoat', 'retinol',
+
+    # Hydrating & Soothing
+    'hyaluronic acid', 'asam hialuronat', 'glycerin', 'gliserin', 'panthenol', 'allantoin',
+    'squalane', 'ceramide',
+
+    # Calming / Anti-inflammatory
+    'centella asiatica', 'centella', 'madecassoside', 'green tea', 'teh hijau', 'tea tree',
+    'aloe vera', 'propolis', 'mugwort', 'snail mucin',
+
+    # Anti-aging & Barrier Repair
+    'peptides', 'peptida', 'vitamin e', 'zinc', 'turmeric'
 ]
+
+INGREDIENT_SYNONYMS = {
+    # Salicylic acid
+    'salicylic acid': 'salicylic acid',
+    'asam salisilat': 'salicylic acid',
+
+    # Hyaluronic acid
+    'hyaluronic acid': 'hyaluronic acid',
+    'asam hialuronat': 'hyaluronic acid',
+
+    # Azelaic acid
+    'azelaic acid': 'azelaic acid',
+    'asam azelaic': 'azelaic acid',
+
+    # Green tea
+    'green tea': 'green tea',
+    'teh hijau': 'green tea',
+
+    # Peptides
+    'peptides': 'peptides',
+    'peptida': 'peptides',
+
+    # Glycerin
+    'glycerin': 'glycerin',
+    'gliserin': 'glycerin',
+
+    # Centella asiatica
+    'centella asiatica': 'centella asiatica',
+    'centella': 'centella asiatica',
+
+    # Licorice
+    'licorice': 'licorice',
+    'licorice root': 'licorice',
+
+    # Vitamin C
+    'vitamin c': 'vitamin c',
+    'vit c': 'vitamin c',
+
+    # Retinoid & Retinol
+    'retinoid': 'retinoid',
+    'asam retinoat': 'retinoid',
+    'retinol': 'retinol',
+
+    # Other ingredients (direct mapping)
+    'bha': 'bha',
+    'aha': 'aha',
+    'pha': 'pha',
+    'panthenol': 'panthenol',
+    'allantoin': 'allantoin',
+    'squalane': 'squalane',
+    'ceramide': 'ceramide',
+    'tea tree': 'tea tree',
+    'aloe vera': 'aloe vera',
+    'propolis': 'propolis',
+    'mugwort': 'mugwort',
+    'snail mucin': 'snail mucin',
+    'niacinamide': 'niacinamide',
+    'vitamin e': 'vitamin e',
+    'zinc': 'zinc',
+    'turmeric': 'turmeric',
+}
 
 SKIN_CONCERN_KEYWORDS = [
     'jerawat', 'acne', 'flek hitam', 'dark spots', 'hiperpigmentasi', 'hyperpigmentation',
     'kerutan', 'wrinkles', 'kemerahan', 'redness', 'kulit berminyak', 'oiliness',
     'kulit kering', 'dryness', 'pori-pori', 'pores', 'tekstur tidak merata',
-    'uneven texture', 'garis halus', 'fine lines'
+    'uneven texture', 'garis halus', 'fine lines',
+    'komedo', 'blackhead', 'whitehead',
+    'sensitif', 'sensitive', 'kulit kusam', 'dull skin', 'beruntusan', 'tiny bumps',
+    'kulit mengelupas', 'flaky skin', 'iritasi', 'irritation'
 ]
+
+SKIN_CONCERN_SYNONYMS = {
+    'jerawat': 'acne', 'acne': 'acne',
+    'flek hitam': 'dark spots', 'dark spots': 'dark spots',
+    'hiperpigmentasi': 'hyperpigmentation', 'hyperpigmentation': 'hyperpigmentation',
+    'kerutan': 'wrinkles', 'wrinkles': 'wrinkles',
+    'kemerahan': 'redness', 'redness': 'redness',
+    'kulit berminyak': 'oiliness', 'oiliness': 'oiliness',
+    'kulit kering': 'dryness', 'dryness': 'dryness',
+    'pori-pori': 'pores', 'pores': 'pores',
+    'tekstur tidak merata': 'uneven texture', 'uneven texture': 'uneven texture',
+    'garis halus': 'fine lines', 'fine lines': 'fine lines',
+    'komedo': 'blackheads', 'blackhead': 'blackheads', 'whitehead': 'whiteheads',
+    'sensitif': 'sensitive', 'sensitive': 'sensitive',
+    'kulit kusam': 'dull skin', 'dull skin': 'dull skin',
+    'beruntusan': 'tiny bumps', 'tiny bumps': 'tiny bumps',
+    'kulit mengelupas': 'flaky skin', 'flaky skin': 'flaky skin',
+    'iritasi': 'irritation', 'irritation': 'irritation'
+}
 
 SKIN_GOAL_KEYWORDS = [
     'kulit cerah', 'mencerahkan', 'brighten', 'bright skin',
     'kulit glowing', 'bercahaya', 'glowing skin', 'radiant',
-    'kulit kenyal', 'mengenyalkan kulit', 'plump skin', 'plumping',
-    'kulit lembab', 'kulit lembap', 'melembapkan', 'melembabkan','menghidrasi', 'moisturize', 'hydrate',
+    'kulit kenyal', 'mengenyalkan kulit', 'plump skin', 'plumping', 'plumpy',
+    'kulit lembab', 'kulit lembap', 'melembapkan', 'melembabkan', 'menghidrasi', 'moisturize', 'hydrate',
     'mengencangkan kulit', 'firming skin',
     'menghaluskan kulit', 'kulit halus', 'smooth skin',
     'meratakan warna kulit', 'warna kulit merata', 'even skin tone',
@@ -47,48 +147,13 @@ SKIN_GOAL_KEYWORDS = [
     'mengecilkan pori', 'pori-pori tampak kecil', 'minimize pores', 'refined pores',
     'menyamarkan bekas jerawat', 'memudarkan bekas jerawat', 'fade acne scars', 'fade acne marks',
     'kulit segar', 'menyegarkan kulit', 'fresh skin', 'refreshing skin',
-    'mempercepat regenerasi kulit', 'membantu regenerasi','regenerasi kulit', 'skin regeneration',
+    'mempercepat regenerasi kulit', 'membantu regenerasi', 'regenerasi kulit', 'skin regeneration',
     'kulit sehat', 'healthy skin',
-    'menutrisi kulit', 'nourish skin'
+    'menutrisi kulit', 'nourish skin',
+    'calming', 'menenangkan kulit', 'soothing',
+    'lightweight', 'cepat meresap', 'fast-absorbing',
+    'non-comedogenic'
 ]
-
-SKIN_CONCERN_SYNONYMS = {
-    'jerawat': 'acne',
-    'acne': 'acne',
-    'flek hitam': 'dark spots',
-    'dark spots': 'dark spots',
-    'hiperpigmentasi': 'hyperpigmentation',
-    'hyperpigmentation': 'hyperpigmentation',
-    'kerutan': 'wrinkles',
-    'wrinkles': 'wrinkles',
-    'kemerahan': 'redness',
-    'redness': 'redness',
-    'kulit berminyak': 'oiliness',
-    'oiliness': 'oiliness',
-    'kulit kering': 'dryness',
-    'dryness': 'dryness',
-    'pori-pori': 'pores',
-    'pores': 'pores',
-    'tekstur tidak merata': 'uneven texture',
-    'uneven texture': 'uneven texture',
-    'garis halus': 'fine lines',
-    'fine lines': 'fine lines'
-}
-
-INGREDIENT_SYNONYMS = {
-    'salicylic acid': 'salicylic acid',
-    'asam salisilat': 'salicylic acid',
-    'hyaluronic acid': 'hyaluronic acid',
-    'asam hialuronat': 'hyaluronic acid',
-    'azelaic acid': 'azelaic acid',
-    'asam azelaic': 'azelaic acid',
-    'green tea': 'green tea',
-    'teh hijau': 'green tea',
-    'peptides': 'peptides',
-    'peptida': 'peptides',
-    'glycerin': 'glycerin',
-    'gliserin': 'glycerin'
-}
 
 SKIN_GOAL_SYNONYMS = {
     # brightening
@@ -108,6 +173,7 @@ SKIN_GOAL_SYNONYMS = {
     'mengenyalkan kulit': 'plumping',
     'plump skin': 'plumping',
     'plumping': 'plumping',
+    'plumpy': 'plumping',
 
     # hydrating
     'kulit lembab':'hydrating',
@@ -181,7 +247,20 @@ SKIN_GOAL_SYNONYMS = {
 
     # nourishing
     'menutrisi kulit': 'nourishing',
-    'nourish skin': 'nourishing'
+    'nourish skin': 'nourishing',
+
+    # calming
+    'calming': 'calming', 
+    'menenangkan kulit': 'calming', 
+    'soothing': 'calming',
+
+    # lightweight
+    'lightweight': 'lightweight', 
+    'cepat meresap': 'fast-absorbing', 
+    'fast-absorbing': 'fast-absorbing',
+
+    # non-comedogenic
+    'non-comedogenic': 'non-comedogenic'
 }
 
 def log_dataframe_stats(df: pd.DataFrame, name: str, logger: logging.Logger) -> None:
@@ -468,6 +547,24 @@ def impute_skin_type_relaxed(row, df: pd.DataFrame, matches_treshold: int) -> Li
         return candidates.iloc[0]['skin_type']
     else:
         return []
+    
+def transform_category(df, column_name='category'):
+    """Transform the category column to a more standardized format."""
+    category_mapping = {
+        "Cleanser / Toner": "Toner",
+        "Cleanser / Facial Wash": "Facial Wash",
+        "Cleanser / Scrub-Exfoliator": "Exfoliator",
+        "Treatment / Serum & Essence": "Serum & Essence",
+        "Treatment / Acne Treatment": "Acne treatment",
+        "Moisturizer / Lotion & Emulsion": "Moisturizer Lotion",
+        "Moisturizer / Gel": "Moisturizer Gel",
+        "Moisturizer / Sun Protection": "Sun protection",
+        "Moisturizer / Cream": "Moisturizer Cream",
+        "Treatment / Peeling": "Peeling",
+    }
+
+    df[column_name] = df[column_name].replace(category_mapping)
+    return df
 
 def integrate_data(df: pd.DataFrame, logger: logging.Logger) -> pd.DataFrame:
     """integrate rows and columns."""
@@ -510,6 +607,10 @@ def transform_data(df: pd.DataFrame, logger: logging.Logger) -> pd.DataFrame:
     logger.info("Filtering only recommended products (recommended == 'True')...")
     df = df[df['recommended'] == 'True'].copy()
     logger.info(f"{len(df)} entries remaining after filtering.")
+
+    # Standardize category column
+    logger.info("Transforming 'category' column to simplified labels...")
+    df = transform_category(df, column_name='category')
 
     # Combine review and description text
     logger.info("Combining review and description text...")
