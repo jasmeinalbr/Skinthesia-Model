@@ -28,19 +28,18 @@ INGREDIENTS_KEYWORDS = [
     'niacinamide', 'vitamin c', 'vit c', 'arbutin', 'licorice', 'licorice root',
 
     # Acne / Exfoliant
-    'salicylic acid', 'asam salisilat', 'bha', 'aha', 'pha', 'azelaic acid', 'asam azelaic',
-    'retinoid', 'asam retinoat', 'retinol',
+    'salicylic acid', 'asam salisilat', 'bha', 'aha', 'pha', 'retinol',
 
     # Hydrating & Soothing
     'hyaluronic acid', 'asam hialuronat', 'glycerin', 'gliserin', 'panthenol', 'allantoin',
-    'squalane', 'ceramide',
+    'ceramide',
 
     # Calming / Anti-inflammatory
-    'centella asiatica', 'centella', 'madecassoside', 'green tea', 'teh hijau', 'tea tree',
-    'aloe vera', 'propolis', 'mugwort', 'snail mucin',
+    'centella asiatica', 'centella', 'green tea', 'teh hijau', 'tea tree',
+    'aloe vera',
 
     # Anti-aging & Barrier Repair
-    'peptides', 'peptida', 'vitamin e', 'zinc', 'turmeric'
+    'vitamin e', 'zinc',
 ]
 
 INGREDIENT_SYNONYMS = {
@@ -52,17 +51,9 @@ INGREDIENT_SYNONYMS = {
     'hyaluronic acid': 'hyaluronic acid',
     'asam hialuronat': 'hyaluronic acid',
 
-    # Azelaic acid
-    'azelaic acid': 'azelaic acid',
-    'asam azelaic': 'azelaic acid',
-
     # Green tea
     'green tea': 'green tea',
     'teh hijau': 'green tea',
-
-    # Peptides
-    'peptides': 'peptides',
-    'peptida': 'peptides',
 
     # Glycerin
     'glycerin': 'glycerin',
@@ -80,28 +71,19 @@ INGREDIENT_SYNONYMS = {
     'vitamin c': 'vitamin c',
     'vit c': 'vitamin c',
 
-    # Retinoid & Retinol
-    'retinoid': 'retinoid',
-    'asam retinoat': 'retinoid',
-    'retinol': 'retinol',
-
     # Other ingredients (direct mapping)
     'bha': 'bha',
     'aha': 'aha',
     'pha': 'pha',
+    'retinol': 'retinol',
     'panthenol': 'panthenol',
     'allantoin': 'allantoin',
-    'squalane': 'squalane',
     'ceramide': 'ceramide',
     'tea tree': 'tea tree',
     'aloe vera': 'aloe vera',
-    'propolis': 'propolis',
-    'mugwort': 'mugwort',
-    'snail mucin': 'snail mucin',
     'niacinamide': 'niacinamide',
     'vitamin e': 'vitamin e',
     'zinc': 'zinc',
-    'turmeric': 'turmeric',
 }
 
 SKIN_CONCERN_KEYWORDS = [
@@ -558,7 +540,7 @@ def transform_category(df, column_name='category'):
         "Treatment / Acne Treatment": "Acne treatment",
         "Moisturizer / Lotion & Emulsion": "Moisturizer Lotion",
         "Moisturizer / Gel": "Moisturizer Gel",
-        "Moisturizer / Sun Protection": "Sun protection",
+        "Moisturizer / Sun Protection": "Sun Protection",
         "Moisturizer / Cream": "Moisturizer Cream",
         "Treatment / Peeling": "Peeling",
     }
@@ -602,11 +584,50 @@ def integrate_data(df: pd.DataFrame, logger: logging.Logger) -> pd.DataFrame:
 def transform_data(df: pd.DataFrame, logger: logging.Logger) -> pd.DataFrame:
     """Transform the raw data by extracting and standardizing features."""
     logger.info("Starting data transformation...")
+
+    # Change 'price' column to numeric, handling 'Rp.' and thousand separators
+    if 'price' in df.columns:
+        logger.info("Cleaning 'price' column and converting to int...")
+        try:
+            df['price'] = (
+                df['price']
+                .astype(str)  # pastikan tipe data string
+                .str.replace(r'Rp\.?\s*', '', regex=True)  # hapus 'Rp.' atau 'Rp '
+                .str.replace('.', '', regex=False)  # hapus pemisah ribuan
+                .str.replace(',', '', regex=False)  # kalau ada koma, hapus juga
+                .astype(int)  # ubah ke integer
+            )
+        except Exception as e:
+            logger.error(f"Failed to clean 'price' column: {str(e)}", exc_info=True)
+            raise
+    else:
+        logger.warning("'price' column not found in DataFrame")
     
     # Filter only recommended products
     logger.info("Filtering only recommended products (recommended == 'True')...")
     df = df[df['recommended'] == 'True'].copy()
     logger.info(f"{len(df)} entries remaining after filtering.")
+
+    # Clean 'age' column
+    logger.info("Cleaning 'age' column...")
+
+    valid_ages = {
+        '18 and Under', '19 - 24', '25 - 29', '30 - 34',
+        '35 - 39', '40 - 44', '45 and Above'
+    }
+
+    def clean_age(age):
+        if pd.isna(age):
+            return np.nan
+        for valid in valid_ages:
+            if age.startswith(valid):
+                return valid  # keep only the valid part
+        return np.nan  # drop anything else
+
+    before = df['age'].notna().sum()
+    df['age'] = df['age'].apply(clean_age)
+    after = df['age'].notna().sum()
+    logger.info(f"Invalid age entries removed: {before - after}")
 
     # Standardize category column
     logger.info("Transforming 'category' column to simplified labels...")
