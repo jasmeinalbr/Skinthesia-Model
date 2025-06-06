@@ -317,7 +317,7 @@ def merge_datasets(products_list: pd.DataFrame,
     logger.info("Selecting relevant columns...")
     df_products = df_products[[
         'product_name', 'brand', 'category', 'url',
-        'rating', 'total_reviews', 'price', 'description'
+        'rating', 'total_reviews', 'price', 'description','image'
     ]]
     log_dataframe_stats(df_products, "Final Products", logger)
 
@@ -338,7 +338,7 @@ def merge_datasets(products_list: pd.DataFrame,
     # Select needed columns
     df_combined_used = df_combined[[
         'url','product_name', 'brand', 'category', 'price', 'rating', 'total_reviews',
-        'description', 'review', 'skin_type', 'age', 'rating_star', 'recommended'
+        'description', 'review', 'skin_type', 'age', 'rating_star', 'recommended','image'
     ]]
     
     log_dataframe_stats(df_combined_used, "Final Combined Data", logger)
@@ -389,18 +389,44 @@ def get_mode(series):
     except:
         return None
 
-def get_top_2(series):
+def get_top_2(series: pd.Series) -> List[str]:
+    """Return the top 2 most frequent items from a Series of lists."""
+    logger = logging.getLogger(__name__)
+    logger.debug(f"Processing series for top 2: {series.tolist()}")
+
     try:
-        # Gabungkan semua list dalam series jadi satu list datar
-        all_values = [item for sublist in series.dropna() for item in sublist]
-        counter = Counter(all_values)
-        
-        if not counter:
+        # === Bagian yang Anda tanyakan ===
+        all_values = []
+        for item in series.dropna():
+            if isinstance(item, list):
+                all_values.extend([str(x).strip().lower() for x in item if x])
+            elif isinstance(item, str):
+                if ',' in item and not item.strip().lower() in SKIN_CONCERN_KEYWORDS + SKIN_GOAL_KEYWORDS:
+                    all_values.extend([x.strip().lower() for x in item.split(',') if x.strip()])
+                else:
+                    all_values.append(item.strip().lower())
+            else:
+                logger.warning(f"Unexpected item type {type(item)} in series: {item}")
+                all_values.append(str(item).strip().lower())
+
+        logger.info(f"All values: {all_values}")
+        # === Akhir bagian yang Anda tanyakan ===
+
+        if not all_values:
+            logger.debug("No valid values found, returning empty list")
             return []
 
-        top_values = counter.most_common(2)
-        return [item for item, _ in top_values]
-    except Exception:
+        # Count frequencies
+        counter = Counter(all_values)
+        logger.debug(f"Counter: {counter}")
+
+        # Get top 2 most common items
+        top_values = [item for item, _ in counter.most_common(2)]
+        logger.info(f"Top 2 values: {top_values}")
+        return top_values
+
+    except Exception as e:
+        logger.error(f"Error in get_top_2: {e}", exc_info=True)
         return []
 
 def merge_rows(df: pd.DataFrame, logger: logging.Logger) -> pd.DataFrame:
@@ -452,38 +478,71 @@ def flatten_list(nested_lst: List) -> List:
 
 def parse_and_clean(cell: Optional[str]) -> List[str]:
     """Parse a cell value and return a cleaned list of unique items."""
-    # Kalau tipe string, coba literal_eval ke list Python
+    logger = logging.getLogger(__name__)
+    logger.debug(f"Parsing cell: {cell} (type: {type(cell)})")
+
+    # Handle NaN or None
+    if cell is None or (isinstance(cell, float) and pd.isna(cell)):
+        logger.debug("Cell is NaN or None, returning empty list")
+        return []
+
+    # Handle if cell is already a list
+    if isinstance(cell, list):
+        # Flatten nested lists and normalize
+        flat_list = []
+        for item in cell:
+            if isinstance(item, list):
+                flat_list.extend(flatten_list(item))
+            elif isinstance(item, str):
+                flat_list.append(item.strip().lower())
+            else:
+                logger.warning(f"Unexpected item type {type(item)} in list: {item}")
+                flat_list.append(str(item).strip().lower())
+        # Remove duplicates and empty strings
+        seen = set()
+        result = [item for item in flat_list if item and item not in seen and not seen.add(item)]
+        logger.debug(f"Cleaned result from list: {result}")
+        return result
+
+    # Handle string input
     if isinstance(cell, str):
         try:
-            lst = ast.literal_eval(cell)
-        except:
-            # Kalau gagal eval, anggap saja string biasa dan bungkus jadi list
+            # Try to evaluate as a Python list if it looks like one
+            if cell.startswith('['):
+                lst = ast.literal_eval(cell)
+                if isinstance(lst, list):
+                    return parse_and_clean(lst)  # Recursively process list
+                else:
+                    logger.warning(f"Evaluated cell '{cell}' is not a list, treating as string")
+                    lst = [cell]
+            else:
+                lst = [cell]
+        except Exception as e:
+            logger.warning(f"Failed to eval cell '{cell}' as list: {e}, treating as single string")
             lst = [cell]
     else:
-        lst = cell
+        logger.warning(f"Unexpected cell type {type(cell)} for cell: {cell}, converting to string")
+        lst = [str(cell)]
 
-    # Flatten nested list (misal list di dalam list)
-    flat_list = flatten_list(lst)
-
-    # Split elemen yang masih berupa gabungan string dengan koma
-    split_list = []
-    for item in flat_list:
-        if isinstance(item, str):
-            parts = [part.strip() for part in item.split(',')]
-            split_list.extend(parts)
+    # Flatten and split comma-separated strings
+    flat_list = []
+    for item in lst:
+        if isinstance(item, list):
+            flat_list.extend(flatten_list(item))
+        elif isinstance(item, str):
+            if ',' in item and not item.strip().lower() in SKIN_CONCERN_KEYWORDS + SKIN_GOAL_KEYWORDS:
+                flat_list.extend([part.strip().lower() for part in item.split(',') if part.strip()])
+            else:
+                flat_list.append(item.strip().lower())
         else:
-            # Kalau bukan string, langsung masukkan
-            split_list.append(str(item).strip())
+            logger.warning(f"Unexpected item type {type(item)} in list: {item}")
+            flat_list.append(str(item).strip().lower())
 
-    # Normalisasi dan hapus duplikat
+    # Remove duplicates and empty strings
     seen = set()
-    result = []
-    for item in split_list:
-        item_norm = item.lower()
-        if item_norm and item_norm not in seen:
-            seen.add(item_norm)
-            result.append(item_norm)
+    result = [item for item in flat_list if item and item not in seen and not seen.add(item)]
 
+    logger.debug(f"Cleaned result: {result}")
     return result
 
 def impute_ingredients_relaxed(row, df: pd.DataFrame, matches_treshold: int = 2) -> List[str]:
