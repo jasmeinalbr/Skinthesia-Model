@@ -414,9 +414,9 @@ def merge_rows(df: pd.DataFrame, logger: logging.Logger) -> pd.DataFrame:
     'rating': 'first',
     'skin_type': get_top_2,
     'total_reviews': 'sum',
-    'std_skin_concern': merge_unique,
+    'std_skin_concern': get_top_2,
     'std_ingredients': merge_unique,
-    'std_skin_goal': merge_unique,
+    'std_skin_goal': get_top_2,
     'age': get_mode,
     'rating_star': 'mean'
 }).reset_index()
