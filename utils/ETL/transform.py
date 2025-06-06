@@ -589,14 +589,16 @@ def transform_data(df: pd.DataFrame, logger: logging.Logger) -> pd.DataFrame:
     if 'price' in df.columns:
         logger.info("Cleaning 'price' column and converting to int...")
         try:
-            df['price'] = (
-                df['price']
-                .astype(str)  # pastikan tipe data string
-                .str.replace(r'Rp\.?\s*', '', regex=True)  # hapus 'Rp.' atau 'Rp '
-                .str.replace('.', '', regex=False)  # hapus pemisah ribuan
-                .str.replace(',', '', regex=False)  # kalau ada koma, hapus juga
-                .astype(int)  # ubah ke integer
-            )
+            df['price'] = df['price'].astype(str) \
+                         .str.replace('Rp', '', regex=False) \
+                         .str.replace('.', '', regex=False) \
+                         .str.strip()
+
+            # Ubah ke numerik, salah parsing jadi NaN
+            df['price'] = pd.to_numeric(df['price'], errors='coerce')
+
+            # Ganti NaN dengan 0
+            df['price'] = df['price'].fillna(0).astype(int)
         except Exception as e:
             logger.error(f"Failed to clean 'price' column: {str(e)}", exc_info=True)
             raise
