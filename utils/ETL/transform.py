@@ -5,7 +5,7 @@ import logging
 import ast
 import os
 from datetime import datetime
-from typing import Tuple, Dict, List, Optional
+from typing import Dict, List, Optional, Union
 from collections import Counter
 
 # Configure logging
@@ -27,19 +27,23 @@ INGREDIENTS_KEYWORDS = [
     # Brightening
     'niacinamide', 'vitamin c', 'vit c', 'arbutin', 'licorice', 'licorice root',
 
-    # Acne / Exfoliant
-    'salicylic acid', 'asam salisilat', 'bha', 'aha', 'pha', 'retinol',
+    # Acne
+    'salicylic acid', 'asam salisilat', 'tea tree',
 
-    # Hydrating & Soothing
-    'hyaluronic acid', 'asam hialuronat', 'glycerin', 'gliserin', 'panthenol', 'allantoin',
-    'ceramide',
+    # Hydrating
+    'hyaluronic acid', 'asam hialuronat', 'glycerin', 'gliserin',
 
-    # Calming / Anti-inflammatory
-    'centella asiatica', 'centella', 'green tea', 'teh hijau', 'tea tree',
-    'aloe vera',
+    # Calming / Anti-inflammatory / Soothing
+    'centella asiatica', 'centella', 'green tea', 'teh hijau', 'aloe vera', 'allatoin',
 
-    # Anti-aging & Barrier Repair
-    'vitamin e', 'zinc',
+    # Anti-aging
+    'vitamin e', 'vit e', 'zinc',
+
+    # Barrier Repair
+    'ceramide', 'panthenol'
+
+    # Exfoliant / Texture Refining
+    'aha', 'bha', 'pha', 'retinol',
 ]
 
 INGREDIENT_SYNONYMS = {
@@ -71,6 +75,10 @@ INGREDIENT_SYNONYMS = {
     'vitamin c': 'vitamin c',
     'vit c': 'vitamin c',
 
+    # Vitamin E 
+    'vitamin e': 'vitamin e',
+    'vit e': 'vitamin e',
+
     # Other ingredients (direct mapping)
     'bha': 'bha',
     'aha': 'aha',
@@ -82,8 +90,43 @@ INGREDIENT_SYNONYMS = {
     'tea tree': 'tea tree',
     'aloe vera': 'aloe vera',
     'niacinamide': 'niacinamide',
-    'vitamin e': 'vitamin e',
     'zinc': 'zinc',
+}
+
+INGREDIENT_CATEGORY_MAPPING = {
+    # Brightening
+    'niacinamide': 'brightening',
+    'vitamin c': 'brightening',
+    'arbutin': 'brightening',
+    'licorice': 'brightening',
+
+    # Acne
+    'salicylic acid': 'acne',
+    'tea tree': 'acne',
+
+    # Hydrating
+    'hyaluronic acid': 'hydrating',
+    'glycerin': 'hydrating',
+
+    # Calming / Soothing / Anti-inflammatory
+    'centella asiatica': 'calming',
+    'green tea': 'calming',
+    'aloe vera': 'calming',
+    'allantoin': 'calming',
+
+    # Anti-aging
+    'vitamin e': 'anti_aging',
+    'zinc': 'anti_aging',
+    'retinol': 'anti_aging',
+
+    # Barrier Repair
+    'ceramide': 'barrier_repair',
+    'panthenol': 'barrier_repair',
+
+    # Exfoliant
+    'aha': 'exfoliant',
+    'bha': 'exfoliant',
+    'pha': 'exfoliant',
 }
 
 SKIN_CONCERN_KEYWORDS = [
@@ -395,7 +438,6 @@ def get_top_2(series: pd.Series) -> List[str]:
     logger.debug(f"Processing series for top 2: {series.tolist()}")
 
     try:
-        # === Bagian yang Anda tanyakan ===
         all_values = []
         for item in series.dropna():
             if isinstance(item, list):
@@ -410,7 +452,6 @@ def get_top_2(series: pd.Series) -> List[str]:
                 all_values.append(str(item).strip().lower())
 
         logger.info(f"All values: {all_values}")
-        # === Akhir bagian yang Anda tanyakan ===
 
         if not all_values:
             logger.debug("No valid values found, returning empty list")
@@ -433,6 +474,7 @@ def merge_rows(df: pd.DataFrame, logger: logging.Logger) -> pd.DataFrame:
     """Merge rows with same url by combining values in the features column using aggregation."""
     logger.info("Merging rows with same URL...")
     agg_df = df.groupby('url').agg({
+    'image': 'first',
     'product_name': 'first',
     'brand': 'first',
     'category': 'first',
@@ -443,6 +485,7 @@ def merge_rows(df: pd.DataFrame, logger: logging.Logger) -> pd.DataFrame:
     'std_skin_concern': get_top_2,
     'std_ingredients': merge_unique,
     'std_skin_goal': get_top_2,
+    'ingredient_category': get_top_2,
     'age': get_mode,
     'rating_star': 'mean'
 }).reset_index()
@@ -607,6 +650,23 @@ def transform_category(df, column_name='category'):
     df[column_name] = df[column_name].replace(category_mapping)
     return df
 
+def map_ingredients_to_categories(ingredient_list: Union[List[str], str, None]) -> Optional[List[str]]:
+    """Map ingredients to their respective categories."""
+    if ingredient_list is None or pd.isna(ingredient_list):
+        return None
+    
+    if isinstance(ingredient_list, str):
+        # Cek jika string, misalnya dari kolom hasil `standardize_keywords`
+        ingredient_list = [x.strip().lower() for x in ingredient_list.split(',')]
+
+    categories = set()
+    for item in ingredient_list:
+        category = INGREDIENT_CATEGORY_MAPPING.get(item.strip().lower())
+        if category:
+            categories.add(category)
+
+    return list(categories) if categories else None
+
 def integrate_data(df: pd.DataFrame, logger: logging.Logger) -> pd.DataFrame:
     """integrate rows and columns."""
     logger.info("Starting data integration...")
@@ -749,10 +809,29 @@ def transform_data(df: pd.DataFrame, logger: logging.Logger) -> pd.DataFrame:
 
     standardization_time = (datetime.now() - standardization_start).total_seconds()
     logger.info(f"Feature standardization completed in {standardization_time:.2f}s")
-    
+
+    logger.info("Mapping standardized ingredients to categories...")
+    df['ingredient_categories'] = df['std_ingredients'].apply(map_ingredients_to_categories)
+    logger.info(f"Mapped ingredient categories for {df['ingredient_categories'].notna().sum()} entries")
+
+    # Hitung frekuensi kategori ingredient secara global
+    all_categories = df['ingredient_categories'].dropna().explode()
+    category_counts = Counter(all_categories)
+    top_2_categories = [cat for cat, _ in category_counts.most_common(2)]
+    logger.info(f"Top 2 kategori ingredient terbanyak di dataset: {top_2_categories}")
+
+    # Buat kolom multi-label berdasarkan top 2 kategori
+    def label_top_categories(categories, top_categories=top_2_categories):
+        if categories is None:
+            return []
+        return [cat for cat in categories if cat in top_categories]
+
+    df['ingredient_category'] = df['ingredient_categories'].apply(label_top_categories)
+    logger.info("Kolom 'ingredient_category' dengan top 2 kategori ingredient berhasil dibuat.")
+
     log_dataframe_stats(df, "Final Transformed Data", logger)
     logger.info("Data transformation completed successfully")
-    
+
     return df
 
 def save_transformed_data(df: pd.DataFrame, path: str, logger: logging.Logger) -> None:

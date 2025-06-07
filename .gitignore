@@ -1,3 +1,5 @@
 logs/*
 
 data/*
+data/products_used_features.csv
+data/products_extracted_features.csv
