@@ -5,7 +5,7 @@ import logging
 import ast
 import os
 from datetime import datetime
-from typing import Dict, List, Optional, Union
+from typing import Dict, List, Optional
 from collections import Counter
 
 # Configure logging
@@ -822,20 +822,20 @@ def transform_data(df: pd.DataFrame, logger: logging.Logger) -> pd.DataFrame:
     df['ingredient_category'] = df['std_ingredients'].apply(map_ingredients_to_categories)
     logger.info(f"Mapped ingredient categories for {df['ingredient_category'].notna().sum()} entries")
 
-    # # Hitung frekuensi kategori ingredient secara global
-    # all_categories = df['ingredient_category'].dropna().explode()
-    # category_counts = Counter(all_categories)
-    # top_2_categories = [cat for cat, _ in category_counts.most_common(2)]
-    # logger.info(f"Top 2 kategori ingredient terbanyak di dataset: {top_2_categories}")
+    # Hitung frekuensi kategori ingredient secara global
+    all_categories = df['ingredient_category'].dropna().explode()
+    category_counts = Counter(all_categories)
+    top_2_categories = [cat for cat, _ in category_counts.most_common(2)]
+    logger.info(f"Top 2 kategori ingredient terbanyak di dataset: {top_2_categories}")
 
-    # # Buat kolom multi-label berdasarkan top 2 kategori
-    # def label_top_categories(categories, top_categories=top_2_categories):
-    #     if categories is None:
-    #         return []
-    #     return [cat for cat in categories if cat in top_categories]
+    # Buat kolom multi-label berdasarkan top 2 kategori
+    def label_top_categories(categories, top_categories=top_2_categories):
+        if categories is None:
+            return []
+        return [cat for cat in categories if cat in top_categories]
 
-    # df['ingredient_category'] = df['ingredient_category'].apply(label_top_categories)
-    # logger.info("Kolom 'ingredient_category' dengan top 2 kategori ingredient berhasil dibuat.")
+    df['ingredient_category'] = df['ingredient_category'].apply(label_top_categories)
+    logger.info("Kolom 'ingredient_category' dengan top 2 kategori ingredient berhasil dibuat.")
 
     log_dataframe_stats(df, "Final Transformed Data", logger)
     logger.info("Data transformation completed successfully")
