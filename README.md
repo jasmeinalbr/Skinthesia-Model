@@ -9,7 +9,7 @@ Skinthesia-Model adalah pipeline untuk proses **ETL (Extract, Transform, Load)**
 
 ```
 Skinthesia-Model/
-├── data/                      # Dataset mentah dan hasil ekstraksi fitur
+├── data/                     # Dataset mentah dan hasil ekstraksi fitur
 ├── logs/                     # Log proses ETL/modeling (jika digunakan)
 ├── notebooks/                # Exploratory Data Analysis (EDA) dan evaluasi
 ├── model_tfjs/               # Model TensorFlow (untuk deployment web)
